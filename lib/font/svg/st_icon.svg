@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1548 409 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #111822;
+      }
+
+      .cls-2 {
+        fill: #00c4ff;
+      }
+    </style>
+  </defs>
+  <g id="店铺财富-icon" transform="translate(758 139)">
+    <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-1" cx="50" cy="50" r="50" transform="translate(790 270)"/>
+    <path id="Path_229" data-name="Path 229" class="cls-2" d="M14,4.5A4.5,4.5,0,1,0,9.5,9,4.481,4.481,0,0,0,14,4.5ZM9.5,7A2.476,2.476,0,0,1,7,4.5a2.5,2.5,0,0,1,5,0A2.476,2.476,0,0,1,9.5,7Z" transform="translate(808 292)"/>
+    <path id="Path_230" data-name="Path 230" class="cls-2" d="M22,13h2V11h2V9H24V7H22V9H20v2h2Z" transform="translate(808 292)"/>
+    <path id="Path_231" data-name="Path 231" class="cls-2" d="M4,21H2v2H0v2H2v2H4V25H6V23H4Z" transform="translate(808 292)"/>
+    <path id="Path_232" data-name="Path 232" class="cls-2" d="M59,33V24H54V18H42.5L34,9.5,25.5,18H15a4.012,4.012,0,0,0-4,4V52a4.012,4.012,0,0,0,4,4H59V46a2.946,2.946,0,0,0,3-3V36A2.946,2.946,0,0,0,59,33ZM52,20v4H48.5l-4-4Zm-6.3,4H41.4l-5.3-5.3-.7.7a1.682,1.682,0,0,1-2.8,0l-.7-.7L26.6,24H22.3L34,12.3Zm-7.1,0H29.4l2.5-2.5a3.5,3.5,0,0,0,4.2,0ZM15,20h8.5l-4,4H15a2,2,0,0,1,0-4ZM57,54H15a2.006,2.006,0,0,1-2-2V25.5a4.552,4.552,0,0,0,2,.5H57v7H44.5a6.5,6.5,0,0,0,0,13H57Zm3-11a.945.945,0,0,1-1,1H44.5a4.5,4.5,0,0,1,0-9H59a.945.945,0,0,1,1,1Z" transform="translate(808 292)"/>
+    <path id="Path_233" data-name="Path 233" class="cls-2" d="M45.5,36A3.5,3.5,0,1,0,49,39.5,3.543,3.543,0,0,0,45.5,36Zm0,5A1.5,1.5,0,1,1,47,39.5,1.538,1.538,0,0,1,45.5,41Z" transform="translate(808 292)"/>
+  </g>
+</svg>
