@@ -10,7 +10,7 @@ var item = {
     // 主背景渐变背景以及导航选中项背景色
     bgchange:'linear-gradient(to bottom, #32477E, #111822)',
     // 主背景色
-    minechange:'#4B587C',
+    minechange:'#111822',
     // 二级目录背景渐变
     bgchangetwo:'linear-gradient(to bottom, #455171, #232939)',
     border:'solid #00FFFF 1px',

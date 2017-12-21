@@ -1,16 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-
+    font-family: "PingFang SC",serif;
 }
 .body{
     background-color: #4B587C;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "PingFang SC",serif;
 }
 .box{
     box-sizing: border-box;
     width: 1280px;
     height: 800px;
-    margin:0 auto;
+    /*margin:0 auto;*/
     display: flex;
 }
 .nav{
@@ -45,8 +52,9 @@ body{
     box-sizing: border-box;
     flex: 96;
     margin-bottom:10px;
-    border-radius: 15px;
-    box-shadow: -2px 1px 2px  #232939;
+    border-radius: 2px;
+    /*box-shadow: -2px 1px 2px  #232939;*/
+    box-shadow: 0px 1px 2px  #111822;
 }
 .museul{
     list-style:none;
@@ -67,7 +75,7 @@ body{
     height: 80px;
     text-decoration: none;
     text-underline: none;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     background-color: transparent;
 }
 .museli>a:hover{
@@ -84,19 +92,19 @@ body{
 }
 
 .tophead{
-    margin: 22px 18px;
+    margin: 20px 15px;
 }
 .tophead>p{
     margin:0;
     line-height: 21px;
 }
 .tophead>p:nth-child(n+1){
-    font-size: 15px;
+    font-size: 12px;
 }
 .tophead>p:nth-child(2){
     color:#FFEB00;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 10px;
+    line-height: 14px;
 }
 .tophead>p:nth-child(4){
     font-size: 10px;
@@ -125,8 +133,9 @@ body{
     flex: 50;
     box-sizing: border-box;
     height: 110px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    border-radius: 2px;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.7);*/
+    box-shadow: 0 1px 1px #111822;
     display: flex;
 }
 .agentinfo{
@@ -234,6 +243,7 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-right: 11px;
 }
 .userexit>a{
     display: block;
