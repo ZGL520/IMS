@@ -1,0 +1,98 @@
+<?php
+    include 'head.html';
+?>
+<link rel="stylesheet" href="/workspace/src/css/aucash.css">
+<div class="rmbcash bgchange">
+    <div class="cashinfo">
+        <div class="rmbcashlogo">
+            <i class="icon iconfont icon-research whitecolor"></i>
+            <p class="whitecolor">澳币提现</p>
+        </div>
+        <div class="savings">
+            <p class="whitecolor">
+                <i class="icon iconfont icon-research"></i>
+                <span>可提现财富：<icon class="icon iconfont icon-research whitecolor"></icon></span>
+                <span>$123414114</span>
+            </p>
+            <p class="whitecolor">
+                <span>提现金额：<i class="icon iconfont icon-research whitecolor"></i></span>
+                <!--<span></span>-->
+                <input class="getcash whitecolor" type="text" placeholder="$123414114">
+            </p>
+        </div>
+        <div class="cashchouse">
+            <p class="whitecolor">提现选择</p>
+            <div class="paymathed">
+                <div class="bankpay">
+                    <div class="bankpaylogo">
+                        <i class="icon iconfont icon-research whitecolor"></i>
+                    </div>
+                    <div class="bankpayinfo">
+                        <p class="whitecolor">银行</p>
+                        <a class="whitecolor" href="javascript:">修改资料</a>
+                    </div>
+                    <div class="bankpayaccount">
+                        <div>
+                            <p class="whitecolor">银行名称：<input class="getcash whitecolor" type="text" placeholder="Commonwealth Bank"></p>
+                            <p class="whitecolor">bank name<span></span></p>
+                        </div>
+                        <div>
+                            <p class="whitecolor">收款人：<input class="getcash whitecolor" type="text" placeholder="Jeff Zhu"></p>
+                            <p class="whitecolor">Account Name<span></span></p>
+                        </div>
+                        <div>
+                            <p class="whitecolor ">银行账号：<input class="getcash whitecolor" type="text" placeholder="000000000"> <span class="bsb whitecolor">BSB: <input class="getcash whitecolor" type="text" placeholder="000-000"></span></p>
+                            <p class="whitecolor">Account Number<span></span></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="idverify">
+        <div class="idverifytit">
+            <p class="whitecolor">身份证明</p>
+        </div>
+        <div class="idverifycontent">
+            <div class="idverifylogo">
+                <i class="icon iconfont icon-research whitecolor"></i>
+            </div>
+            <div class="idcard">
+                <p class="whitecolor">身份证<i class="icon iconfont icon-research whitecolor"></i></p>
+            </div>
+            <div class="idcardone">
+                <p class="whitecolor">正面</p>
+            </div>
+            <div class="idcardoneinfo">
+                <img src="" alt="pic">
+                <a href="javascript:" class="whitecolor">上传文件</a>
+            </div>
+            <div class="idcardtwo">
+                <p class="whitecolor">反面</p>
+            </div>
+            <div class="idcardtwoinfo">
+                <img src="" alt="pic">
+                <a href="javascript:" class="whitecolor">上传文件</a>
+            </div>
+            <div class="idverifyconfirm">
+                <p class="whitecolor">去人无误</p>
+                <a href="javascript:">提交申请</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.getcash').focus(function () {
+        $(this).css({backgroundColor:'black'})
+    }).blur(function () {
+        $('.getcash').css({backgroundColor:'transparent'})
+    })
+</script>
+
+
+<?php
+    include 'foot.html';
+?>

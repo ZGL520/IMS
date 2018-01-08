@@ -19,7 +19,7 @@ var item = {
 };
 
 
-const initcss = function (item) {
+var initcss = function (item) {
     $('.minechange').css({
         backgroundColor: item.minechange
     });

@@ -1,0 +1,109 @@
+<?php
+    include 'head.html';
+?>
+<link rel="stylesheet" href="/workspace/src/css/goodsmanage.css">
+
+<div class="goodsmanage itembgchange">
+    <div class="goodssearch">
+        <input type="text" placeholder="订单号/关键词">
+        <a class="whitecolor icon iconfont icon-research" href="javascript:"></icon></a>
+    </div>
+    <div class="goodstabels">
+        <table border="1">
+            <thead>
+            <tr>
+                <td class="whitecolor" align="center">ID</td>
+                <td class="whitecolor" align="center">产品缩略图</td>
+                <td class="whitecolor" align="center">商品名称</td>
+                <td class="whitecolor" align="center">类别</td>
+                <td class="whitecolor" align="center">店铺成本价</td>
+                <td class="whitecolor" align="center">市场价</td>
+                <td class="whitecolor" align="center">会员价</td>
+                <td class="whitecolor" align="center">老板利润</td>
+                <td class="whitecolor" align="center">店铺利润</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center"><img src="/workspace/src/image/53412.jpg" alt="img"></td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+            </tr>
+            <tr>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center"><img src="/workspace/src/image/53412.jpg" alt="img"></td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+            </tr>
+            <tr>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center"><img src="/workspace/src/image/53412.jpg" alt="img"></td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+            </tr>
+            <tr>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center"><img src="/workspace/src/image/53412.jpg" alt="img"></td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+                <td class="whitecolor" align="center">123412</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="pages">
+        <a href="javascript:">上一页</a>
+
+        <ul class="pagesitem">
+            <li><a class="pagesnum" href="javascript:">1</a></li>
+            <li><a class="pagesnum" href="javascript:">2</a></li>
+            <li><a class="pagesnum" href="javascript:">3</a></li>
+            <li><a class="pagesnum" href="javascript:">4</a></li>
+            <li><a class="pagesnum" href="javascript:">5</a></li>
+            <li><a class="pagesnum" href="javascript:">6</a></li>
+        </ul>
+        <a href="javascript:">下一页</a>
+        <p >共6页</p>
+    </div>
+</div>
+<script>
+    //分页选项背景色初始化
+    $('.pagesnum')[0].style.backgroundColor = '#777F91';
+
+    //点击分页背景色变化
+    const pageschange = function (data) {
+        $('.pagesnum').css({backgroundColor : 'inherit'});
+        $('.pagesnum')[data].style.backgroundColor = '#777F91';
+    };
+
+
+    //分页点击事件
+    $('.pagesnum').click(function () {
+        pageschange($('.pagesnum').index($(this)))
+    })
+</script>
+
+<?php
+    include 'foot.html';
+?>

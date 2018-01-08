@@ -1,0 +1,116 @@
+<?php
+    include 'head.html';
+?>
+<link rel="stylesheet" href="/workspace/src/css/rmbcash.css">
+<div class="rmbcash bgchange">
+    <div class="cashinfo">
+        <div class="rmbcashlogo">
+            <!--<img src="/workspace/src/lib/svg/rm_button.svg" alt="">-->
+            <i class="icon iconfont icon-research whitecolor"></i>
+            <p class="whitecolor">人民币提现</p>
+        </div>
+        <div class="savings">
+            <p class="whitecolor">
+                <i class="icon iconfont icon-research"></i>
+                <span>可提现财富：<icon class="icon iconfont icon-research whitecolor"></icon></span>
+                <span>$123414114</span>
+            </p>
+            <p class="whitecolor">
+                <span>提现金额：<i class="icon iconfont icon-research whitecolor"></i></span>
+                <input class="getcash" type="text" placeholder="0000">
+                <!--<span>$123414114</span>-->
+            </p>
+        </div>
+        <div class="cashchouse">
+            <p class="whitecolor">提现选择</p>
+            <div class="paymathed">
+                <div class="alipay">
+                    <div class="alipaylogo">
+                        <i class="icon iconfont icon-research whitecolor"></i>
+                    </div>
+                    <div class="alipayinfo">
+                        <p class="whitecolor">支付宝</p>
+                        <a class="whitecolor" href="javascript:">修改资料</a>
+                    </div>
+                    <div class="alipayaccount">
+                        <p class="whitecolor">账号：<input class="getcash whitecolor" type="text" placeholder="zgl@gmail.com"></p>
+                    </div>
+                    <div class="alipaycode">
+                        <p class="whitecolor">支付宝二维码</p>
+                    </div>
+                    <div class="alipaycodeinfo">
+                        <img class="whitecolor" src="" alt="二维码">
+                        <a class="whitecolor" href="javascript:">上传文件</a>
+                    </div>
+                    <div class="chouseconfirm">
+                        <a href="javascript:">选择</a>
+                    </div>
+                </div>
+                <div class="bankpay">
+                    <div class="bankpaylogo">
+                        <i class="icon iconfont icon-research whitecolor"></i>
+                    </div>
+                    <div class="bankpayinfo">
+                        <p class="whitecolor">银行</p>
+                        <a class="whitecolor" href="javascript:">修改资料</a>
+                    </div>
+                    <div class="bankpayaccount">
+                        <p class="whitecolor">开户银行：<input class="getcash whitecolor" type="text" placeholder="bank of china"></p>
+                        <p class="whitecolor">银行地址：<input class="getcash whitecolor" type="text" placeholder="中南海"></p>
+                    </div>
+                    <div class="bankpaycode">
+                        <p class="whitecolor">账号: <input class="getcash whitecolor" type="text" placeholder="1234123412431"></p>
+                        <p class="whitecolor">收款人姓名: <input class="getcash whitecolor" type="text" placeholder="一碌蔗"></p>
+                    </div>
+                    <div class="chouseconfirm">
+                        <a href="javascript:">选择</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="idverify">
+        <div class="idverifytit">
+            <p class="whitecolor">身份证明</p>
+        </div>
+        <div class="idverifycontent">
+            <div class="idverifylogo">
+                <i class="icon iconfont icon-research whitecolor"></i>
+            </div>
+            <div class="idcard">
+                <p class="whitecolor">身份证<i class="icon iconfont icon-research whitecolor"></i></p>
+            </div>
+            <div class="idcardone">
+                <p class="whitecolor">正面</p>
+            </div>
+            <div class="idcardoneinfo">
+                <img src="" alt="pic">
+                <a href="javascript:" class="whitecolor">上传文件</a>
+            </div>
+            <div class="idcardtwo">
+                <p class="whitecolor">反面</p>
+            </div>
+            <div class="idcardtwoinfo">
+                <img src="" alt="pic">
+                <a href="javascript:" class="whitecolor">上传文件</a>
+            </div>
+            <div class="idverifyconfirm">
+                <p class="whitecolor">去人无误</p>
+                <a href="javascript:">提交申请</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $('.getcash').focus(function () {
+        $(this).css({backgroundColor:'black'})
+    }).blur(function () {
+        $('.getcash').css({backgroundColor:'transparent'})
+    })
+</script>
+
+<?php
+    include 'foot.html';
+?>

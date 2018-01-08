@@ -19,37 +19,37 @@
             <div class="homenav">
                 <ul class="museul">
                     <li class="museli">
-                    <a id="1" class="navitem nowhere" href="javascript:">
+                    <a id="home" class="navitem nowhere" href="javascript:">
                         <i class="icon iconfont icon-icon_home"></i>
                         <p>首页</p>
                     </a>
                 </li>
                     <li class="museli">
-                    <a class="navitem" id="2" href="javascript:">
+                    <a class="navitem" id="rich" href="javascript:">
                         <i class="icon iconfont icon-icon_fortune"></i>
                         <p>财富管理</p>
                     </a>
                 </li>
                     <li class="museli">
-                    <a id="3" class="navitem" href="javascript:">
+                    <a id="bussiness" class="navitem" href="javascript:">
                         <i class="icon iconfont icon-icon_business"></i>
                         <p>业务管理</p>
                     </a>
                 </li>
                     <li class="museli">
-                    <a id="4" class="navitem" href="javascript:">
+                    <a id="store" class="navitem" href="javascript:">
                         <i class="icon iconfont icon-icon_shopsetting"></i>
                         <p>店铺管理</p>
                     </a>
                 </li>
                     <li class="museli">
-                    <a id="5" class="navitem" href="javascript:">
+                    <a id="info" class="navitem" href="javascript:">
                         <i class="icon iconfont icon-icon_message"></i>
                         <p>信息中心</p>
                     </a>
                 </li>
                     <li class="museli">
-                    <a id="6" class="navitem" href="javascript:">
+                    <a id="help" class="navitem" href="javascript:">
                         <i class="icon iconfont icon-icon_help"></i>
                         <p>帮助中心</p>
                     </a>
@@ -65,13 +65,53 @@
             <p class="whitecolor">上次登陆时间：</p>
             <p class="whitecolor">2017.0.0.0</p>
         </div>
-        <!--<div class="news">-->
-            <!--<p class="toptit gcolor">最新消息</p>-->
-            <!--<p class="newsitem whitecolor">-->
-                <!--<span>2017-12-05</span>-->
-                <!--<span>激情12月—礼金随你拿！</span>-->
-            <!--</p>-->
-        <!--</div>-->
+        <div class="contentnav">
+            <div class="homenav contentnavitem">
+                <p>首页导航</p>
+                <a class="whitecolor" href="/workspace/src/index.php">首页</a>
+            </div>
+            <div class="richmanagenav contentnavitem">
+                <div class="bossrich">
+                    <p>老板提现</p>
+                    <ul>
+                        <li><a class="whitecolor bossrichitem" href="/workspace/src/bosscash.php">人民币提现</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">澳币提现</a></li>
+                        <li><a class="whitecolor bossrichitem" href="/workspace/src/ratedetail.php">利润详情</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">利润流水账</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">提现记录</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">提现流水账</a></li>
+                    </ul>
+                </div>
+                <div class="storerich">
+                    <p>店铺提现</p>
+                    <ul>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">人民币提现</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">澳币提现</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">利润详情</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">利润流水账</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">提现记录</a></li>
+                        <li><a class="whitecolor bossrichitem" href="javascript:">提现流水账</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bussiness contentnavitem">
+                <ul>
+                    <li><a class="whitecolor" href="javascript:">商品管理</a></li>
+                    <li><a class="whitecolor" href="javascript:">订单管理</a></li>
+                    <li><a class="whitecolor" href="javascript:">包裹管理</a></li>
+                    <li><a class="whitecolor" href="javascript:">会员管理</a></li>
+                </ul>
+            </div>
+            <div class="store contentnavitem">
+                <p>店铺管理</p>
+            </div>
+            <div class="info contentnavitem">
+                <p>信息中心</p>
+            </div>
+            <div class="help contentnavitem">
+                <p>帮助中心</p>
+            </div>
+        </div>
     </div>
     </div>
     <div class="content">
@@ -109,7 +149,9 @@
             </div>
         </div>
         <div style="flex: 730;">
-            <?php include  'html/managehome.html';?>
+            <?php
+                include  'html/managehome.html';
+            ?>
         </div>
     </div>
 </div>

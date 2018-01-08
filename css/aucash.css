@@ -1,0 +1,266 @@
+.rmbcash{
+    width: 1050px;
+    height: 720px;
+    border-radius: 5px;
+    padding-top: 28px;
+    margin-top: 10px;
+}
+.rmbcashlogo{
+    margin: 0 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.rmbcashlogo>i{
+    width: 30px;
+    height: 30px;
+    font-size: 23px;
+    line-height: 28px;
+}
+.rmbcashlogo>p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+.savings{
+    box-sizing: border-box;
+    margin: 32px 30px;
+    height: 82px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #CBDFFF;
+}
+.savings>p{
+    flex: 1;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 20px;
+}
+.savings>p>span{
+    margin: 10px;
+}
+.savings>p:nth-child(2)>input:nth-child(2){
+    color: #00FFFF;
+}
+.cashchouse{
+    box-sizing: border-box;
+    height: 350px;
+    border-bottom: 2px solid #CBDFFF;
+    margin: 0 29px;
+}
+.cashchouse>p{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 27px;
+    line-height: 28px;
+}
+
+
+.bankpay{
+    box-sizing: border-box;
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+}
+.bankpaylogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+}
+.bankpaylogo>i{
+    font-size: 40px;
+}
+.bankpayinfo{
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.alipayinfo>p{
+    font-size: 20px;
+    margin: 0;
+}
+.bankpayinfo>a{
+    width: 60px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+}
+.bankpayinfo>a:hover{
+    text-decoration: none;
+}
+.bankpayaccount{
+    width: 654px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.bankpayaccount>div{
+    margin-bottom: 30px;
+}
+.bankpayaccount>div>p{
+    font-size: 15px;
+    margin: 0;
+}
+.bankpayaccount>div>p>input{
+    font-size: 15px;
+}
+.bankpayaccount>p:nth-child(2){
+    margin-top: 25px;
+}
+
+.bsb{
+    margin-left: 100px;
+}
+
+
+.idverify{
+    margin: 25px 29px 0 29px;
+}
+.idverifytit>p{
+    font-size: 20px;
+    margin: 0;
+}
+.idverifycontent{
+    display: flex;
+}
+
+.idverifylogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+}
+.idverifylogo>i{
+    font-size: 40px;
+}
+.idcard{
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.idcard>p{
+    font-size: 20px;
+}
+.idcardone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70px;
+}
+.idcardone>p{
+    font-size: 15px;
+    margin: 0;
+}
+.idcardoneinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 270px;
+}
+.idcardoneinfo>img{
+    width: 100px;
+    height: 60px;
+    background-color: grey;
+}
+.idcardoneinfo>a{
+    width: 60px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.idcardoneinfo>a:hover{
+    text-decoration: none;
+}
+.idcardtwo{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.idcardtwo>p{
+    font-size: 15px;
+    margin: 0;
+}
+.idcardtwoinfo{
+    width: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.idcardtwoinfo>img{
+    width: 100px;
+    height: 60px;
+    background-color: grey;
+}
+.idcardtwoinfo>a{
+    width: 60px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.idcardtwoinfo>a:hover{
+    text-decoration: none;
+}
+.idverifyconfirm{
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.idverifyconfirm>p{
+    font-size: 15px;
+    margin: 0;
+}
+.idverifyconfirm>a{
+    display: block;
+    width: 112px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #FF5800;
+    /*border: 1px solid #00C4FF;*/
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.idverifyconfirm>a:hover{
+    text-decoration: none;
+}
+.bsb>input{
+    font-size: 15px;
+}
+
+.getcash{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /*background-color: black;*/
+    width: 182px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #00FFFF;
+}

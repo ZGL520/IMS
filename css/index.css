@@ -3,6 +3,13 @@ body{
     padding: 0;
     font-family: "PingFang SC",serif;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
+}
 .body{
     background-color: #4B587C;
     width: 100vw;
@@ -17,7 +24,6 @@ body{
     box-sizing: border-box;
     width: 1280px;
     height: 800px;
-    /*margin:0 auto;*/
     display: flex;
 }
 .nav{
@@ -130,9 +136,10 @@ body{
 
 
 .agentmanage{
-    flex: 50;
+    /*flex: 50;*/
     box-sizing: border-box;
-    height: 110px;
+    /*height: 110px;*/
+    height: 50px;
     border-radius: 2px;
     /*box-shadow: 0 0 10px rgba(0,0,0,0.7);*/
     box-shadow: 0 1px 1px #111822;
@@ -265,4 +272,61 @@ body{
     color: #98C0FF;
     margin-right: 20px;
     line-height: 50px;
+}
+
+.contentnav{
+    width: 64px;
+    margin: 20px 20px 0 12px;
+}
+.bossrich>ul{
+    list-style: none;
+    padding: 0;
+}
+.storerich>ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.contentnavitem{
+    display: none;
+}
+
+.bossrichitem{
+    font-size: 12px;
+    text-decoration: none;
+}
+.bossrichitem:hover{
+    text-decoration: none;
+}
+.bossrich>a{
+    font-size: 16px;
+    color: #00FFFF;
+    margin: 0;
+    text-decoration: none;
+}
+.bossrich>a:hover{
+    text-decoration: none;
+    color: #00FFFF;
+}
+.storerich>a{
+    font-size: 16px;
+    color: #00FFFF;
+    margin: 0;
+    text-decoration: none;
+}
+.storerich>a:hover{
+    text-decoration: none;
+    color: #00FFFF;
+}
+.bussiness>ul{
+    list-style: none;
+    padding: 0;
+}
+.bussiness>ul>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
 }
