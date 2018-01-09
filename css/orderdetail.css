@@ -5,3 +5,143 @@
     padding-top: 14px;
     border-radius: 5px;
 }
+.back{
+    display: flex;
+    height: 42px;
+    margin-left: 19px;
+}
+.back>a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    line-height: 42px;
+}
+.back>p{
+    font-size: 30px;
+    margin: 0;
+    line-height: 42px;
+    margin-left: 17px;
+    color: #00FFFF;
+}
+.orderdetailtit{
+    height: 28px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-left: 19px;
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+.orderrecordtop{
+    display: flex;
+    margin:0 49px;
+    height: 125px;
+    /*width: 100%;*/
+}
+.orderrecordtopitem{
+    flex: 1;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    border-bottom: 2px solid #CBDFFF;
+}
+.orderrecordtopitem>p{
+    margin-bottom: 0;
+    margin-top: 9px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    line-height: 21px;
+}
+.orderrecordtopitem>p:nth-child(1){
+    margin-top: 12px;
+}
+.orderrecordtopitem>p>span{
+    font-size: 15px;
+}
+.orderrecordtopitem>p>span:nth-child(1){
+    display: inline-block;
+    width: 65px;
+}
+.orderrecordtopitem>p>span:nth-child(2){
+    margin-left: 15px;
+    color: #98C0FF;
+}
+.orderrecorddown{
+    display: flex;
+    margin:0 49px;
+    height: 141px;
+}
+.orderrecorddownitem{
+    flex: 1;
+    margin-top: 30px;
+}
+.orderrecorddownitem{
+    display: flex;
+    flex-direction: column;
+}
+.orderrecorddownitem>p{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.orderrecorddownitem>p:nth-child(1){
+    margin: 0;
+}
+.orderrecorddownitem>p>span:nth-child(1){
+    width: 65px;
+    display: inline-block;
+}
+.orderrecorddownitem>p>span:nth-child(2){
+    margin-left: 15px;
+}
+.sailtic{
+    width: 1050px;
+    height: 150px;
+    overflow: scroll;
+    border-radius: 5px;
+    margin-top: 47px;
+}
+.sailtictit{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 19px 0 19px;
+}
+.sailtictit>p{
+    margin: 0;
+}
+.sailtictit>p:nth-child(1){
+    font-size: 20px;
+    line-height: 28px;
+}
+.sailtictit>p:nth-child(2){
+    font-size: 20px;
+    line-height: 28px;
+    color: #00FFFF;
+}
+.sailtictit>p:nth-child(2)>span:nth-child(2){
+    font-size: 15px;
+    margin-left: 14px;
+}
+.sailtab{
+    border: 1px solid #98C0FF;
+    margin: 12px 19px;
+    width: 1010px;
+}
+.sailtab>thead td{
+    border: 1px solid #98C0FF;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+.sailtab>tbody td{
+    border: 1px solid #98C0FF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 31px;
+}
+.sailtab>thead{
+    width: 100%;
+}
+.buytic{
+    margin-top: 10px;
+}
