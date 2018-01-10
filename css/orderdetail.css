@@ -4,6 +4,7 @@
     margin-top: 10px;
     padding-top: 14px;
     border-radius: 5px;
+    overflow: scroll;
 }
 .back{
     display: flex;
@@ -96,10 +97,11 @@
 }
 .sailtic{
     width: 1050px;
-    height: 150px;
-    overflow: scroll;
+    /*height: 150px;*/
+    /*overflow: scroll;*/
     border-radius: 5px;
     margin-top: 47px;
+    padding-bottom: 10px;
 }
 .sailtictit{
     display: flex;

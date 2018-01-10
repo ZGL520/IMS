@@ -97,6 +97,7 @@
 .orderlist>table>thead>tr>td{
     font-size: 15px;
     text-align: center;
+    line-height: 40px;
 }
 /*.orderlist>table>tbody>tr{*/
     /*display: flex;*/

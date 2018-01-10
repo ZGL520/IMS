@@ -39,9 +39,12 @@
 }
 .goodstabels>table>thead>tr>td{
     /*border: inherit;*/
+    font-size: 12px;
+    line-height: 40px;
 }
 .goodstabels>table>tbody>tr>td{
     /*border: inherit;*/
+    font-size: 12px;
 }
 .goodstabels>table>tbody>tr>td>img{
     width: 80px;

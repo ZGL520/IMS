@@ -39,7 +39,7 @@ var bossoption = {
         }
     },
     series: [{
-        name: '老板利润百分比',
+        name: '老板利润',
         type: 'line',
         stack: '总量',
         data: [12, 13.2, 10.1, 13.2, 9, 23, 21]
