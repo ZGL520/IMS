@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/managehome.css" afterPath="$PROJECT_DIR$/css/managehome.css" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/html/head.html" afterPath="$PROJECT_DIR$/html/head.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,34 +13,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67985827">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="138">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/head.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="428">
-                  <caret line="137" column="39" lean-forward="false" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="managehome.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/managehome.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="140" column="40" lean-forward="false" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="40" />
+                <state relative-caret-position="262">
+                  <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -49,11 +40,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="managehome.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/managehome.css">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="278" column="20" lean-forward="true" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="20" />
+                <state relative-caret-position="372">
+                  <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -81,6 +72,8 @@
       <find>goodslist</find>
       <find>fkother</find>
       <find>fkid</find>
+      <find>tophead</find>
+      <find>border-b</find>
     </findStrings>
     <replaceStrings>
       <replace>/IMS/</replace>
@@ -111,10 +104,10 @@
         <option value="$PROJECT_DIR$/css/rmbcash.css" />
         <option value="$PROJECT_DIR$/html/rmbcash.html" />
         <option value="$PROJECT_DIR$/js/zglglobal.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/html/head.html" />
         <option value="$PROJECT_DIR$/html/managehome.html" />
         <option value="$PROJECT_DIR$/css/managehome.css" />
+        <option value="$PROJECT_DIR$/html/head.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -130,8 +123,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="195" />
-    <option name="y" value="113" />
+    <option name="x" value="458" />
+    <option name="y" value="63" />
     <option name="width" value="2018" />
     <option name="height" value="1152" />
   </component>
@@ -225,15 +218,15 @@
       <workItem from="1515549554406" duration="5324000" />
       <workItem from="1515569262434" duration="157000" />
       <workItem from="1515652492171" duration="4457000" />
-      <workItem from="1515720791949" duration="5443000" />
+      <workItem from="1515720791949" duration="6320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28384000" />
+    <option name="totallyTimeSpent" value="29261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="195" y="113" width="2018" height="1152" extended-state="0" />
+    <frame x="458" y="63" width="2018" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16105054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -508,34 +501,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/managehome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="137" column="39" lean-forward="false" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/managehome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="140" column="40" lean-forward="false" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -544,6 +521,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="278" column="20" lean-forward="true" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="104" column="22" lean-forward="false" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="40" />
           <folding />
         </state>
       </provider>
