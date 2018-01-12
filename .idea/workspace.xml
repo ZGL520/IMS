@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/logo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/zglglobal.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/rmbcash.css" afterPath="$PROJECT_DIR$/css/rmbcash.css" />
-      <change beforePath="$PROJECT_DIR$/html/head.html" afterPath="$PROJECT_DIR$/html/head.html" />
+      <change beforePath="$PROJECT_DIR$/css/managehome.css" afterPath="$PROJECT_DIR$/css/managehome.css" />
       <change beforePath="$PROJECT_DIR$/html/managehome.html" afterPath="$PROJECT_DIR$/html/managehome.html" />
-      <change beforePath="$PROJECT_DIR$/html/rmbcash.html" afterPath="$PROJECT_DIR$/html/rmbcash.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +39,8 @@
           <file leaf-file-name="managehome.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/managehome.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="94" column="47" lean-forward="false" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="47" />
+                <state relative-caret-position="738">
+                  <caret line="211" column="49" lean-forward="false" selection-start-line="211" selection-start-column="49" selection-end-line="211" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -56,11 +50,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="449">
-                  <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+                <state relative-caret-position="253">
+                  <caret line="103" column="11" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="managehome.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/managehome.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="327">
+                  <caret line="289" column="8" lean-forward="false" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -85,6 +89,7 @@
       <find>orderlist</find>
       <find>goodstabels</find>
       <find>chouseconfirm</find>
+      <find>goodslist</find>
     </findStrings>
     <replaceStrings>
       <replace>/IMS/</replace>
@@ -99,7 +104,6 @@
         <option value="$PROJECT_DIR$/html/foot.html" />
         <option value="$PROJECT_DIR$/html/commitsuccess.html" />
         <option value="$PROJECT_DIR$/html/packagemanage.html" />
-        <option value="$PROJECT_DIR$/css/managehome.css" />
         <option value="$PROJECT_DIR$/html/aucash.html" />
         <option value="$PROJECT_DIR$/html/goodsmanege.html" />
         <option value="$PROJECT_DIR$/css/goodsmanage.css" />
@@ -118,6 +122,7 @@
         <option value="$PROJECT_DIR$/js/zglglobal.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/html/head.html" />
+        <option value="$PROJECT_DIR$/css/managehome.css" />
         <option value="$PROJECT_DIR$/html/managehome.html" />
       </list>
     </option>
@@ -229,12 +234,12 @@
       <workItem from="1515549554406" duration="5324000" />
       <workItem from="1515569262434" duration="157000" />
       <workItem from="1515652492171" duration="4457000" />
-      <workItem from="1515720791949" duration="2651000" />
+      <workItem from="1515720791949" duration="3582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25592000" />
+    <option name="totallyTimeSpent" value="26523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="195" y="113" width="2018" height="1152" extended-state="0" />
@@ -520,14 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/managehome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="426" column="0" lean-forward="false" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -536,18 +533,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/managehome.html">
+    <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="94" column="47" lean-forward="false" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="47" />
+        <state relative-caret-position="253">
+          <caret line="103" column="11" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/css/managehome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+        <state relative-caret-position="327">
+          <caret line="289" column="8" lean-forward="false" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/managehome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="211" column="49" lean-forward="false" selection-start-line="211" selection-start-column="49" selection-end-line="211" selection-end-column="49" />
           <folding />
         </state>
       </provider>

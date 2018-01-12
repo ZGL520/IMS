@@ -225,8 +225,15 @@
     width: 100%;
     border-color: white;
 }
-.goodslist>tr>td{
+.goodslist tr td{
     text-align: center;
+}
+.goodslist>thead>tr>td{
+    line-height: 30px;
+}
+.goodslist>tbody>tr>td{
+    font-size: 12px;
+    line-height: 30px;
 }
 
 
