@@ -30,7 +30,7 @@
                     </div>
                     <div class="alipayinfo">
                         <p class="whitecolor">支付宝</p>
-                        <a class="whitecolor" href="javascript:">修改资料</a>
+                        <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
                     </div>
                     <div class="alipayaccount">
                         <p class="whitecolor">账号：<input class="getcash whitecolor" type="text" placeholder="zgl@gmail.com"></p>
@@ -43,7 +43,7 @@
                         <a class="whitecolor" href="javascript:">上传文件</a>
                     </div>
                     <div class="chouseconfirm">
-                        <a href="javascript:">选择</a>
+                        <a href="javascript:">c</a>
                     </div>
                 </div>
                 <div class="bankpay">
@@ -52,7 +52,7 @@
                     </div>
                     <div class="bankpayinfo">
                         <p class="whitecolor">银行</p>
-                        <a class="whitecolor" href="javascript:">修改资料</a>
+                        <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
                     </div>
                     <div class="bankpayaccount">
                         <p class="whitecolor">开户银行：<input class="getcash whitecolor" type="text" placeholder="bank of china"></p>
@@ -63,7 +63,7 @@
                         <p class="whitecolor">收款人姓名: <input class="getcash whitecolor" type="text" placeholder="一碌蔗"></p>
                     </div>
                     <div class="chouseconfirm">
-                        <a href="javascript:">选择</a>
+                        <a href="javascript:">c</a>
                     </div>
                 </div>
             </div>
@@ -72,6 +72,9 @@
     <div class="idverify">
         <div class="idverifytit">
             <p class="whitecolor">身份证明</p>
+            <div class="alipayinfo">
+                <a class="changeinfo" href="javascript:">修改资料</a>
+            </div>
         </div>
         <div class="idverifycontent">
             <div class="idverifylogo">
@@ -79,6 +82,7 @@
             </div>
             <div class="idcard">
                 <p class="whitecolor">身份证<i class="icon iconfont icon-research whitecolor"></i></p>
+
             </div>
             <div class="idcardone">
                 <p class="whitecolor">正面</p>
@@ -95,7 +99,8 @@
                 <a href="javascript:" class="whitecolor">上传文件</a>
             </div>
             <div class="idverifyconfirm">
-                <p class="whitecolor">去人无误</p>
+
+                <p class="whitecolor">确认无误</p>
                 <a href="/IMS/commitsuccess.php">提交申请</a>
             </div>
         </div>
@@ -108,6 +113,11 @@
         $(this).css({backgroundColor:'black'})
     }).blur(function () {
         $('.getcash').css({backgroundColor:'transparent'})
+    })
+    
+    
+    $('.changeinfo').click(function () {
+        GLOBAL.zgl.comfirm();
     })
 </script>
 
