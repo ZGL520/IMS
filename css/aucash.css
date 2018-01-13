@@ -80,23 +80,48 @@
     align-items: center;
     justify-content: center;
 }
+.bankpayinfo>p{
+    margin-bottom: 0;
+}
+.alipayinfo{
+    width: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .alipayinfo>p{
     font-size: 20px;
     margin: 0;
 }
-.bankpayinfo>a{
-    width: 60px;
-    border: 1px solid #CBDFFF;
+.alipayinfo>a{
+    width: 72px;
+    border: 1px solid #00FFFF;
     font-size: 10px;
-    line-height: 20px;
+    line-height: 23px;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
     margin-top: 8px;
+    color: #00FFFF;
+    margin-bottom: 10px;
 }
-.bankpayinfo>a:hover{
+.alipayinfo>a:hover{
     text-decoration: none;
 }
+/*.bankpayinfo>a{*/
+    /*width: 60px;*/
+    /*border: 1px solid #CBDFFF;*/
+    /*font-size: 10px;*/
+    /*line-height: 20px;*/
+    /*border-radius: 10px;*/
+    /*text-decoration: none;*/
+    /*text-align: center;*/
+    /*margin-top: 8px;*/
+/*}*/
+/*.bankpayinfo>a:hover{*/
+    /*text-decoration: none;*/
+/*}*/
 .bankpayaccount{
     width: 654px;
     display: flex;
@@ -125,10 +150,16 @@
 .idverify{
     margin: 25px 29px 0 29px;
 }
+.idverifytit{
+    display: flex;
+    justify-content: space-between;
+}
 .idverifytit>p{
     font-size: 20px;
     margin: 0;
+
 }
+
 .idverifycontent{
     display: flex;
 }
@@ -152,6 +183,7 @@
 }
 .idcard>p{
     font-size: 20px;
+    margin-bottom: 0;
 }
 .idcardone{
     display: flex;
