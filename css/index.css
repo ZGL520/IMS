@@ -347,3 +347,6 @@ a:hover{
     line-height: 22px;
     margin-bottom: 15px;
 }
+.editinfo{
+    display: none;
+}

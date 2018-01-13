@@ -17,7 +17,7 @@
             </p>
             <p class="whitecolor">
                 <span>提现金额：<i class="icon iconfont icon-research whitecolor"></i></span>
-                <input class="getcash" type="text" placeholder="0000">
+                <input class="getcash" type="text" placeholder="0000" disabled="disabled">
                 <!--<span>$123414114</span>-->
             </p>
         </div>
@@ -33,14 +33,14 @@
                         <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
                     </div>
                     <div class="alipayaccount">
-                        <p class="whitecolor">账号：<input class="getcash whitecolor" type="text" placeholder="zgl@gmail.com"></p>
+                        <p class="whitecolor">账号：<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="zgl@gmail.com"></p>
                     </div>
                     <div class="alipaycode">
                         <p class="whitecolor">支付宝二维码</p>
                     </div>
                     <div class="alipaycodeinfo">
                         <img class="whitecolor" src="" alt="二维码">
-                        <a class="whitecolor" href="javascript:">上传文件</a>
+                        <a class="whitecolor editinfo" href="javascript:">上传文件</a>
                     </div>
                     <div class="chouseconfirm">
                         <a href="javascript:">c</a>
@@ -55,12 +55,12 @@
                         <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
                     </div>
                     <div class="bankpayaccount">
-                        <p class="whitecolor">开户银行：<input class="getcash whitecolor" type="text" placeholder="bank of china"></p>
-                        <p class="whitecolor">银行地址：<input class="getcash whitecolor" type="text" placeholder="中南海"></p>
+                        <p class="whitecolor">开户银行：<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="bank of china"></p>
+                        <p class="whitecolor">银行地址：<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="中南海"></p>
                     </div>
                     <div class="bankpaycode">
-                        <p class="whitecolor">账号: <input class="getcash whitecolor" type="text" placeholder="1234123412431"></p>
-                        <p class="whitecolor">收款人姓名: <input class="getcash whitecolor" type="text" placeholder="一碌蔗"></p>
+                        <p class="whitecolor">账号: <input class="getcash whitecolor" disabled="disabled" type="text" placeholder="1234123412431"></p>
+                        <p class="whitecolor">收款人姓名: <input class="getcash whitecolor" disabled="disabled" type="text" placeholder="一碌蔗"></p>
                     </div>
                     <div class="chouseconfirm">
                         <a href="javascript:">c</a>
@@ -73,7 +73,7 @@
         <div class="idverifytit">
             <p class="whitecolor">身份证明</p>
             <div class="alipayinfo">
-                <a class="changeinfo" href="javascript:">修改资料</a>
+                <a class="changeinfo" href="javascript:" data='0'>修改资料</a>
             </div>
         </div>
         <div class="idverifycontent">
@@ -89,19 +89,20 @@
             </div>
             <div class="idcardoneinfo">
                 <img src="" alt="pic">
-                <a href="javascript:" class="whitecolor">上传文件</a>
+                <a href="javascript:" class="whitecolor editinfo">上传文件</a>
             </div>
             <div class="idcardtwo">
                 <p class="whitecolor">反面</p>
             </div>
             <div class="idcardtwoinfo">
                 <img src="" alt="pic">
-                <a href="javascript:" class="whitecolor">上传文件</a>
+                <a href="javascript:" class="whitecolor editinfo">上传文件</a>
             </div>
             <div class="idverifyconfirm">
 
                 <p class="whitecolor">确认无误</p>
-                <a href="/IMS/commitsuccess.php">提交申请</a>
+                <!--<a class="sub" href="/IMS/commitsuccess.php">提交申请</a>-->
+                <a class="sub" href="javascript:">提交申请</a>
             </div>
         </div>
     </div>
@@ -109,16 +110,142 @@
 </div>
 
 <script>
+
+
+
+    const sub = function (callback,id) {
+        const shadow = document.createElement('div');
+        const pp = document.createElement('div');
+        const yes = document.createElement('a');
+        const no = document.createElement('a');
+        const tobeornottobe = document.createElement('p');
+
+        $(tobeornottobe).html('提交申请成功，我们将尽快审批核算');
+        $(tobeornottobe).css({
+            fontSize:30+'px',
+            marginBottom:20+'px',
+            color:'#ffffff'
+        });
+
+
+        shadow.className = 'shadow';
+        $(shadow).css({
+            position:'fixed',
+            top:0,
+            left:0,
+            width:100+'vw',
+            height:100+'vh',
+            backgroundColor:'rgba(0,0,0,0.3)',
+            // class:'bgchange',
+            'z-index':9999999999
+        });
+
+        pp.className = 'bgchange';
+        $(pp).css({
+            width:'50%',
+            height:'30%',
+            backgroundColor:'#32477E',
+            // backgroundColor:'rgba(0,0,0,0.3)',
+            margin:'100px auto',
+            borderRadius:15+'PX',
+            display:'flex',
+            flexDirection:'column',
+            justifyContent:'center',
+            alignItems:'center'
+        });
+
+        $(yes).html('确定');
+        yes.className = 'yes';
+        $(yes).attr('href','javascript:;');
+        $(yes).css({
+            display:'block',
+            textDecoration:'none',
+            backgroundColor:'green',
+            height:40+'px',
+            borderRadius:20+'px',
+            width:'80%',
+            textAlign:'center',
+            fontSize:24+'px',
+            lineHeight:40+"px",
+            color:'#ffffff',
+            marginBottom:20+'px'
+        });
+
+        // $(no).html('取消');
+        // no.className = 'no';
+        // $(no).attr('href','javascript:;');
+        // $(no).css({
+        //     display:'block',
+        //     textDecoration:'none',
+        //     backgroundColor:'red',
+        //     height:40+'px',
+        //     borderRadius:20+'px',
+        //     width:'80%',
+        //     textAlign:'center',
+        //     fontSize:24+'px',
+        //     lineHeight:40+"px",
+        //     color:'#ffffff',
+        // });
+        $('body').before(shadow);
+
+        shadow.append(pp);
+        pp.append(tobeornottobe,yes,no);
+
+        var flag;
+        $('.yes').click(function () {
+            $('.shadow').remove();
+            flag = true;
+            return callback(flag,id)
+        });
+        $(".no").click(function () {
+            $('.shadow').remove();
+            flag =  false;
+            return callback(flag,id)
+        });
+    };
+
+    var subback = function (val) {
+        console.log(val);
+        return val
+    };
+    $('.sub').click(function () {
+        if (sub(subback,null) === true) {
+
+        };
+    });
+
+
+
+
     $('.getcash').focus(function () {
         $(this).css({backgroundColor:'black'})
     }).blur(function () {
         $('.getcash').css({backgroundColor:'transparent'})
-    })
-    
-    
+    });
+
+
+
     $('.changeinfo').click(function () {
-        GLOBAL.zgl.comfirm();
-    })
+        if ($('.changeinfo').attr('data') === '0'){
+            $('.getcash').removeAttr('disabled','enabled');
+            $('.editinfo').show();
+            $('.changeinfo').html('确认提交');
+            $('.changeinfo').attr('data','1');
+        }else {
+            // console.log(GLOBAL.zgl.comfirm());
+
+            if (GLOBAL.zgl.comfirm() === true){
+                console.log(GLOBAL.zgl.comfirm())
+            }else {
+                console.log(GLOBAL.zgl.comfirm());
+                $('.changeinfo').attr('data','0').html('修改资料');
+                $('.editinfo').hide();
+                $('.getcash').attr('disabled','disabled');
+            };
+
+        }
+
+    });
 </script>
 
 <?php

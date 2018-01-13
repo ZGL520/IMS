@@ -19,17 +19,18 @@ GLOBAL.zgl.isclient = function () {
 
 //确认弹出层，传入一个回调函数，返回true or false赋值给回调函数的第一个参数
 
-GLOBAL.zgl.comfirm = function (callback,id) {
+GLOBAL.zgl.comfirm = function (id) {
     const shadow = document.createElement('div');
     const pp = document.createElement('div');
     const yes = document.createElement('a');
-    const no = document.createElement('a');
+    // const no = document.createElement('a');
     const tobeornottobe = document.createElement('p');
 
-    $(tobeornottobe).html('是否确定?');
+    $(tobeornottobe).html('修改成功');
     $(tobeornottobe).css({
         fontSize:24+'px',
         marginBottom:20+'px',
+        color:'#ffffff'
     });
 
 
@@ -47,7 +48,8 @@ GLOBAL.zgl.comfirm = function (callback,id) {
     $(pp).css({
         width:'20%',
         height:'30%',
-        backgroundColor:'#ffffff',
+        // backgroundColor:'#ffffff',
+        backgroundColor:'#32477E',
         margin:'100px auto',
         borderRadius:15+'PX',
         display:'flex',
@@ -73,35 +75,37 @@ GLOBAL.zgl.comfirm = function (callback,id) {
         marginBottom:20+'px'
     });
 
-    $(no).html('取消');
-    no.className = 'no';
-    $(no).attr('href','javascript:;');
-    $(no).css({
-        display:'block',
-        textDecoration:'none',
-        backgroundColor:'red',
-        height:40+'px',
-        borderRadius:20+'px',
-        width:'80%',
-        textAlign:'center',
-        fontSize:24+'px',
-        lineHeight:40+"px",
-        color:'#ffffff',
-    });
+    // $(no).html('取消');
+    // no.className = 'no';
+    // $(no).attr('href','javascript:;');
+    // $(no).css({
+    //     display:'block',
+    //     textDecoration:'none',
+    //     backgroundColor:'red',
+    //     height:40+'px',
+    //     borderRadius:20+'px',
+    //     width:'80%',
+    //     textAlign:'center',
+    //     fontSize:24+'px',
+    //     lineHeight:40+"px",
+    //     color:'#ffffff',
+    // });
     $('body').before(shadow);
 
     shadow.append(pp);
-    pp.append(tobeornottobe,yes,no);
+    pp.append(tobeornottobe,yes);
 
     var flag;
     $('.yes').click(function () {
         $('.shadow').remove();
         flag = true;
-        callback(flag,id)
+        // return flag;
     });
-    $(".no").click(function () {
-        $('.shadow').remove();
-        // flag =  false;
-        // callback(flag,id)
-    });
+    // $(".no").click(function () {
+    //     $('.shadow').remove();
+    //     flag =  false;
+        // return flag;
+    // });
+
+    return flag
 };
