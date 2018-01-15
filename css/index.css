@@ -30,22 +30,25 @@ a:hover{
 }
 .nav{
     box-sizing: border-box;
-    flex:202;
+    /* flex:202; */
     margin: 10px 0 66px 9px;
     display: flex;
 }
 .content{
     box-sizing: border-box;
     flex:1050;
-    height: 780px;
-    margin: 10px 9px 10px 10px;
+    /* height: 780px; */
+    margin: 10px 9px 17px 10px;
     border-left:none;
     display: flex;
     flex-direction: column;
 }
 .navul{
     box-sizing: border-box;
-    flex: 106;
+    /* flex: 106; */
+}
+.logo{
+  margin-right: 10px;
 }
 .logo>img{
     display: block;
@@ -54,12 +57,12 @@ a:hover{
     border: #00FFFF 1px solid;
 }
 .homenav{
-    margin-top: 30px;
+    margin-top: 24px;
 
 }
 .muse{
     box-sizing: border-box;
-    flex: 96;
+    /* flex: 96; */
     margin-bottom:10px;
     border-radius: 2px;
     /*box-shadow: -2px 1px 2px  #232939;*/
@@ -94,6 +97,7 @@ a:hover{
     font-size: 14px;
     color: inherit;
     margin-bottom: 0;
+    line-height: 20px;
 }
 .museli>a>i{
     font-size: 26px;
@@ -101,7 +105,7 @@ a:hover{
 }
 
 .tophead{
-    margin: 20px 15px;
+    margin: 20px 11.5px;
     padding-bottom: 10px;
 }
 .tophead>p{
@@ -115,11 +119,12 @@ a:hover{
 .tophead>p:nth-child(2){
     color:#FFEB00;
     font-size: 16px;
-    line-height: 14px;
+    line-height: 22px;
     margin-top: 10px;
 }
 .tophead>p:nth-child(3){
     font-size: 10px;
+    line-height: 14px;
 }
 .tophead>p:nth-child(4){
     font-size: 10px;
@@ -162,9 +167,9 @@ a:hover{
     box-shadow: 0 1px 1px #111822;
     display: flex;
 }
-.agentinfo{
+/* .agentinfo{
     flex: 1;
-}
+} */
 .usermessage{
     flex: 1;
     display: flex;
