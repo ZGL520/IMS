@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cashrecord.php" afterPath="$PROJECT_DIR$/cashrecode.php" />
-      <change beforePath="$PROJECT_DIR$/css/cashrecord.css" afterPath="$PROJECT_DIR$/css/cashrecode.css" />
-      <change beforePath="$PROJECT_DIR$/html/cashrecord.html" afterPath="$PROJECT_DIR$/html/cashrecode.html" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/html/aucash.html" afterPath="$PROJECT_DIR$/html/aucash.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,24 +14,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6288043">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="orderdetail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
+          <file leaf-file-name="aucash.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/aucash.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+                <state relative-caret-position="589">
+                  <caret line="94" column="8" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cashrecode.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/cashrecode.html">
+          <file leaf-file-name="aucash.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aucash.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2595">
-                  <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+                <state relative-caret-position="161">
+                  <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rmbcash.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="624">
+                  <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -42,21 +51,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="cashrecode.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/cashrecode.css">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ordermanage.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="821">
-                  <caret line="166" column="1" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
+                <state relative-caret-position="855">
+                  <caret line="387" column="19" lean-forward="false" selection-start-line="387" selection-start-column="19" selection-end-line="387" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -124,10 +123,8 @@
         <option value="$PROJECT_DIR$/css/rmbcash.css" />
         <option value="$PROJECT_DIR$/html/managehome.html" />
         <option value="$PROJECT_DIR$/css/managehome.css" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/html/rmbcash.html" />
         <option value="$PROJECT_DIR$/js/zglglobal.js" />
-        <option value="$PROJECT_DIR$/html/aucash.html" />
         <option value="$PROJECT_DIR$/css/aucash.css" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/html/login.html" />
@@ -138,6 +135,8 @@
         <option value="$PROJECT_DIR$/html/cashrecord.html" />
         <option value="$PROJECT_DIR$/cashrecode.php" />
         <option value="$PROJECT_DIR$/html/cashrecode.html" />
+        <option value="$PROJECT_DIR$/html/aucash.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -153,8 +152,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="128" />
+    <option name="x" value="130" />
+    <option name="y" value="106" />
     <option name="width" value="2165" />
     <option name="height" value="1152" />
   </component>
@@ -247,15 +246,15 @@
       <workItem from="1515981955953" duration="2000000" />
       <workItem from="1516007085438" duration="89000" />
       <workItem from="1516074757719" duration="113000" />
-      <workItem from="1516075765580" duration="7094000" />
+      <workItem from="1516075765580" duration="9224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52812000" />
+    <option name="totallyTimeSpent" value="54942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="128" width="2165" height="1152" extended-state="0" />
+    <frame x="130" y="106" width="2165" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15011548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -500,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aucash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/goodsmanege.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -539,34 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="60" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/managehome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="278" column="14" lean-forward="false" selection-start-line="278" selection-start-column="14" selection-end-line="278" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="158" column="43" lean-forward="false" selection-start-line="158" selection-start-column="43" selection-end-line="158" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/aucash.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="206" column="27" lean-forward="false" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -603,26 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/aucash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="202" column="37" lean-forward="true" selection-start-line="202" selection-start-column="37" selection-end-line="202" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="166" column="1" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -651,18 +603,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
+    <entry file="file://$PROJECT_DIR$/html/cashrecode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="533">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/cashrecode.html">
+    <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2595">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="821">
+          <caret line="166" column="1" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aucash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="268" column="19" lean-forward="true" selection-start-line="268" selection-start-column="19" selection-end-line="268" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aucash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/aucash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="94" column="8" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="387" column="19" lean-forward="false" selection-start-line="387" selection-start-column="19" selection-end-line="387" selection-end-column="19" />
           <folding />
         </state>
       </provider>

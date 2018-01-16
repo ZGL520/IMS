@@ -364,3 +364,26 @@ a:hover{
 .editinfo{
     display: none;
 }
+
+
+
+.alertcomf{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+}
+.alertcontent{
+    width: 738px;
+    height: 469px;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: ;
+}
