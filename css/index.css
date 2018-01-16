@@ -39,7 +39,7 @@ a:hover{
     box-sizing: border-box;
     flex:1050;
     /* height: 780px; */
-    margin: 10px 9px 17px 10px;
+    margin: 10px 9px 0px 10px;
     border-left:none;
     display: flex;
     flex-direction: column;
@@ -162,7 +162,7 @@ a:hover{
     /*flex: 50;*/
     box-sizing: border-box;
     /*height: 110px;*/
-    /* height: 50px; */
+    height: 50px;
     border-radius: 2px;
     /*box-shadow: 0 0 10px rgba(0,0,0,0.7);*/
     box-shadow: 0 1px 1px #111822;
@@ -312,13 +312,26 @@ a:hover{
 .bossrich>ul{
     list-style: none;
     padding: 0;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+.bossrich>ul>li{
+  height: 17px;
+  line-height: 17px;
+  margin-bottom: 10px;
 }
 .storerich>ul{
+    margin-top: 12px;
     list-style: none;
     padding: 0;
 }
 
-
+.storerich>ul>li{
+  
+    height: 17px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
 
 .contentnavitem{
     display: none;
@@ -335,11 +348,14 @@ a:hover{
     font-size: 16px;
     color: #00FFFF;
     margin: 0;
+    line-height: 22px;
 }
 .storerich>p{
     font-size: 16px;
     color: #00FFFF;
     margin: 0;
+
+    line-height: 22px;
 }
 .storerich>a{
     font-size: 16px;
