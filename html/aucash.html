@@ -86,9 +86,18 @@
     </div>
 
 </div>
-<div class="alertcomf">
-    <div class="alertcontent" id="alertcontent">
-        <i class="icon iconfont icon-research"></i>
+<div class="alertcomf" style="">
+    <div class="alertcontent" >
+        <div class="alertcontenti">
+            <i class="icon iconfont icon-research"></i>
+        </div>
+        <div class="contenttit">
+            <p>提交申请成功，我们将尽快审批核算</p>
+        </div>
+        <div class="backhome">
+            <a class="backtohome" href="javascript:"><</a>
+            <p>返回首页</p>
+        </div>
     </div>
 </div>
 
@@ -197,10 +206,15 @@
         return val
     };
     $('.sub').click(function () {
-        if (sub(subback,null) === true) {
-
-        };
+        // if (sub(subback,null) === true) {
+        //
+        // };
+        $('.alertcomf').css({display:'flex'});
     });
+    $('.backtohome').click(function () {
+        $('.alertcomf').css({display:'none'});
+    });
+
 
 
 
