@@ -2,11 +2,11 @@
     width: 1050px;
     height: 720px;
     border-radius: 5px;
-    padding-top: 28px;
-    margin-top: 10px;
+    /* padding-top: 28px;
+    margin-top: 10px; */
 }
 .rmbcashlogo{
-    margin: 0 29px;
+    margin:28px 31px 0px 29px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -19,23 +19,27 @@
 }
 .rmbcashlogo>p{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 28px;
     margin: 0;
+}
+.cashinfo{
+  overflow: hidden;
 }
 .savings{
     box-sizing: border-box;
-    margin: 32px 30px;
-    height: 82px;
+    margin: 39px 31px 0px 49px;
+    height: 75px;
     display: flex;
     justify-content: flex-start;
-    border-bottom: 2px solid #CBDFFF;
+    /* border-bottom: 2px solid #CBDFFF; */
+    border-bottom: 2px solid #629DFC;
 }
 .savings>p{
     flex: 1;
     font-size: 20px;
     line-height: 28px;
     margin: 0;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .savings>p>span{
     margin: 10px;
@@ -57,12 +61,12 @@
     box-sizing: border-box;
     height: 350px;
     border-bottom: 2px solid #CBDFFF;
-    margin: 0 29px;
+    margin: 0 31px 0px 29px;
 }
 .cashchouse>p{
     font-size: 20px;
     margin: 0;
-    margin-top: 27px;
+    margin-top: 36px;
     line-height: 28px;
 }
 .alipay{
@@ -71,6 +75,7 @@
     border-bottom: 1px solid #CBDFFF;
     display: flex;
     justify-content: space-between;
+    margin: 0px 121px 0px 20px;
 }
 .alipaylogo{
     display: flex;
