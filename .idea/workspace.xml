@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cashrecord.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/cashrecord.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html/cashrecord.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/html/head.html" afterPath="$PROJECT_DIR$/html/head.html" />
+      <change beforePath="$PROJECT_DIR$/cashrecord.php" afterPath="$PROJECT_DIR$/cashrecode.php" />
+      <change beforePath="$PROJECT_DIR$/css/cashrecord.css" afterPath="$PROJECT_DIR$/css/cashrecode.css" />
+      <change beforePath="$PROJECT_DIR$/html/cashrecord.html" afterPath="$PROJECT_DIR$/html/cashrecode.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,41 +18,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="cashrecord.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/cashrecord.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
-                  <caret line="140" column="17" lean-forward="false" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cashrecord.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/cashrecord.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ordermanage.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/ordermanage.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="110" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="orderdetail.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="173">
-                  <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+                  <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cashrecode.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/cashrecode.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2595">
+                  <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -63,11 +42,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="cashrecord.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/cashrecord.css">
+          <file leaf-file-name="cashrecode.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/cashrecode.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="970">
-                  <caret line="83" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+                <state relative-caret-position="418">
+                  <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -77,7 +56,7 @@
             <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="821">
-                  <caret line="166" column="1" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
+                  <caret line="166" column="1" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -157,6 +136,8 @@
         <option value="$PROJECT_DIR$/cashrecord.php" />
         <option value="$PROJECT_DIR$/css/cashrecord.css" />
         <option value="$PROJECT_DIR$/html/cashrecord.html" />
+        <option value="$PROJECT_DIR$/cashrecode.php" />
+        <option value="$PROJECT_DIR$/html/cashrecode.html" />
       </list>
     </option>
   </component>
@@ -266,12 +247,12 @@
       <workItem from="1515981955953" duration="2000000" />
       <workItem from="1516007085438" duration="89000" />
       <workItem from="1516074757719" duration="113000" />
-      <workItem from="1516075765580" duration="6208000" />
+      <workItem from="1516075765580" duration="7094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51926000" />
+    <option name="totallyTimeSpent" value="52812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="148" y="128" width="2165" height="1152" extended-state="0" />
@@ -638,10 +619,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
+    <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="821">
+          <caret line="166" column="1" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cashrecode.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cashrecode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -654,34 +651,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
+    <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="166" column="1" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="166" selection-end-column="1" />
+        <state relative-caret-position="173">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cashrecord.css">
+    <entry file="file://$PROJECT_DIR$/html/cashrecode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="83" column="1" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cashrecord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cashrecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="140" column="17" lean-forward="false" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
+        <state relative-caret-position="-2595">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
