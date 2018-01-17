@@ -1,7 +1,15 @@
+@font-face {
+    font-family: '微软雅黑';
+    src: url('/IMS/image/微软雅黑.ttf');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family: "PingFang SC",serif;
+    font-family: "微软雅黑";
     font-weight: lighter;
     letter-spacing:0px;
 }
@@ -20,7 +28,7 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "PingFang SC",serif;
+    font-family: "微软雅黑";
     font-weight: lighter;
 }
 .box{
@@ -327,7 +335,7 @@ a:hover{
 }
 
 .storerich>ul>li{
-  
+
     height: 17px;
     line-height: 17px;
     margin-bottom: 10px;

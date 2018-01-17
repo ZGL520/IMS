@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4285.322 -5750.043 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cbdfff;
+      }
+    </style>
+  </defs>
+  <g id="icon_bank" transform="translate(-4285.322 -5750.043)">
+    <g id="Group_215" data-name="Group 215" transform="translate(0 6.828)">
+      <g id="Group_214" data-name="Group 214">
+        <path id="Path_84" data-name="Path 84" class="cls-1" d="M50.563,236.135,52.584,234H40v2.135H50.563Z" transform="translate(-38.367 -230.735)"/>
+        <path id="Path_85" data-name="Path 85" class="cls-1" d="M643.512,236.135h.771V234H631.7l2.02,2.135Z" transform="translate(-605.916 -230.735)"/>
+        <path id="Path_86" data-name="Path 86" class="cls-1" d="M38.555,187.793h-.963V164.718H27.4L21.331,158.3H18.669L12.6,164.718H2.4v23.075H0v3.679H40v-3.679ZM7.522,185.141H4.829v-7.419H7.522Zm0-10.162H4.829V167.56H7.522Zm11.453,11.447H13.335v-12.97h5.641v12.97Zm-2.029-19.262A3.058,3.058,0,1,1,20,170.39,3.144,3.144,0,0,1,16.947,167.163Zm9.718,19.262H21.024v-12.97h5.641Zm8.5-1.285H32.473v-7.419h2.694Zm0-10.162H32.473V167.56h2.694Z" transform="translate(0 -158.3)"/>
+      </g>
+    </g>
+    <path id="Path_87" data-name="Path 87" class="cls-1" d="M76.735,8.8H62.927l-2.8-2.959H56.6L53.808,8.8H40L58.367,0Z" transform="translate(-38.367)"/>
+  </g>
+</svg>

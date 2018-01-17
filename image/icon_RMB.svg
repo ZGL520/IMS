@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4286 -6047 64.541 33.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cbdfff;
+      }
+    </style>
+  </defs>
+  <g id="icon_RMB" transform="translate(-4286 -6047)">
+    <g id="Group_298" data-name="Group 298">
+      <path id="Path_91" data-name="Path 91" class="cls-1" d="M61.314,3.227V30.173H3.227V3.227H61.314M64.541,0H0V33.4H64.541V0Z"/>
+    </g>
+    <g id="Group_299" data-name="Group 299" transform="translate(22.993 5.325)">
+      <path id="Path_92" data-name="Path 92" class="cls-1" d="M35.761,30.642v-7.18H29.226V21.444h6.535V18.459H29.226V16.443h5.486L28.5,6.6h3.953s4.679,8.31,5.163,9.52h.161C38.181,14.99,43.1,6.6,43.1,6.6h3.872l-6.615,9.762h5.486v2.017H39.23v2.985h6.615v2.017H39.23v7.18H35.761Z" transform="translate(-28.5 -6.6)"/>
+    </g>
+  </g>
+</svg>
