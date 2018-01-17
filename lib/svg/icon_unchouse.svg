@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3366 -2369 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #388ac6;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="icon_没打勾" transform="translate(-4556 -2863)">
+    <g id="Ellipse_68" data-name="Ellipse 68" class="cls-1" transform="translate(1190 494)">
+      <circle class="cls-3" cx="15" cy="15" r="15"/>
+      <circle class="cls-4" cx="15" cy="15" r="14"/>
+    </g>
+    <path id="Path_250" data-name="Path 250" class="cls-2" d="M154.625-9871.592l6.178,6.991,12.032-13.4" transform="translate(1041 10382)"/>
+  </g>
+</svg>

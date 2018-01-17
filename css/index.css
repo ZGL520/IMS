@@ -388,3 +388,78 @@ a:hover{
 .editinfo{
     display: none;
 }
+
+
+
+.alertcomf{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.alertcontent{
+    width: 738px;
+    height: 469px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.8;
+}
+.alertcontenti{
+    /*width: 177px;*/
+    /*height: 177px;*/
+    /*margin: 0 auto;*/
+    /*margin-top: 68px;*/
+    /*margin: 68px auto 42px auto;*/
+    margin-top: 68px;
+    text-align: center;
+
+}
+.alertcontenti>i{
+    display: block;
+    width: 177px;
+    height: 163px;
+    color: #00FF45;
+    font-size: 177px;
+    line-height: 163px;
+    margin: 0 auto;
+}
+.contenttit>p{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    margin-top: 42px;
+    margin-bottom: 36px;
+    font-weight: bold;
+    opacity: 1;
+}
+.backhome>a{
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: #111822;
+    font-size: 16px;
+    line-height: 42px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 21px;
+    text-decoration: none;
+}
+.backhome>a:hover{
+    text-decoration: none;
+}
+.backhome>p{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 16px;
+}
+
