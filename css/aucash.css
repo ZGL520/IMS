@@ -109,9 +109,11 @@ margin-left: 155px;
   display: block;
   width: 40px;
   height: 40px;
-  background: url(/IMS/image/icon_bank.svg)no-repeat;
   background-size: contain;
   margin-top: 21px;
+  font-size: 40px;
+  line-height: 40px;
+  color: rgba(203, 223, 255,1);
 }
 .bankpayinfo{
     /* width: 128px; */
