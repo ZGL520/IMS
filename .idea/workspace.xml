@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/svg/icon_chouse.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/svg/icon_unchouse.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/rmbcash.css" afterPath="$PROJECT_DIR$/css/rmbcash.css" />
-      <change beforePath="$PROJECT_DIR$/html/rmbcash.html" afterPath="$PROJECT_DIR$/html/rmbcash.html" />
-      <change beforePath="$PROJECT_DIR$/lib/font/demo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/demo_fontclass.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/demo_symbol.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/demo_unicode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" afterPath="$PROJECT_DIR$/css/login.css" />
+      <change beforePath="$PROJECT_DIR$/image/微软雅黑.ttf" afterPath="$PROJECT_DIR$/image/weiruan.ttf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rmbcash.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rmbcash.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="270" column="57" lean-forward="false" selection-start-line="270" selection-start-column="57" selection-end-line="270" selection-end-column="57" />
+            <state relative-caret-position="422">
+              <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#4;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -44,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -119,14 +128,14 @@
         <option value="$PROJECT_DIR$/html/cashrecord.html" />
         <option value="$PROJECT_DIR$/cashrecode.php" />
         <option value="$PROJECT_DIR$/html/cashrecode.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/html/aucash.html" />
         <option value="$PROJECT_DIR$/html/login.html" />
-        <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/html/head.html" />
         <option value="$PROJECT_DIR$/lib/svg/icon_chouse.svg" />
         <option value="$PROJECT_DIR$/css/rmbcash.css" />
         <option value="$PROJECT_DIR$/html/rmbcash.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/login.css" />
       </list>
     </option>
   </component>
@@ -142,8 +151,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="303" />
-    <option name="y" value="83" />
+    <option name="x" value="409" />
+    <option name="y" value="78" />
     <option name="width" value="1356" />
     <option name="height" value="1152" />
   </component>
@@ -179,6 +188,11 @@
               <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IMS" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
@@ -257,15 +271,15 @@
       <workItem from="1516007085438" duration="89000" />
       <workItem from="1516074757719" duration="113000" />
       <workItem from="1516075765580" duration="12788000" />
-      <workItem from="1516151154747" duration="8170000" />
+      <workItem from="1516151154747" duration="9452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66676000" />
+    <option name="totallyTimeSpent" value="67958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="303" y="83" width="1356" height="1152" extended-state="0" />
+    <frame x="409" y="78" width="1356" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23967552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -586,26 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -639,14 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bgcdealwith.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -663,14 +653,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="270" column="57" lean-forward="false" selection-start-line="270" selection-start-column="57" selection-end-line="270" selection-end-column="57" />
+        <state relative-caret-position="422">
+          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#4;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
