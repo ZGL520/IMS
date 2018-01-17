@@ -1,8 +1,13 @@
-
+@font-face {
+    font-family: '微软雅黑';
+    src: url('/IMS/image/weiruan.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     margin: 0;
     padding: 0;
-    font-family: "PingFang SC",serif;
+    font-family: "微软雅黑";
     font-weight: lighter;
     letter-spacing:0px;
     background-color: #4B587C;

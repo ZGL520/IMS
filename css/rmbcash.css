@@ -110,6 +110,7 @@
   margin-top: 39px;
   margin-bottom: 45px;
     font-size: 40px;
+    line-height: 40px;
     color: #CBDFFF;
 }
 .alipayinfo{
@@ -250,6 +251,7 @@
   margin-top: 31px;
   margin-bottom: 68px;
     font-size: 40px;
+    line-height: 40px;
     color: #CBDFFF;
 }
 .bankpayinfo{
@@ -434,8 +436,8 @@ background-size: contain;
 .idcardtwoinfo{
     /* width: 218px; */
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
+     flex-direction: column;
+     justify-content: center;
     margin-top: 12px;
 }
 .idcardtwoinfo>img{

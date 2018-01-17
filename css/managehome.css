@@ -229,6 +229,7 @@
 }
 
 
+
 .latestgoods{
     margin-top:20px;
 }
@@ -435,6 +436,7 @@
     padding-left: 15px;
     outline: none;
     background-color: transparent;
+    color: rgba(203, 223, 255,1) ;
 }
 .ordersearch>a{
     display: block;

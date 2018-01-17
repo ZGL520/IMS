@@ -33,7 +33,7 @@ const whoshow = function (data) {
 };
 // 导航栏切换
 const bgc = function (mark) {
-    $('.navitem').click(function () {
+    $('.navitem').mouseover(function () {
         $('.navitem').removeClass(mark);
         $(this).addClass(mark);
         initbgc();
