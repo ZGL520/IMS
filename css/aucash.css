@@ -14,11 +14,13 @@
     flex-direction: row;
     justify-content: flex-start;
 }
-.rmbcashlogo>i{
+.aucashlogoi{
+    display: block;
     width: 30px;
     height: 30px;
+    line-height: 23px;
     font-size: 23px;
-    line-height: 28px;
+    margin-right: 6px;
 }
 .rmbcashlogo>p{
     font-size: 20px;
@@ -67,6 +69,12 @@ margin-left: 155px;
   background-size: contain;
   margin-top: 32px;
   margin-bottom: 50px;
+}
+.savingsii{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 40px;
 }
 .cashchouse{
     box-sizing: border-box;

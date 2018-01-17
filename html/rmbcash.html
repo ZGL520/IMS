@@ -6,7 +6,7 @@
     <div class="cashinfo">
         <div class="rmbcashlogo">
             <!--<img src="/IMS/lib/svg/rm_button.svg" alt="">-->
-            <i class="icon iconfont icon-research whitecolor"></i>
+            <i class="icon iconfont icon-research whitecolor rmbcashlogoi" style="background: url(/IMS/lib/svg/RMB.svg)no-repeat;"></i>
             <p class="whitecolor">人民币提现</p>
         </div>
         <div class="savings">
@@ -33,7 +33,7 @@
                         <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
                     </div>
                     <div class="alipayaccount">
-                        <p class="whitecolor">账号：<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="zgl@gmail.com"></p>
+                        <p class="whitecolor">账号:<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="zgl@gmail.com"></p>
                     </div>
                     <div class="alipaycode">
                         <p class="whitecolor">支付宝二维码</p>
@@ -55,8 +55,8 @@
                         <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
                     </div>
                     <div class="bankpayaccount">
-                        <p class="whitecolor">开户银行：<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="bank of china"></p>
-                        <p class="whitecolor">银行地址：<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="中南海"></p>
+                        <p class="whitecolor">开户银行:<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="bank of china"></p>
+                        <p class="whitecolor">银行地址:<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="中南海"></p>
                     </div>
                     <div class="bankpaycode">
                         <p class="whitecolor">账号: <input class="getcash whitecolor" disabled="disabled" type="text" placeholder="1234123412431"></p>
@@ -248,8 +248,9 @@
         if ($('.changeinfo').attr('data') === '0'){
             $('.getcash').removeAttr('disabled','enabled');
             $('.editinfo').show();
-            $('.changeinfo').html('确认提交');
+            $('.changeinfo').html('完成');
             $('.changeinfo').attr('data','1');
+            $('.changeinfo').css({background:"#00FFFF",color:'#000'});
         }else {
             // console.log(GLOBAL.zgl.comfirm());
 
@@ -260,6 +261,7 @@
                 $('.changeinfo').attr('data','0').html('修改资料');
                 $('.editinfo').hide();
                 $('.getcash').attr('disabled','disabled');
+                $('.changeinfo').css({background:"transparent",color:'#00FFFF'});
             };
 
         }
