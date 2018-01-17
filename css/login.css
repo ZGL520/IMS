@@ -1,5 +1,12 @@
+
 body{
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC",serif;
+    font-weight: lighter;
+    letter-spacing:0px;
     background-color: #4B587C;
+
 }
 .login{
     width: 450px;
@@ -34,10 +41,12 @@ body{
      color: #CBDFFF;
      margin: 11px 0 0 69px;
  }
-.loginform>p:nth-child(6){
+.loginform>a:nth-child(6){
     font-size: 15px;
     color: #839CDE;
     margin: 1px auto 0 auto;
+    text-decoration: none;
+    margin-top: 11px;
 }
 .loginform>input{
     width: 308px;
@@ -47,15 +56,20 @@ body{
     height: 37px;
     margin: 10px auto;
     color: #CBDFFF;
-    box-shadow: 0 3px 5px #000000;
+    /*box-shadow: 0 3px 5px #000000;*/
 }
-.loginform>input:nth-child(5){
+.loginform>a:nth-child(5){
     width: 308px;
     background-color: #FFD700;
     border: none;
     outline: none;
     height: 37px;
+    margin: 0 auto;
     margin-top: 34px;
     color: #111822;
     font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 37px;
+
 }
