@@ -9,6 +9,40 @@
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script src="/IMS/lib/echarts.common.min.js"></script>
     <script src="/IMS/js/zglglobal.js"></script>
+    <style>
+        .select_url{
+            color: yellow !important;
+        }
+    </style>
+    <script>
+        $(function(){
+            selectHeadline();
+        });
+
+        function selectHeadline(){
+            var reg=/(\/IMS\/)/;
+            var url=location.href;
+            var url_child=$('a.whitecolor');
+            $.each(url_child,function(k,v){
+                if(url.indexOf($(v).attr('href'))>=0){
+                    $(v).addClass('select_url');
+                    console.log($(v).attr('href'));
+                    return false;
+                }
+            });
+            var url_arr=url.match(reg);
+            var aaaa="<?=$val?>";
+            if(aaaa){
+                if(aaaa=='cashmanage'){
+                    $('#rich').addClass('owhere');
+                    $('.richmanagenav').show();
+                }
+            }else{
+                $('#home').addClass('owhere');
+            }
+            initbgc();
+        }
+    </script>
 </head>
 <body class="body" id="body">
 <div class="box minechange">
@@ -26,7 +60,7 @@
                         </a>
                     </li>
                     <li class="museli">
-                        <a class="navitem" id="rich" href="javascript:">
+                        <a class="navitem" id="rich" href="/IMS/bosscash.php">
                             <i class="icon iconfont icon-icon_fortune"></i>
                             <p>财富管理</p>
                         </a>
