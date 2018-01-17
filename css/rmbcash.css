@@ -176,10 +176,11 @@
     /* width: 200px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     padding-left: 31px;
     border-bottom: 2px solid #629DFC;
     padding-right: 149px;
+    margin-top: 25px;
 }
 .alipaycodeinfo>img{
     width: 60px;
@@ -187,10 +188,10 @@
     background-color: #CBDFFF;
 }
 .alipaycodeinfo>a{
-    width: 60px;
+    width: 59px;
     border: 1px solid #CBDFFF;
     font-size: 10px;
-    line-height: 20px;
+    line-height:18px;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;

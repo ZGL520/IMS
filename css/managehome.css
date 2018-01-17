@@ -28,6 +28,7 @@
 .bossratetit>p{
     font-size: 20px;
     margin: 0;
+    line-height: 28px;
 }
 .bossratetit>a{
     text-decoration: none;
@@ -160,13 +161,13 @@
     line-height: 27px;
     text-decoration: none;
     text-align: center;
-    margin: 0 6px;
+    margin: 0 26px 0px 6px;
 }
 .paiedcheck{
     font-size: 12px;
     line-height: 27px;
     text-decoration: none;
-    margin-left: 20px;
+
 }
 .paiedcheck:hover{
     text-decoration: none;
@@ -424,7 +425,7 @@
     margin:6px 19px ;
     height: 30px;
     display: flex;
-    justify-content: space-around;
+
 }
 .ordersearch>input{
     width: 230px;
