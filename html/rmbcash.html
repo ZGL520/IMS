@@ -12,12 +12,12 @@
         <div class="savings">
             <p class="whitecolor">
                 <i class="rmblogo icon iconfont icon-icon_RMB"></i>
-                <span>可提现财富：<i class="icon iconfont icon-research whitecolor"></i></span>
-                <span>$123414114</span>
+                <span>可提现财富：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <span>￥88,888.88</span>
             </p>
             <p class="whitecolor">
-                <span>提现金额：<i class="icon iconfont icon-research whitecolor"></i></span>
-                <input class="getcash" type="text" placeholder="0000" disabled="disabled">
+                <span>提现金额：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <input class="getcash" type="text" placeholder="￥0000" disabled="disabled">
                 <!--<span>$123414114</span>-->
             </p>
         </div>
@@ -81,7 +81,7 @@
                 <i class="idverifylogoi icon iconfont icon-icon_id"></i>
             </div>
             <div class="idcard">
-                <p class="whitecolor">身份证<i class="icon iconfont icon-research whitecolor"></i></p>
+                <p class="whitecolor">身份证<i class="fa fa-question-circle-o whitecolor"></i></p>
 
             </div>
             <div class="idcardone">
@@ -224,9 +224,6 @@
         return val
     };
     $('.sub').click(function () {
-        // if (sub(subback,null) === true) {
-        //
-        // };
         $('.alertcomf').css({display:'flex'});
     });
     $('.backtohome').click(function () {
@@ -236,11 +233,11 @@
 
 
 
-    $('.getcash').focus(function () {
-        $(this).css({backgroundColor:'black'})
-    }).blur(function () {
-        $('.getcash').css({backgroundColor:'transparent'})
-    });
+    // $('.getcash').focus(function () {
+        // $(this).css({backgroundColor:'black'})
+    // }).blur(function () {
+        // $('.getcash').css({backgroundColor:'transparent'})
+    // });
 
 
 
@@ -248,21 +245,21 @@
         if ($('.changeinfo').attr('data') === '0'){
             $('.getcash').removeAttr('disabled','enabled');
             $('.editinfo').show();
+            $('.getcash').css({backgroundColor:'black'});
             $('.changeinfo').html('完成');
             $('.changeinfo').attr('data','1');
             $('.changeinfo').css({background:"#00FFFF",color:'#000'});
         }else {
             // console.log(GLOBAL.zgl.comfirm());
 
-            if (GLOBAL.zgl.comfirm() === true){
-                console.log(GLOBAL.zgl.comfirm())
-            }else {
-                console.log(GLOBAL.zgl.comfirm());
+            // if (GLOBAL.zgl.comfirm() === true){
+            // }else {
                 $('.changeinfo').attr('data','0').html('修改资料');
                 $('.editinfo').hide();
+                $('.getcash').css({backgroundColor:'transparent'});
                 $('.getcash').attr('disabled','disabled');
                 $('.changeinfo').css({background:"transparent",color:'#00FFFF'});
-            };
+            // };
 
         }
 

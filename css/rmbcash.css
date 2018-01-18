@@ -4,6 +4,7 @@
     border-radius: 5px;
     /* padding-top: 28px;
     margin-top: 10px; */
+    margin-top: 10px;
 }
 .rmbcashlogo{
     margin:28px 31px 0px 29px;
@@ -409,7 +410,7 @@ background-size: contain;
     /* justify-content: center; */
     /* width: 270px; */
     margin-top: 12px;
-    margin-right: 120px;
+    margin-right: 105px;
 }
 .idcardoneinfo>img{
     width: 100px;
