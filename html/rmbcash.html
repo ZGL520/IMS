@@ -119,6 +119,7 @@
                 <a class="backtohome" href="/IMS/index.php"><</a>
                 <p>返回首页</p>
             </div>
+            <a  href="javascript:" class="whitecolor closehere">X</a>
         </div>
     </div>
 
@@ -227,6 +228,9 @@
         $('.alertcomf').css({display:'flex'});
     });
     $('.backtohome').click(function () {
+        $('.alertcomf').css({display:'none'});
+    });
+    $('.closehere').click(function () {
         $('.alertcomf').css({display:'none'});
     });
 
