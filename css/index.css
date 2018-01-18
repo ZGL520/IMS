@@ -1,14 +1,14 @@
-@font-face {
-    font-family: '微软雅黑';
-    src: url('/IMS/image/weiruan.ttf');
-    font-weight: normal;
-    font-style: normal;
- }
+/*@font-face {*/
+    /*font-family: '微软雅黑';*/
+    /*src: url('/IMS/image/weiruan.ttf');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+ /*}*/
 
 body{
     margin: 0;
     padding: 0;
-    /*font-family: "微软雅黑";*/
+    font-family: "PingFang SC",serif;
     font-weight: lighter;
     letter-spacing:0px;
 }
@@ -26,10 +26,10 @@ a:hover{
     background-color: #4B587C;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     font-family: "微软雅黑";
     font-weight: lighter;
 }
@@ -37,7 +37,11 @@ a:hover{
     box-sizing: border-box;
     width: 1280px;
     height: 800px;
+    min-width: 1280px;
+    min-height: 800px;
+    margin: 100px auto;
     display: flex;
+
 }
 .nav{
     box-sizing: border-box;
@@ -65,7 +69,7 @@ a:hover{
     display: block;
     width: 96px;
     height: 96px;
-    border: #00FFFF 1px solid;
+    /*border: #00FFFF 1px solid;*/
 }
 .homenav{
     margin-top: 24px;
