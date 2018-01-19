@@ -448,18 +448,19 @@ a:hover{
 }
 .backhome{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .backhome>a{
+
     display: block;
-    width: 100px;
-    height: 32px;
+    width: 152px;
+    height: 36px;
     background-color: #111822;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 36px;
     text-align: center;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 18px;
     text-decoration: none;
 
 }
@@ -467,11 +468,13 @@ a:hover{
     text-decoration: none;
 }
 .backhome>a:nth-child(1){
-    color: yellow;
-    border: 1px solid yellow;
+    color: #FF5800;
+    border: 1px solid #FF5800;
+    margin-left: 162px;
 }
 .backhome>a:nth-child(2){
     color: #629DFC;
     border: 1px solid #629DFC;
+    margin-right: 162px;
 }
 

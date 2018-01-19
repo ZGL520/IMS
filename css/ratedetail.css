@@ -159,10 +159,12 @@
 .datadetaillist>thead>tr>td{
     font-size: 15px;
     line-height: 36px;
+    border: #629DFC solid 1px;
 }
 .datadetaillist>tbody>tr>td{
     font-size: 12px;
     line-height: 36px;
+    border: #629DFC solid 1px;
 }
 .datadetaillist>tbody>tr>td>a{
     text-decoration: none;
