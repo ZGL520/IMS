@@ -39,7 +39,7 @@ const bgc = function (mark) {
         initbgc();
         const da = whoshow(this.id);
         $('.contentnavitem').hide();
-        $('.'+da).fadeIn();
+        $('.'+da).show();
     });
 
 };

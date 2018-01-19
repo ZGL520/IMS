@@ -162,6 +162,10 @@
     text-decoration: none;
     text-align: center;
     margin: 0 26px 0px 6px;
+    color: #629DFC;
+}
+.search:hover{
+    color: #629DFC;
 }
 .paiedcheck{
     font-size: 12px;
@@ -207,9 +211,7 @@
     text-decoration: none;
     color: #00FFFF;
 }
-.search{
-    color: #629DFC;
-}
+
 
 .ordermanagesearch{
     display: flex;
