@@ -320,7 +320,7 @@ margin-left: 155px;
 }
 .idverifyconfirm>p{
     font-size: 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 .idverifyconfirm>a{
     display: block;
