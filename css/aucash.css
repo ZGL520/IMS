@@ -33,7 +33,7 @@
 
     display: flex;
     justify-content: flex-start;
-    border-bottom: 2px solid #CBDFFF;
+    border-bottom: 1px solid #629DFC;
 }
 .savings>p{
     display: flex;
@@ -78,7 +78,6 @@ margin-left: 155px;
 }
 .cashchouse{
     box-sizing: border-box;
-
     margin: 0 31px 0px 29px;
 }
 .cashchouse>p{
@@ -103,7 +102,7 @@ margin-left: 155px;
 }
 .paymathed{
   margin-left: 20px;
-  border-bottom: 2px solid #CBDFFF;
+  border-bottom: 1px solid #629DFC;
 }
 .bankpaylogoi{
   display: block;
@@ -239,6 +238,9 @@ margin-left: 155px;
 .idcard>p{
     font-size: 20px;
     margin-bottom: 0
+}
+.idcard>p>i{
+    margin-left: 6px;
 }
 .idcardone{
     display: flex;

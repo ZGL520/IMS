@@ -446,26 +446,32 @@ a:hover{
     font-weight: bold;
     opacity: 1;
 }
+.backhome{
+    display: flex;
+    justify-content: center;
+}
 .backhome>a{
     display: block;
-    width: 42px;
-    height: 42px;
+    width: 100px;
+    height: 32px;
     background-color: #111822;
     font-size: 16px;
-    line-height: 42px;
-    color: white;
+    line-height: 32px;
     text-align: center;
     margin: 0 auto;
-    border-radius: 21px;
+    border-radius: 16px;
     text-decoration: none;
+
 }
 .backhome>a:hover{
     text-decoration: none;
 }
-.backhome>p{
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 16px;
+.backhome>a:nth-child(1){
+    color: yellow;
+    border: 1px solid yellow;
+}
+.backhome>a:nth-child(2){
+    color: #629DFC;
+    border: 1px solid #629DFC;
 }
 

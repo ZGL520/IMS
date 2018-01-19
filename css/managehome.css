@@ -207,6 +207,9 @@
     text-decoration: none;
     color: #00FFFF;
 }
+.search{
+    color: #629DFC;
+}
 
 .ordermanagesearch{
     display: flex;
@@ -220,7 +223,8 @@
 }
 .orderssearch>input{
     background-color: transparent;
-    border: #98C0FF solid 1px;
+    /*border: #98C0FF solid 1px;*/
+    border: 1px solid #629DFC;
     width: 270px;
     height: 30px;
     font-size: 12px;
@@ -242,6 +246,7 @@
 }
 .goodstable{
     margin: 0 21px 23px 19px;
+    /*border: 1px solid #629DFC;*/
 }
 .goodslist{
     width: 100%;
@@ -252,10 +257,12 @@
 }
 .goodslist>thead>tr>td{
     line-height: 30px;
+    border: 1px solid #629DFC;
 }
 .goodslist>tbody>tr>td{
     font-size: 12px;
     line-height: 25px;
+    border: 1px solid #629DFC;
 }
 
 
@@ -431,7 +438,7 @@
 }
 .ordersearch>input{
     width: 230px;
-    border: #98C0FF solid 1px;
+    border: #629DFC solid 1px;
     border-radius: 20px;
     font-size: 12px;
     padding-left: 15px;
@@ -447,6 +454,7 @@
     line-height: 27px;
     text-align: center;
     border: none;
+    color: #629DFC;
     /* margin:0 10px ; */
 }
 .ordersearch>a:hover{
