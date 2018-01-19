@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/ratedetail.css" afterPath="$PROJECT_DIR$/css/ratedetail.css" />
-      <change beforePath="$PROJECT_DIR$/html/ratedetail.html" afterPath="$PROJECT_DIR$/html/ratedetail.html" />
+      <change beforePath="$PROJECT_DIR$/html/monetarytransactions.html" afterPath="$PROJECT_DIR$/html/monetarytransactions.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +12,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5767098">
+    <splitter split-orientation="horizontal" split-proportion="0.6296981">
       <split-first>
         <leaf>
-          <file leaf-file-name="ratedetail.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/ratedetail.html">
+          <file leaf-file-name="monetarytransactions.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/monetarytransactions.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="182" column="17" lean-forward="true" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
+                <state relative-caret-position="933">
+                  <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
                   <folding>
-                    <marker date="1516347907000" expanded="false" signature="398:422" ph="..." />
+                    <marker date="1516348855000" expanded="false" signature="408:432" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -33,11 +31,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ratedetail.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/ratedetail.css">
+          <file leaf-file-name="monetarytransactions.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/monetarytransactions.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="167" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="1" />
+                <state relative-caret-position="372">
+                  <caret line="189" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="211" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -58,7 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fkid</find>
       <find>border-b</find>
       <find>border-bottom</find>
       <find>tophead</find>
@@ -88,6 +85,7 @@
       <find>backtohome</find>
       <find>backhome</find>
       <find>ordersearch</find>
+      <find>bossrateline</find>
     </findStrings>
     <replaceStrings>
       <replace>/IMS/</replace>
@@ -107,7 +105,6 @@
         <option value="$PROJECT_DIR$/html/ordermanage.html" />
         <option value="$PROJECT_DIR$/css/ordermanage.css" />
         <option value="$PROJECT_DIR$/js/echartsshow.js" />
-        <option value="$PROJECT_DIR$/html/monetarytransactions.html" />
         <option value="$PROJECT_DIR$/html/accountmanage.html" />
         <option value="$PROJECT_DIR$/html/storecash.html" />
         <option value="$PROJECT_DIR$/css/orderdetail.css" />
@@ -139,6 +136,7 @@
         <option value="$PROJECT_DIR$/css/ratedetail.css" />
         <option value="$PROJECT_DIR$/html/ratedetail.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/html/monetarytransactions.html" />
       </list>
     </option>
   </component>
@@ -256,18 +254,17 @@
       <workItem from="1516075765580" duration="12788000" />
       <workItem from="1516151154747" duration="21527000" />
       <workItem from="1516239602538" duration="11092000" />
-      <workItem from="1516323955613" duration="8602000" />
+      <workItem from="1516323955613" duration="9185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99727000" />
+    <option name="totallyTimeSpent" value="100310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="187" y="115" width="1948" height="1152" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16683778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16683778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -299,13 +296,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orderdetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -324,13 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/monetarytransactions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="55" lean-forward="false" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -638,20 +621,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/ratedetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="167" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/ratedetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="182" column="17" lean-forward="true" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
+          <caret line="182" column="17" lean-forward="false" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
           <folding>
             <marker date="1516347907000" expanded="false" signature="398:422" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ratedetail.css">
+    <entry file="file://$PROJECT_DIR$/html/monetarytransactions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="167" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="212" selection-end-column="1" />
+        <state relative-caret-position="933">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <marker date="1516348855000" expanded="false" signature="408:432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/monetarytransactions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="189" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="211" selection-end-column="1" />
           <folding />
         </state>
       </provider>
