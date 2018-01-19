@@ -33,14 +33,27 @@
             });
             var url_arr=url.match(reg);
             var aaaa="<?=$val?>";
-            if(aaaa){
-                if(aaaa=='cashmanage'){
+            switch (aaaa){
+                case 'cashmanage':
                     $('#rich').addClass('owhere');
                     $('.richmanagenav').show();
-                }
-            }else{
-                $('#home').addClass('owhere');
+                    break;
+                case 'businessnamage':
+                    $('#bussiness').addClass('owhere');
+                    $('.bussiness').show();
+                    break;
+                default:
+                    $('#home').addClass('owhere');
+                    break;
             }
+            // if(aaaa){
+            //     if(aaaa==='cashmanage'){
+            //         $('#rich').addClass('owhere');
+            //         $('.richmanagenav').show();
+            //     }
+            // }else{
+            //     $('#home').addClass('owhere');
+            // }
             initbgc();
         }
     </script>

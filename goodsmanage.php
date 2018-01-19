@@ -6,4 +6,6 @@
  * Time: 上午10:36
  */
 
+$val = 'businessnamage';
+
 include 'html/goodsmanege.html';
