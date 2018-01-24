@@ -54,7 +54,7 @@
 }
 .orderlist>table>tbody>tr>td>a{
     text-decoration: none;
-
+    color: #00FFFF;
 }
 
 .pages{
@@ -99,3 +99,4 @@
     font-size: 20px;
     color: #FFFFFF;
 }
+
