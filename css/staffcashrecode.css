@@ -5,12 +5,23 @@
     margin-top: 10px;
     border-radius: 5px;
 }
+.cashrecodetit{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 19px;
+}
 .cashrecordetit{
     color: #CBDFFF;
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 28px;
-    margin: 0 0 0 19px;
+    margin-bottom: 0;
+}
+.cashnum{
+    color: #00FFFF;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-size: 16px;
 }
 .recordelist{
     width: 1010px;
