@@ -6,6 +6,6 @@
  * Time: 上午11:46
  */
 
-$val = 'cashmanage';
+$val = 'businessnamage';
 
 include 'html/paiedsearch.html';

@@ -6,4 +6,5 @@
  * Time: 上午10:17
  */
 
+$val = 'businessnamage';
 include "html/orderdetail.html";
