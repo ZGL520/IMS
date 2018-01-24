@@ -1,0 +1,283 @@
+<?php
+    include 'head.html';
+?>
+<link rel="stylesheet" href="/IMS/css/staffrmbcash.css">
+<div class="rmbcash bgchange">
+    <div class="cashinfo">
+        <div class="rmbcashlogo">
+            <!--<img src="/IMS/lib/svg/rm_button.svg" alt="">-->
+            <i class=" whitecolor rmbcashlogoi" style="background: url(/IMS/lib/svg/RMB.svg)no-repeat;"></i>
+            <p class="whitecolor">人民币提现</p>
+        </div>
+        <div class="savings">
+            <p class="whitecolor">
+                <i class="rmblogo icon iconfont icon-icon_RMB"></i>
+                <span>可提现财富：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <span>￥88,888.88</span>
+            </p>
+            <p class="whitecolor">
+                <span>提现金额：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <input class="getcash" type="text" placeholder="000000" disabled="disabled">
+                <!--<span>$123414114</span>-->
+            </p>
+        </div>
+        <div class="cashchouse">
+            <p class="whitecolor">提现选择</p>
+            <div class="paymathed">
+                <div class="alipay">
+                    <div class="alipaylogo">
+                        <i class="alipaylogoi icon iconfont icon-icon_alipay"></i>
+                    </div>
+                    <div class="alipayinfo">
+                        <p class="whitecolor">支付宝</p>
+                        <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
+                    </div>
+                    <div class="alipayaccount">
+                        <p class="whitecolor">账号:<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="zgl@gmail.com"></p>
+                    </div>
+                    <div class="alipaycode">
+                        <p class="whitecolor">支付宝二维码</p>
+                    </div>
+                    <div class="alipaycodeinfo">
+                        <img class="whitecolor" src="/IMS/image/code.jpg" alt="二维码">
+                        <a class="whitecolor editinfo" href="javascript:">上传文件</a>
+                    </div>
+                    <div class="chouseconfirm">
+                        <a class="chousebtn" href="javascript:" style="background:url('/IMS/lib/svg/icon_unchouse.svg');"></a>
+                    </div>
+                </div>
+                <div class="bankpay">
+                    <div class="bankpaylogo">
+                        <i class="bankpaylogoi icon iconfont icon-icon_bank"></i>
+                    </div>
+                    <div class="bankpayinfo">
+                        <p class="whitecolor">银行</p>
+                        <!--<a class="whitecolor" href="javascript:">修改资料</a>-->
+                    </div>
+                    <div class="bankpayaccount">
+                        <p class="whitecolor">开户银行:<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="bank of china"></p>
+                        <p class="whitecolor">银行地址:<input class="getcash whitecolor" disabled="disabled" type="text" placeholder="中南海"></p>
+                    </div>
+                    <div class="bankpaycode">
+                        <p class="whitecolor">账号: <input class="getcash whitecolor" disabled="disabled" type="text" placeholder="1234123412431"></p>
+                        <p class="whitecolor">收款人姓名: <input class="getcash whitecolor" disabled="disabled" type="text" placeholder="一碌蔗"></p>
+                    </div>
+                    <div class="chouseconfirm">
+                        <a  class="chousebtn" href="javascript:" style="background: url('/IMS/lib/svg/icon_unchouse.svg')"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="idverify">
+        <div class="idverifytit">
+            <p class="whitecolor">身份证明</p>
+            <div class="alipayinfo">
+                <a class="changeinfo" href="javascript:" data='0'>修改资料</a>
+            </div>
+        </div>
+        <div class="idverifycontent">
+            <div class="idverifylogo">
+                <i class="idverifylogoi icon iconfont icon-icon_id"></i>
+            </div>
+            <div class="idcard">
+                <p class="whitecolor">身份证<i class="fa fa-question-circle-o whitecolor"></i></p>
+
+            </div>
+            <div class="idcardone">
+                <p class="whitecolor">正面</p>
+            </div>
+            <div class="idcardoneinfo">
+                <img src="/IMS/image/cnid0.jpg" alt="pic">
+                <a href="javascript:" class="whitecolor editinfo">上传文件</a>
+            </div>
+            <div class="idcardtwo">
+                <p class="whitecolor">反面</p>
+            </div>
+            <div class="idcardtwoinfo">
+                <img src="/IMS/image/cnid1.jpg" alt="pic">
+                <a href="javascript:" class="whitecolor editinfo">上传文件</a>
+            </div>
+            <div class="idverifyconfirm">
+
+                <p class="whitecolor">确认无误</p>
+                <!--<a class="sub" href="/IMS/commitsuccess.php">提交申请</a>-->
+                <a class="sub" href="javascript:">提交申请</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="alertcomf" style="">
+        <div class="alertcontent" >
+            <div class="alertcontenti">
+                <i class="icon iconfont icon-icon_appllyconfirme"></i>
+            </div>
+            <div class="contenttit">
+                <p>提交申请成功，我们将尽快审批核算</p>
+            </div>
+            <div class="backhome">
+                <a  href="javascript:" class="closehere">继续提现</a>
+                <a class="backtohome" href="/IMS/index.php">返回首页</a>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+
+
+    const sub = function (callback,id) {
+        const shadow = document.createElement('div');
+        const pp = document.createElement('div');
+        const yes = document.createElement('a');
+        const no = document.createElement('a');
+        const tobeornottobe = document.createElement('p');
+
+        $(tobeornottobe).html('提交申请成功，我们将尽快审批核算');
+        $(tobeornottobe).css({
+            fontSize:30+'px',
+            marginBottom:20+'px',
+            color:'#ffffff'
+        });
+
+
+        shadow.className = 'shadow';
+        $(shadow).css({
+            position:'fixed',
+            top:0,
+            left:0,
+            width:100+'vw',
+            height:100+'vh',
+            backgroundColor:'rgba(0,0,0,0.3)',
+            // class:'bgchange',
+            'z-index':9999999999
+        });
+
+        pp.className = 'bgchange';
+        $(pp).css({
+            width:'50%',
+            height:'30%',
+            backgroundColor:'#32477E',
+            // backgroundColor:'rgba(0,0,0,0.3)',
+            margin:'100px auto',
+            borderRadius:15+'PX',
+            display:'flex',
+            flexDirection:'column',
+            justifyContent:'center',
+            alignItems:'center'
+        });
+
+        $(yes).html('确定');
+        yes.className = 'yes';
+        $(yes).attr('href','javascript:;');
+        $(yes).css({
+            display:'block',
+            textDecoration:'none',
+            backgroundColor:'green',
+            height:40+'px',
+            borderRadius:20+'px',
+            width:'80%',
+            textAlign:'center',
+            fontSize:24+'px',
+            lineHeight:40+"px",
+            color:'#ffffff',
+            marginBottom:20+'px'
+        });
+
+        // $(no).html('取消');
+        // no.className = 'no';
+        // $(no).attr('href','javascript:;');
+        // $(no).css({
+        //     display:'block',
+        //     textDecoration:'none',
+        //     backgroundColor:'red',
+        //     height:40+'px',
+        //     borderRadius:20+'px',
+        //     width:'80%',
+        //     textAlign:'center',
+        //     fontSize:24+'px',
+        //     lineHeight:40+"px",
+        //     color:'#ffffff',
+        // });
+        $('body').before(shadow);
+
+        shadow.append(pp);
+        pp.append(tobeornottobe,yes,no);
+
+        var flag;
+        $('.yes').click(function () {
+            $('.shadow').remove();
+            flag = true;
+            return callback(flag,id)
+        });
+        $(".no").click(function () {
+            $('.shadow').remove();
+            flag =  false;
+            return callback(flag,id)
+        });
+    };
+
+    var subback = function (val) {
+        console.log(val);
+        return val
+    };
+    $('.sub').click(function () {
+        $('.alertcomf').css({display:'flex'});
+    });
+    $('.backtohome').click(function () {
+        $('.alertcomf').css({display:'none'});
+    });
+    $('.closehere').click(function () {
+        $('.alertcomf').css({display:'none'});
+    });
+
+
+
+
+    // $('.getcash').focus(function () {
+    // $(this).css({backgroundColor:'black'})
+    // }).blur(function () {
+    // $('.getcash').css({backgroundColor:'transparent'})
+    // });
+
+
+
+    $('.changeinfo').click(function () {
+        if ($('.changeinfo').attr('data') === '0'){
+            $('.getcash').removeAttr('disabled','enabled');
+            $('.editinfo').show();
+            $('.getcash').css({backgroundColor:'black'});
+            $('.changeinfo').html('完成');
+            $('.changeinfo').attr('data','1');
+            $('.changeinfo').css({background:"#00FFFF",color:'#000'});
+        }else {
+            // console.log(GLOBAL.zgl.comfirm());
+
+            // if (GLOBAL.zgl.comfirm() === true){
+            // }else {
+            $('.changeinfo').attr('data','0').html('修改资料');
+            $('.editinfo').hide();
+            $('.getcash').css({backgroundColor:'transparent'});
+            $('.getcash').attr('disabled','disabled');
+            $('.changeinfo').css({background:"transparent",color:'#00FFFF'});
+            // };
+
+        }
+
+    });
+
+    $('.chousebtn').click(function () {
+        $('.chousebtn').css({background: "url('/IMS/lib/svg/icon_unchouse.svg')"});
+        $(this).css({background: "url('/IMS/lib/svg/icon_chouse.svg')"})
+    })
+</script>
+<script>
+    var down = '未完工';
+</script>
+
+<?php
+    include 'foot.html';
+?>

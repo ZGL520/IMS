@@ -1,0 +1,527 @@
+.rmbcash{
+    width: 1050px;
+    height: 720px;
+    border-radius: 5px;
+    /* padding-top: 28px;
+    margin-top: 10px; */
+    margin-top: 10px;
+}
+.rmbcashlogo{
+    margin:28px 31px 0px 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.rmbcashlogoi{
+    display: block;
+    width: 23px;
+    height:23px;
+    font-size: 23px;
+    line-height: 23px;
+    background-size: contain;
+    margin: 3px 6px 0px 0px;
+}
+.rmbcashlogo>p{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+}
+.cashinfo{
+    overflow: hidden;
+}
+.rmblogo{
+    display: block;
+    width: 64px;
+    height: 33px;
+    /*background: url(/IMS/image/icon_RMB.svg)no-repeat;*/
+    font-size: 33px;
+    background-size: contain;
+    margin-right: 25px;
+}
+.savings{
+    box-sizing: border-box;
+    margin: 39px 31px 0px 49px;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    /* border-bottom: 2px solid #CBDFFF; */
+    border-bottom: 1px solid #629DFC;
+}
+.savings>p{
+    flex: 1;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    display: flex;
+    /* margin-left: 20px; */
+}
+
+.savings>p>span:nth-child(1){
+    margin-left: 25px;
+}
+.savings>p>span:nth-child(3){
+    margin-left: 25px;
+}
+.savings>p:nth-child(2)>span{
+    margin-left: 19px;
+}
+/*.savings>p:nth-child(2)>span:nth-child(2){*/
+/**/
+/*}*/
+.getcash{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /*background-color: black;*/
+    width: 180px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #00FFFF;
+    margin-left: 10px;
+    height: 28px;
+}
+.getcash::placeholder{
+    color: rgba(203, 223, 255,1);
+}
+.cashchouse{
+    box-sizing: border-box;
+    /* height: 350px; */
+    /* border-bottom: 2px solid #CBDFFF; */
+    margin: 0 31px 0px 29px;
+}
+.cashchouse>p{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 36px;
+    line-height: 28px;
+}
+.alipay{
+    box-sizing: border-box;
+    /* height: 148px; */
+    /* border-bottom: 1px solid #CBDFFF; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin: 0px 121px 0px 20px; */
+}
+.alipaylogo{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 86px; */
+    margin-left:20px ;
+    border-bottom: 1px solid #629DFC;
+}
+.alipaylogoi{
+    display: block;
+    width: 40px;
+    height: 40px;
+    /*background: url(/IMS/image/icon_zfb.svg)no-repeat;*/
+    margin-top: 39px;
+    margin-bottom: 45px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #CBDFFF;
+}
+.alipayinfo{
+    /* width: 128px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-left: 49px;
+    border-bottom: 1px solid #629DFC;
+}
+.alipayinfo>p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 44px;
+    margin-bottom: 0;
+}
+.alipayinfo>a{
+    width: 79px;
+    border: 1px solid #00FFFF;
+    font-size: 10px;
+    line-height: 23px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 24px;
+    color: #00FFFF;
+
+}
+.alipayinfo>a:hover{
+    text-decoration: none;
+}
+.alipayaccount{
+    /* width: 356px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    padding-left: 66px;
+    border-bottom: 1px solid #629DFC;
+
+}
+.alipayaccount>p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.alipayaccount>p>input{
+    font-size: 15px;
+}
+
+.alipaycode{
+    /* width: 98px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 44px;
+    border-bottom: 1px solid #629DFC;
+
+}
+.alipaycode>p{
+    font-size: 15px;
+    margin: 0;
+}
+.alipaycodeinfo{
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-left: 31px;
+    border-bottom: 1px solid #629DFC;
+    padding-right: 149px;
+    margin-top: 25px;
+}
+.alipaycodeinfo>img{
+    width: 60px;
+    height: 60px;
+    background-color: #CBDFFF;
+}
+.alipaycodeinfo>a{
+    width: 59px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height:18px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+}
+.alipaycodeinfo>a:hover{
+    text-decoration: none;
+}
+.chouseconfirm{
+    /* width: 112px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin:0px 20px 0px 71px;
+}
+.chouseconfirm>a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: #00C4FF;
+    background-color: transparent;
+    /*border: 1px solid #00C4FF;*/
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration: none;
+    margin-top: 64px;
+}
+.chouseconfirm>a:hover{
+    text-decoration: none;
+}
+
+.bankpay{
+    box-sizing: border-box;
+    /* height: 148px; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    border-bottom: 1px solid #629DFC;
+}
+.bankpaylogo{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 86px; */
+
+}
+.bankpaylogoi{
+    display: block;
+    width: 40px;
+    height: 40px;
+    /*background: url(/IMS/image/icon_bank.svg)no-repeat;*/
+    background-size: contain;
+    margin-top: 31px;
+    margin-bottom: 68px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #CBDFFF;
+}
+.bankpayinfo{
+    /* width: 128px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 49px;
+    margin-right: 88px;
+}
+.bankpayinfo>p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 39px;
+}
+.alipayinfo>p{
+    font-size: 20px;
+
+}
+.alipay .chouseconfirm>a{
+    margin-top: 45px;
+}
+.bankpayinfo>a{
+    width: 60px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+}
+.bankpayinfo>a:hover{
+    text-decoration: none;
+}
+.bankpayaccount{
+    /* width: 356px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center ; */
+    margin-right: 14px
+}
+.bankpayaccount>p{
+    font-size: 15px;
+    margin: 0;
+    height: 21px;
+
+}
+.bankpayaccount>p>input{
+    font-size: 15px;
+}
+.bankpayaccount>p:nth-child(1){
+    margin-top: 40px;
+}
+.bankpayaccount>p:nth-child(2){
+    margin-top: 19px;
+}
+.bankpaycode{
+    /* width: 298px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-right: 55px;
+}
+.bankpaycode>p{
+    font-size: 15px;
+    margin: 0;
+    height: 21px;
+}
+.bankpaycode>p>input{
+    font-size: 15px;
+}
+.bankpaycode>p:nth-child(1){
+    margin-top: 40px;
+}
+.bankpaycode>p:nth-child(2){
+    margin-top:19px;
+}
+
+.idverify{
+    margin: 0px 31px 0 29px;
+}
+.idverifytit{
+    display: flex;
+    justify-content: space-between;
+}
+.idverifytit>p{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 34px;
+    line-height: 28px;
+}
+.idverifycontent{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.idverifylogo{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 86px; */
+    margin: 22px 50px 0px 20px;
+}
+.idverifylogoi{
+    display: block;
+    width: 40px;
+    height: 31px;
+    /*background: url(/IMS/image/icon_id.svg)no-repeat;*/
+    background-size: contain;
+    font-size: 30px;
+    color: #CBDFFF;
+    line-height: 31px;
+}
+.idcard{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.idcard>p{
+    margin-top: 30px;
+    font-size: 20px;
+    height: 28px;
+    margin-right: 6px;
+}
+.idcardone{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* width: 70px; */
+    margin-top: 36px;
+    margin-right: 38px;
+}
+.idcardone>p{
+
+    font-size: 15px;
+    margin: 0;
+}
+.idcardoneinfo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* width: 270px; */
+    margin-top: 12px;
+    margin-right: 105px;
+}
+.idcardoneinfo>img{
+    width: 100px;
+    height: 60px;
+    background-color: grey;
+}
+
+.idcardoneinfo>a{
+    width:59px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.idcardoneinfo>a:hover{
+    text-decoration: none;
+}
+.idcardtwo{
+    /* width: 70px; */
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+.idverifytit .alipayinfo{
+    border: none;
+}
+.idcardtwo>p{
+    font-size: 15px;
+    margin: 36px 38px 0px  0px;
+}
+.idcardtwoinfo{
+    /* width: 218px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.idcardtwoinfo>img{
+    width: 100px;
+    height: 60px;
+    background-color: grey;
+}
+.idcardtwoinfo>a{
+    width: 60px;
+    border: 1px solid #CBDFFF;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.idcardtwoinfo>a:hover{
+    text-decoration: none;
+}
+.idverifyconfirm{
+    /* width: 112px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 182px;
+}
+.idverifyconfirm>p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 21px;
+    margin-left: 24px;
+}
+.idverifyconfirm>a{
+    display: block;
+    width: 112px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #FF5800;
+    /*border: 1px solid #00C4FF;*/
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+.idverifyconfirm>a:hover{
+    text-decoration: none;
+}
+/*.alertcontent{*/
+/*position: relative;*/
+/*}*/
+/*.closehere{*/
+/*display: block;*/
+/*width: 50px;*/
+/*height: 50px;*/
+/*text-decoration: none;*/
+/*font-size: 32px;*/
+/*line-height: 50px;*/
+/*text-align: center;*/
+/*background-color: grey;*/
+/*opacity: 0.5;*/
+/*border-radius: 25px;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/*}*/
+/*.closehere:hover{*/
+/*text-decoration: none;*/
+/*color: black !important;*/
+/*background-color: #ffffff;*/
+/*opacity: 0.5;*/
+/*}*/

@@ -1,32 +1,15 @@
-
-
 <?php
     include 'head.html';
 ?>
-<link rel="stylesheet" href="/IMS/css/ordermanage.css">
+
+<link rel="stylesheet" href="/IMS/css/paiedsearch.css">
+
+
 
 <div class="ordermanage bgchange">
-    <div class="orderseek">
-        <p class="whitecolor">订单管理</p>
-        <div class="searchmodul">
-            <div class="searchleft">
-                <p class="whitecolor"><span>订单编号</span><input type="text"></p>
-                <p class="whitecolor"><span>项目编号</span><input type="text"></p>
-                <p class="whitecolor searchstort"><span>下单日期</span><input type="text"><span>-</span><input type="text"></p>
-                <p class="whitecolor searchstort"><span>付款日期</span><input type="text"><span>-</span><input type="text"></p>
-            </div>
-            <div class="searchmid">
-                <p class="whitecolor"><span>用户名</span><input type="text"></p>
-                <p class="whitecolor"><span>手机号码</span><input type="text"></p>
-                <p class="whitecolor"><span>收件人</span><input type="text"></p>
-                <p class="whitecolor"><span>用户邮箱</span><input type="text"></p>
-            </div>
-            <div class="searchright">
-                <a class="whitecolor" href="/IMS/unpaysearch.php">未付款查询</a>
-                <a class="whitecolor" href="/IMS/paiedsearch.php">已支付查询</a>
-                <a class="whitecolor" href="javascript:">筛选</a>
-            </div>
-        </div>
+    <div class="unpayorder">
+        <a href="/IMS/ordermanage.php"><</a>
+        <p class="whitecolor">已付款订单</p>
     </div>
     <div class="orderlist">
         <table border="1">
@@ -52,7 +35,7 @@
                 <td class="whitecolor">5</td>
                 <td class="whitecolor">$8,888.88</td>
                 <td class="whitecolor">快递</td>
-                <td class="whitecolor">未支付</td>
+                <td class="whitecolor">已支付</td>
                 <td class="whitecolor"><a class="whitecolor" href="/IMS/orderdetail.php">查看</a></td>
             </tr>
             <tr>
@@ -63,7 +46,7 @@
                 <td class="whitecolor">5</td>
                 <td class="whitecolor">$8,888.88</td>
                 <td class="whitecolor">快递</td>
-                <td class="whitecolor">未支付</td>
+                <td class="whitecolor">已支付</td>
                 <td class="whitecolor"><a class="whitecolor" href="/IMS/orderdetail.php">查看</a></td>
             </tr>
             <tr>
@@ -74,7 +57,29 @@
                 <td class="whitecolor">5</td>
                 <td class="whitecolor">$8,888.88</td>
                 <td class="whitecolor">快递</td>
-                <td class="whitecolor">未支付</td>
+                <td class="whitecolor">已支付</td>
+                <td class="whitecolor"><a class="whitecolor" href="/IMS/orderdetail.php">查看</a></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="pic"></td>
+                <td class="whitecolor">#310</td>
+                <td class="whitecolor">好健康 葡萄籽55000精华 120粒</td>
+                <td class="whitecolor">cdd@qq.com</td>
+                <td class="whitecolor">5</td>
+                <td class="whitecolor">$8,888.88</td>
+                <td class="whitecolor">快递</td>
+                <td class="whitecolor">已支付</td>
+                <td class="whitecolor"><a class="whitecolor" href="/IMS/orderdetail.php">查看</a></td>
+            </tr>
+            <tr>
+                <td><img src="" alt="pic"></td>
+                <td class="whitecolor">#310</td>
+                <td class="whitecolor">好健康 葡萄籽55000精华 120粒</td>
+                <td class="whitecolor">cdd@qq.com</td>
+                <td class="whitecolor">5</td>
+                <td class="whitecolor">$8,888.88</td>
+                <td class="whitecolor">快递</td>
+                <td class="whitecolor">已支付</td>
                 <td class="whitecolor"><a class="whitecolor" href="/IMS/orderdetail.php">查看</a></td>
             </tr>
             </tbody>
@@ -113,6 +118,7 @@
         pageschange($('.pagesnum').index($(this)))
     })
 </script>
+
 <script>
     var down = '未完工';
 </script>
@@ -120,3 +126,4 @@
 <?php
     include 'foot.html';
 ?>
+

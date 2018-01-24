@@ -42,18 +42,23 @@
                     $('#bussiness').addClass('owhere');
                     $('.bussiness').show();
                     break;
+                case 'storemanage':
+                    $('#store').addClass('owhere');
+                    $('.store').show();
+                    break;
+                case 'info':
+                    $('#info').addClass('owhere');
+                    $('.info').show();
+                    break;
+                case 'help':
+                    $('#help').addClass('owhere');
+                    $('.help').show();
+                    break;
                 default:
                     $('#home').addClass('owhere');
                     break;
             }
-            // if(aaaa){
-            //     if(aaaa==='cashmanage'){
-            //         $('#rich').addClass('owhere');
-            //         $('.richmanagenav').show();
-            //     }
-            // }else{
-            //     $('#home').addClass('owhere');
-            // }
+
             initbgc();
         }
     </script>
@@ -140,11 +145,11 @@
                         <!--<a href="/IMS/storecash.php">店铺提现</a>-->
                         <ul>
                           <li><a class="whitecolor bossrichitem" href="/IMS/storecash.php">财富首页</a></li>
-                            <li><a class="whitecolor bossrichitem" href="/IMS/rmbcash.php">人民币提现</a></li>
-                            <li><a class="whitecolor bossrichitem" href="/IMS/aucash.php">澳币提现</a></li>
-                            <li><a class="whitecolor bossrichitem" href="/IMS/ratedetail.php">利润详情</a></li>
-                            <li><a class="whitecolor bossrichitem" href="/IMS/monetarytransactions.php">提现记录</a></li>
-                            <li><a class="whitecolor bossrichitem" href="/IMS/cashrecord.php">钱包流水账</a></li>
+                            <li><a class="whitecolor bossrichitem" href="/IMS/staffrmbcash.php">人民币提现</a></li>
+                            <li><a class="whitecolor bossrichitem" href="/IMS/staffaucash.php">澳币提现</a></li>
+                            <li><a class="whitecolor bossrichitem" href="/IMS/staffratedetail.php">利润详情</a></li>
+                            <li><a class="whitecolor bossrichitem" href="/IMS/staffmonetarytransactions.php">提现记录</a></li>
+                            <li><a class="whitecolor bossrichitem" href="/IMS/staffcashrecode.php">钱包流水账</a></li>
                         </ul>
                     </div>
                 </div>
@@ -175,13 +180,43 @@
                     </div>
                 </div>
                 <div class="store contentnavitem">
-                    <p>店铺管理</p>
+                    <div class="storerich">
+                        <p>店铺设置</p>
+                        <ul>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">基本设置</a></li>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">模板管理</a></li>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">安全选项</a></li>
+                        </ul>
+                    </div>
+                    <div class="storerich">
+                        <p>员工管理</p>
+                        <ul>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">员工列表</a></li>
+                        </ul>
+                    </div>
+                    <div class="storerich">
+                        <p>我的店铺</p>
+                        <ul>
+                        </ul>
+                    </div>
                 </div>
                 <div class="info contentnavitem">
-                    <p>信息中心</p>
+                    <div class="storerich">
+                        <p>信息管理</p>
+                        <ul>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">信息系统</a></li>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">我的通知</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="help contentnavitem">
-                    <p>帮助中心</p>
+                    <div class="storerich">
+                        <p>帮助中心</p>
+                        <ul>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">操作系统</a></li>
+                            <li><a class="whitecolor bossrichitem" href="javascript:">提现操作</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

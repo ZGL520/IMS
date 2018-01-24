@@ -1,0 +1,183 @@
+<?php
+    include 'head.html';
+?>
+<link rel="stylesheet" href="/IMS/css/staffcashrecode.css">
+
+
+<div class="cashrecorde bgchange">
+    <p class="cashrecordetit">钱包流水账</p>
+    <div class="cashrecordelist">
+        <table class="recordelist">
+            <thead>
+            <tr>
+                <td>日期</td>
+                <td>分类</td>
+                <td>来源名称</td>
+                <td>存入</td>
+                <td>支出</td>
+                <td>详情</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td></td>
+                <td>$8,888.88</td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td></td>
+                <td>$8,888.88</td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td></td>
+                <td>$8,888.88</td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td></td>
+                <td>$8,888.88</td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td></td>
+                <td>$8,888.88</td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td>$8,888.88</td>
+                <td></td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            <tr>
+                <td>2017-11-11 8:00</td>
+                <td>订单</td>
+                <td>Ord157700000147</td>
+                <td></td>
+                <td>$8,888.88</td>
+                <td><a href="javascript:">查看</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="pages">
+        <a href="javascript:">上一页</a>
+
+        <ul class="pagesitem">
+            <li><a class="pagesnum" href="javascript:">1</a></li>
+            <li><a class="pagesnum" href="javascript:">2</a></li>
+            <li><a class="pagesnum" href="javascript:">3</a></li>
+            <li><a class="pagesnum" href="javascript:">4</a></li>
+            <li><a class="pagesnum" href="javascript:">5</a></li>
+            <li><a class="pagesnum" href="javascript:">6</a></li>
+        </ul>
+        <a href="javascript:">下一页</a>
+        <p>共6页</p>
+    </div>
+</div>
+
+
+<script>
+    //分页选项背景色初始化
+    $('.pagesnum')[0].style.backgroundColor = '#777F91';
+
+    //点击分页背景色变化
+    const pageschange = function (data) {
+        $('.pagesnum').css({backgroundColor : 'inherit'});
+        $('.pagesnum')[data].style.backgroundColor = '#777F91';
+    };
+
+
+    //分页点击事件
+    $('.pagesnum').click(function () {
+        pageschange($('.pagesnum').index($(this)))
+    })
+</script>
+<script>
+    var down = '未完工';
+</script>
+<?php
+    include 'foot.html';
+?>

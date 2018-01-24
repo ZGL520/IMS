@@ -2,8 +2,9 @@
 /**
  * Created by PhpStorm.
  * User: yilite
- * Date: 2017/12/28
- * Time: 下午4:05
+ * Date: 2018/1/24
+ * Time: 上午10:44
  */
+
 $val = 'cashmanage';
-include "html/storecash.html";
+include "html/staffaucash.html";
