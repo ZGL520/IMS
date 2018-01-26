@@ -334,6 +334,10 @@
 .fkother>a:nth-child(1){
   margin-bottom: 8px;
 }
+.fkother>a:hover{
+  color: #00FFFF !important;
+
+}
 .storesetview{
     flex: 1;
 }
@@ -376,6 +380,8 @@
 }
 .setrate:hover{
     text-decoration: none;
+    border: 1px solid #00FFFF;
+    color: #00FFFF !important;
 }
 
 .managefoot{
@@ -485,4 +491,7 @@
 }
 .workermanage>a:hover{
     text-decoration: none;
+}
+.workermanage span:hover{
+    color:#00FFFF !important;
 }

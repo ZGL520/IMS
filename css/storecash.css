@@ -200,3 +200,6 @@
 .datadetaillist>tbody>tr>td>a{
     text-decoration: none;
 }
+.datadetaillist>tbody>tr>td>a:hover{
+  color: #00FFFF !important;
+}

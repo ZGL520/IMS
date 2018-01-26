@@ -189,6 +189,7 @@
     width: 100%;
     border: solid 1px #98C0FF;
 }
+
 .datadetaillist>thead>tr>td{
     font-size: 15px;
     line-height: 37px;
@@ -199,4 +200,7 @@
 }
 .datadetaillist>tbody>tr>td>a{
     text-decoration: none;
+}
+.datadetaillist>tbody>tr>td>a:hover{
+  color: #00FFFF !important;
 }

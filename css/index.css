@@ -30,7 +30,7 @@ a:hover{
     /*flex-direction: column;*/
     /*justify-content: center;*/
     /*align-items: center;*/
-    font-family: "微软雅黑";
+    font-family: "PingFang SC",serif;
     font-weight: lighter;
 }
 .box{
@@ -306,7 +306,7 @@ a:hover{
     border:solid #98C0FF 1px;
     border-radius: 15px;
     text-align: center;
-    line-height: 30px;
+    line-height: 28px;
 }
 .userexit>a:hover{
     text-decoration: inherit;
@@ -457,7 +457,7 @@ a:hover{
     height: 36px;
     background-color: #111822;
     font-size: 16px;
-    line-height: 36px;
+    line-height: 33px;
     text-align: center;
     margin: 0 auto;
     border-radius: 18px;
@@ -469,12 +469,12 @@ a:hover{
 }
 .backhome>a:nth-child(1){
     color: #FF5800;
-    border: 1px solid #FF5800;
+    border: 2px solid #FF5800;
     margin-left: 162px;
 }
 .backhome>a:nth-child(2){
     color: #629DFC;
-    border: 1px solid #629DFC;
+    border:2px solid #629DFC;
     margin-right: 162px;
 }
 .pages{

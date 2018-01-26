@@ -221,7 +221,7 @@ margin-left: 155px;
 .idverifylogo{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 86px;
 }
@@ -232,7 +232,7 @@ margin-left: 155px;
     width: 144px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 .idcard>p{
