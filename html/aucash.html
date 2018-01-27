@@ -11,11 +11,11 @@
         <div class="savings">
             <p class="whitecolor">
                 <i class="savingsi icon iconfont icon_AUD"></i>
-                <span>可提现财富：<i class="fa fa-question-circle-o whitecolor savingsii"></i></span>
+                <span>可提现财富：<i class="fa fa-question-circle-o whitecolor savingsii bosscashtit"></i></span>
                 <span>$88,888.88</span>
             </p>
             <p class="whitecolor">
-                <span>提现金额：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <span>提现金额：<i class="fa fa-question-circle-o whitecolor bosscashnum"></i></span>
                 <!--<span></span>-->
                 <input class="getcash whitecolor"  disabled="disabled" type="text" placeholder="000000">
             </p>
@@ -62,7 +62,7 @@
                 <i class="icon iconfont icon-icon_id whitecolor"></i>
             </div>
             <div class="idcard">
-                <p class="whitecolor">ID<i class="fa fa-question-circle-o whitecolor"></i></p>
+                <p class="whitecolor">ID<i class="fa fa-question-circle-o whitecolor bosscashid"></i></p>
             </div>
             <div class="idcardone">
                 <p class="whitecolor">正面</p>
@@ -260,6 +260,54 @@
         }
 
     });
+
+
+    const tits = function (tit) {
+        const span = document.createElement('span');
+        span.className = 'thisisspan';
+        const getnum = function(e) {
+            e = e || window.event;
+            var x = e.clientX || (e.clientX +
+                (document.documentElement.scrollLeft
+                    || document.body.scrollLeft));
+            var y= e.clientY || (e.clientY +
+                (document.documentElement.scrollTop
+                    || document.body.scrollTop));
+            return {'x':x,'y':y};
+        };
+
+        $(span).css({
+            display:'block',
+            position:'fixed',
+            top:getnum().y-30+'px',
+            left:getnum().x+20+'px',
+            backgroundColor:'white',
+            fontSize:'14px',
+            color:'black',
+            textAlign:'center',
+            padding:'3px 5px'
+        });
+        $(span).html(tit);
+        $(body).append(span);
+    };
+
+    $('.bosscashtit').mouseover(function () {
+        tits('可提现金额')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    })
+    $('.bosscashnum').mouseover(function () {
+        tits('提现金额')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    })
+    $('.bosscashid').mouseover(function () {
+        tits('ID')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    })
+
+
 </script>
 <script>
     var down = '已完工';

@@ -56,18 +56,18 @@
                         <p class="whitecolor">
                             利润比率：<span>10%</span>
                         </p>
-                        <a class="setrate whitecolor" href="javascript:">设置</a>
+                        <a class="setrate whitecolor" href="/IMS/rateset.php">设置</a>
                     </div>
                     <p class="whitecolor">$965,98</p>
 
 
                 </div>
                 <div class="getrmb">
-                    <a class="whitecolor" href="/IMS/rmbcash.php" >
+                    <a class="whitecolor" href="/IMS/staffrmbcash.php" >
                         <!--<embed src="/IMS/lib/font/svg/rm_button.svg" type="">-->
                         <img src="/IMS/lib/svg/rm_button.svg" alt="">
                     </a>
-                    <a class="whitecolor" href="/IMS/aucash.php">
+                    <a class="whitecolor" href="/IMS/staffaucash.php">
                         <!--<embed src="/IMS/lib/font/svg/au_button.svg" type="">-->
                         <img src="/IMS/lib/svg/au_button.svg" alt="">
                     </a>
@@ -84,8 +84,8 @@
                     <div class="orderssearch">
                         <input class="whitecolor" type="text" placeholder="订单编号/关键词">
                         <a class="search  icon iconfont icon-research" href="/IMS/ordermanage.php"><i></i></a>
-                        <a class="paiedcheck whitecolor" href="/IMS/paiedsearch.php">已支付查询</a>
-                        <a class="unpay whitecolor" href="/IMS/paiedsearch.php">未支付查询</a>
+                        <a class="paiedcheck whitecolor" href="/IMS/paiedsearch.php">已付款查询</a>
+                        <a class="unpay whitecolor" href="/IMS/unpaysearch.php">未付款查询</a>
                     </div>
                 </div>
                 <div class="latestgoods">
@@ -147,8 +147,8 @@
                             <p class="whitecolor"><span>邮箱:</span><span>cdd@gmail.com</span></p>
                         </div>
                         <div class="fkother">
-                            <a class="whitecolor"  href="javascript:">账单管理</a>
-                            <a class="whitecolor" href="javascript:">我的店铺</a>
+                            <a class="whitecolor bosscashtit"  href="javascript:">账单管理</a>
+                            <a class="whitecolor bosscashnum" href="javascript:">我的店铺</a>
                         </div>
 
                     </div>
@@ -218,6 +218,48 @@
 
 <script>
     var down = '已完工';
+</script>
+
+<script>
+    const tits = function (tit) {
+        const span = document.createElement('span');
+        span.className = 'thisisspan';
+        const getnum = function(e) {
+            e = e || window.event;
+            var x = e.clientX || (e.clientX +
+                (document.documentElement.scrollLeft
+                    || document.body.scrollLeft));
+            var y= e.clientY || (e.clientY +
+                (document.documentElement.scrollTop
+                    || document.body.scrollTop));
+            return {'x':x,'y':y};
+        };
+
+        $(span).css({
+            display:'block',
+            position:'fixed',
+            top:getnum().y-30+'px',
+            left:getnum().x+20+'px',
+            backgroundColor:'white',
+            fontSize:'14px',
+            color:'black',
+            textAlign:'center',
+            padding:'3px 5px'
+        });
+        $(span).html(tit);
+        $(body).append(span);
+    };
+
+    $('.bosscashtit').mouseover(function () {
+        tits('前往到我的账单')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    });
+    $('.bosscashnum').mouseover(function () {
+        tits('前往到我的店铺')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    });
 </script>
 
 <!--<script src="/IMS/js/bgcdealwith.js"></script>-->

@@ -12,11 +12,11 @@
         <div class="savings">
             <p class="whitecolor">
                 <i class="rmblogo icon iconfont icon-icon_RMB"></i>
-                <span>可提现财富：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <span>可提现财富：<i class="fa fa-question-circle-o whitecolor bosscashtit"></i></span>
                 <span>￥88,888.88</span>
             </p>
             <p class="whitecolor">
-                <span>提现金额：<i class="fa fa-question-circle-o whitecolor"></i></span>
+                <span>提现金额：<i class="fa fa-question-circle-o whitecolor bosscashnum"></i></span>
                 <input class="getcash" type="text" placeholder="000000" disabled="disabled">
                 <!--<span>$123414114</span>-->
             </p>
@@ -81,7 +81,7 @@
                 <i class="idverifylogoi icon iconfont icon-icon_id"></i>
             </div>
             <div class="idcard">
-                <p class="whitecolor">身份证<i class="fa fa-question-circle-o whitecolor"></i></p>
+                <p class="whitecolor">身份证<i class="fa fa-question-circle-o whitecolor bosscashid"></i></p>
 
             </div>
             <div class="idcardone">
@@ -272,6 +272,52 @@
     $('.chousebtn').click(function () {
         $('.chousebtn').css({background: "url('/IMS/lib/svg/icon_unchouse.svg')"});
         $(this).css({background: "url('/IMS/lib/svg/icon_chouse.svg')"})
+    })
+
+
+    const tits = function (tit) {
+        const span = document.createElement('span');
+        span.className = 'thisisspan';
+        const getnum = function(e) {
+            e = e || window.event;
+            var x = e.clientX || (e.clientX +
+                (document.documentElement.scrollLeft
+                    || document.body.scrollLeft));
+            var y= e.clientY || (e.clientY +
+                (document.documentElement.scrollTop
+                    || document.body.scrollTop));
+            return {'x':x,'y':y};
+        };
+
+        $(span).css({
+            display:'block',
+            position:'fixed',
+            top:getnum().y-30+'px',
+            left:getnum().x+20+'px',
+            backgroundColor:'white',
+            fontSize:'14px',
+            color:'black',
+            textAlign:'center',
+            padding:'3px 5px'
+        });
+        $(span).html(tit);
+        $(body).append(span);
+    };
+
+    $('.bosscashtit').mouseover(function () {
+        tits('可提现金额')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    });
+    $('.bosscashnum').mouseover(function () {
+        tits('提现金额')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    });
+    $('.bosscashid').mouseover(function () {
+        tits('身份证')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
     })
 </script>
 <script>

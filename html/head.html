@@ -18,6 +18,44 @@
     <script>
         $(function(){
             selectHeadline();
+            // $('.navitem').mouseout(function () {
+            //     selectHeadline();
+            // })
+            // $('.navitem').mouseout(function () {
+            //
+            //     const backurl = "<?=$val?>";
+                // switch (backurl) {
+                //     case 'cashmanage':
+                //         $('.navitem').removeClass('owhere');
+                //         $('#rich').addClass('owhere');
+                //         $('.richmanagenav').show();
+                //         break;
+                //     case 'businessnamage':
+                //         $('.navitem').removeClass('owhere');
+                //         $('#bussiness').addClass('owhere');
+                //         $('.bussiness').show();
+                //         break;
+                //     case 'storemanage':
+                //         $('.navitem').removeClass('owhere');
+                //         $('#store').addClass('owhere');
+                //         $('.store').show();
+                //         break;
+                //     case 'info':
+                //         $('.navitem').removeClass('owhere');
+                //         $('#info').addClass('owhere');
+                //         $('.info').show();
+                //         break;
+                //     case 'help':
+                //         $('.navitem').removeClass('owhere');
+                //         $('#help').addClass('owhere');
+                //         $('.help').show();
+                //         break;
+                //     default:
+                //         $('.navitem').removeClass('owhere');
+                //         $('#home').addClass('owhere');
+                //         break;
+                // }
+            // })
         });
 
         function selectHeadline(){
@@ -35,33 +73,40 @@
             var aaaa="<?=$val?>";
             switch (aaaa){
                 case 'cashmanage':
+                    $('.navitem').removeClass('owhere');
                     $('#rich').addClass('owhere');
                     $('.richmanagenav').show();
                     break;
                 case 'businessnamage':
+                    $('.navitem').removeClass('owhere');
                     $('#bussiness').addClass('owhere');
                     $('.bussiness').show();
                     break;
                 case 'storemanage':
+                    $('.navitem').removeClass('owhere');
                     $('#store').addClass('owhere');
                     $('.store').show();
                     break;
                 case 'info':
+                    $('.navitem').removeClass('owhere');
                     $('#info').addClass('owhere');
                     $('.info').show();
                     break;
                 case 'help':
+                    $('.navitem').removeClass('owhere');
                     $('#help').addClass('owhere');
                     $('.help').show();
                     break;
                 default:
+                    $('.navitem').removeClass('owhere');
                     $('#home').addClass('owhere');
                     break;
             }
 
             initbgc();
         }
-        
+
+
     </script>
 </head>
 <body class="body" id="body">
@@ -129,7 +174,8 @@
                     <!--<a class="whitecolor" href="/IMS/index.php">首页</a>-->
                 </div>
                 <div class="richmanagenav contentnavitem">
-                    <div class="bossrich">
+                    <!--<div class="bossrich">-->
+                    <div class="storerich">
                         <p>老板财富</p>
                         <!--<a href="/IMS/bosscash.php">老板提现</a>-->
                         <ul>
@@ -246,7 +292,7 @@
                     </i>
                     <span class="whitecolor">消息</span>
                 </a> -->
-                <a class="agentset" href="javascript:">
+                <a class="agentset" href="/IMS/baseset.php">
                     <i class="icon iconfont icon-setting whitecolor"></i>
                     <span class="whitecolor">店铺设置</span>
                 </a>

@@ -4,7 +4,18 @@
     margin-top: 10px;
     padding-top: 14px;
     border-radius: 5px;
-    overflow: scroll;
+    /*overflow: scroll !important;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*scrolling:scroll;*/
+
+}
+.orderdetail::-webkit-scrollbar-track{
+    width: 13px;
+    background-color: #0072C6;
+}
+.orderdetail::-webkit-scrollbar-thumb{
+    background: #6AA3FF;
 }
 .back{
     display: flex;
@@ -64,7 +75,7 @@
 }
 .orderrecordtopitem>p>span:nth-child(2){
     margin-left: 15px;
-    color: #98C0FF;
+    /*color: #98C0FF;*/
 }
 .orderrecorddown{
     display: flex;
@@ -102,11 +113,12 @@
     border-radius: 5px;
     margin-top: 47px;
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 .sailtictit{
     display: flex;
     justify-content: space-between;
-    margin: 20px 19px 0 19px;
+    margin: 0px 19px 0 19px;
 }
 .sailtictit>p{
     margin: 0;

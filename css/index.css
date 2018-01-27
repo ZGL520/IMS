@@ -10,7 +10,7 @@ body{
     padding: 0;
     font-family: "PingFang SC",serif;
     font-weight: lighter;
-    letter-spacing:0px;
+    letter-spacing:0;
 }
 input::placeholder{
     color: rgba(203, 223, 255,1);
