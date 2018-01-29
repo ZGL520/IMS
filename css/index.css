@@ -291,7 +291,7 @@ p{
 }
 .agentset:hover{
     text-decoration: none;
-    color: white;
+    color: #00FFFF !important;
 }
 .userexit{
     display: flex;
@@ -313,7 +313,8 @@ p{
 }
 .userexit>a:hover{
     text-decoration: inherit;
-    color: white;
+    color: #00FFFF !important;
+    border: solid #00FFFF 1px;
 }
 .agentexit>p{
     font-size: 12px;

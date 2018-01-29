@@ -137,18 +137,18 @@
     margin-left: 14px;
 }
 .sailtab{
-    border: 1px solid #98C0FF;
+    border: 1px solid #629DFC;
     margin: 12px 19px;
     width: 1010px;
 }
 .sailtab>thead td{
-    border: 1px solid #98C0FF;
+    border: 1px solid #629DFC;
     text-align: center;
     font-size: 15px;
     line-height: 40px;
 }
 .sailtab>tbody td{
-    border: 1px solid #98C0FF;
+    border: 1px solid #629DFC;
     text-align: center;
     font-size: 12px;
     line-height: 31px;
