@@ -1,0 +1,45 @@
+.rateset{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 1050px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ratesetitem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ratesetitem>p{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.ratesetitem>p>input{
+    width: 138px;
+    outline: none;
+    line-height: 25px;
+    background:transparent;
+    border:none;
+    color: #00FFFF !important;
+}
+.ratesetitem>p>input::placeholder{
+    color: #00FFFF;
+}
+.ratesetitem>a{
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #00FFFF;
+    color: #00FFFF;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 47px;
+}

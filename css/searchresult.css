@@ -29,10 +29,10 @@
 }
 .orderlist>table{
     width: 100%;
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
 }
 .orderlist>table tr td{
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
 }
 .orderlist>table>thead>tr>td{
     font-size: 15px;
@@ -43,18 +43,24 @@
 .orderlist>table>tbody>tr>td{
     font-size: 12px;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
-.orderlist>table>tbody>tr>td>img{
-    display: block;
-    width: 70px;
-    height: 80px;
-    background-color: #ffffff;
-    margin: 10px auto;
-}
+/*.orderlist>table>tbody>tr>td>img{*/
+    /*display: block;*/
+    /*width: 70px;*/
+    /*height: 80px;*/
+    /*background-color: #ffffff;*/
+    /*margin: 10px auto;*/
+/*}*/
 .orderlist>table>tbody>tr>td>a{
     text-decoration: none;
-    color: #00FFFF;
+    /*color: #00FFFF;*/
+}
+.orderlist>table>tbody>tr>td>a:hover{
+    text-decoration: none;
+    color: #00FFFF !important;
 }
 
 .pages{

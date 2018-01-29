@@ -319,7 +319,8 @@ margin-left: 155px;
     width: 112px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
+    /*margin-top: 15px;*/
 }
 .idverifyconfirm>p{
     font-size: 15px;

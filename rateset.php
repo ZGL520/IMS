@@ -6,6 +6,6 @@
  * Time: 下午3:18
  */
 
-$val = 'cashmanage';
+$val = 'storemanage';
 
 include 'html/rateset.html';

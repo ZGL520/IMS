@@ -4,7 +4,41 @@
 <link rel="stylesheet" href="/IMS/css/safeset.css">
 
 
-<p class="whitecolor">安全设置</p>
+<div class="safeset bgchange">
+    <p class="logininfo whitecolor">登录信息</p>
+    <div class="safesetcontent">
+        <p class="whitecolor"><span>用户名</span><span>CDD</span></p>
+        <div class="pswchange">
+            <p class="whitecolor"><span>修改密码</span><input disabled type="password" placeholder="***********"></p>
+            <p class="whitecolor"><span>确认密码</span><input disabled type="password" placeholder="***********"></p>
+        </div>
+    </div>
+    <div class="changecom">
+        <a class="changebtn" href="javascript:" status="0">修改密码</a>
+    </div>
+</div>
+
+<script>
+    $('.changebtn').click(function () {
+        if (Number($('.changebtn').attr('status')) === 0 ){
+            $('.pswchange').find('input').removeAttr('disabled').css({
+                background:'black'
+            });
+            $('.changebtn').attr('status',1).css({
+                background:'#00FFFF',
+                color:'black'
+            }).html('完成修改')
+        }else {
+            $('.pswchange').find('input').attr('disabled','disabled').css({
+                background:'none'
+            });
+            $('.changebtn').attr('status',0).css({
+                background:'none',
+                color:'#00FFFF'
+            }).html('修改密码')
+        }
+    })
+</script>
 
 <script>
     var down = '未完工';

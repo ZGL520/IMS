@@ -55,9 +55,10 @@
 }
 .packagelist>table{
     width: 100%;
+    border: solid 1px #629DFC;
 }
 .packagelist>table tr td{
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
     text-align: center;
 }
 .packagelist>table>thead>tr>td{
@@ -71,10 +72,11 @@
 .packagelist>table>tbody>tr>td>a{
     font-size: 12px;
     text-decoration: none;
-    color: #00FFFF;
+    /*color: #00FFFF;*/
 }
-.packagelist>table>thead>tr>td>a:hover{
+.packagelist>table>tbody>tr>td>a:hover{
     text-decoration: none;
+    color: #00FFFF !important;
 }
 
 

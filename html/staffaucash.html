@@ -102,11 +102,7 @@
 </div>
 
 <script>
-    // $('.getcash').focus(function () {
-    //     $(this).css({backgroundColor:'black'})
-    // }).blur(function () {
-    //     $('.getcash').css({backgroundColor:'transparent'})
-    // })
+
 
 
 
@@ -168,21 +164,6 @@
             marginBottom:20+'px'
         });
 
-        // $(no).html('取消');
-        // no.className = 'no';
-        // $(no).attr('href','javascript:;');
-        // $(no).css({
-        //     display:'block',
-        //     textDecoration:'none',
-        //     backgroundColor:'red',
-        //     height:40+'px',
-        //     borderRadius:20+'px',
-        //     width:'80%',
-        //     textAlign:'center',
-        //     fontSize:24+'px',
-        //     lineHeight:40+"px",
-        //     color:'#ffffff',
-        // });
         $('body').before(shadow);
 
         shadow.append(pp);
@@ -205,15 +186,7 @@
         console.log(val);
         return val
     };
-    // $('.sub').click(function () {
-    // if (sub(subback,null) === true) {
-    //
-    // };
-    //     $('.alertcomf').css({display:'flex'});
-    // });
-    // $('.backtohome').click(function () {
-    //     $('.alertcomf').css({display:'none'});
-    // });
+
 
     $('.sub').click(function () {
         $('.alertcomf').css({display:'flex'});
@@ -262,34 +235,7 @@
     });
 
 
-    // const tits = function (tit) {
-    //     const span = document.createElement('span');
-    //     span.className = 'thisisspan';
-    //     const getnum = function(e) {
-    //         e = e || window.event;
-    //         var x = e.clientX || (e.clientX +
-    //             (document.documentElement.scrollLeft
-    //                 || document.body.scrollLeft));
-    //         var y= e.clientY || (e.clientY +
-    //             (document.documentElement.scrollTop
-    //                 || document.body.scrollTop));
-    //         return {'x':x,'y':y};
-    //     };
-    //
-    //     $(span).css({
-    //         display:'block',
-    //         position:'fixed',
-    //         top:getnum().y-30+'px',
-    //         left:getnum().x+20+'px',
-    //         backgroundColor:'white',
-    //         fontSize:'14px',
-    //         color:'black',
-    //         textAlign:'center',
-    //         padding:'3px 5px'
-    //     });
-    //     $(span).html(tit);
-    //     $(body).append(span);
-    // };
+
 
     $('.bosscashtit').mouseover(function () {
         tits('可提现金额')

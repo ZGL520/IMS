@@ -32,6 +32,8 @@
     width: 220px;
     background-color: transparent;
     margin-left: 10px;
+    outline:none;
+    color: #CBDFFF;
 }
 .searchleft>.searchstort>input{
     width: 103px;
@@ -60,6 +62,8 @@
     width: 220px;
     background-color: transparent;
     margin-left: 10px;
+    outline: none;
+    color:#CBDFFF;
 }
 .searchright{
     width: 270px;
@@ -83,16 +87,18 @@
 }
 .searchright>a:hover{
     text-decoration: none;
+    color: #00FFFF !important;
+    border: 1px solid #00FFFF;
 }
 .orderlist{
     margin: 20px;
 }
 .orderlist>table{
     width: 100%;
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
 }
 .orderlist>table tr td{
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
 }
 .orderlist>table>thead>tr>td{
     font-size: 15px;
@@ -110,17 +116,22 @@
     /*justify-content: center;*/
     /*flex-direction: column;*/
     /*align-items: center;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
-.orderlist>table>tbody>tr>td>img{
-    display: block;
-    width: 70px;
-    height: 80px;
-    background-color: #ffffff;
-    margin: 10px auto;
-}
+/*.orderlist>table>tbody>tr>td>img{*/
+    /*display: block;*/
+    /*width: 70px;*/
+    /*height: 80px;*/
+    /*background-color: #ffffff;*/
+    /*margin: 10px auto;*/
+/*}*/
 .orderlist>table>tbody>tr>td>a{
     text-decoration: none;
-
+}
+.orderlist>table>tbody>tr>td>a:hover{
+    color: #00FFFF !important;
 }
 
 .pages{

@@ -1,0 +1,75 @@
+.safeset{
+    width: 1050px;
+    height: 720px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.logininfo{
+    font-size: 20px;
+    margin: 0 19px;
+}
+.safesetcontent{
+    margin: 22px 50px 46px 50px;
+}
+.safesetcontent>p>span:nth-child(1){
+    display: inline-block;
+    width: 105px;
+    font-size: 15px;
+}
+.safesetcontent>p>span:nth-child(1){
+    font-size: 15px;
+}
+.safesetcontent>p>span:nth-child(2){
+    color: #00FFFF;
+}
+.pswchange{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 42px;
+}
+.pswchange>p{
+    font-size: 15px;
+}
+.pswchange>p>span:nth-child(1){
+    display: inline-block;
+    width: 105px;
+}
+.pswchange>p>input{
+    width: 137px;
+    outline:none;
+    border: none;
+    background:transparent;
+    color:#00FFFF;
+    border-bottom: 1px solid #95989A;
+    text-align: center;
+}
+.pswchange>p>input::placeholder{
+    color: #00FFFF  ;
+}
+.pswchange>p:nth-child(2){
+    margin-left: 88px;
+}
+.changecom{
+    margin-top: 26px;
+    height: 24px;
+    text-align: right;
+    margin-right: 50px;
+}
+.changebtn{
+    display: inline-block;
+    width: 80px;
+    height: 24px;
+    border-radius: 12px;
+    border: 1px solid #00FFFF;
+    line-height: 24px;
+    text-align: center;
+    background:transparent;
+    color: #00FFFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+.changebtn:hover{
+    text-decoration: none;
+    color: #00FFFF;
+}

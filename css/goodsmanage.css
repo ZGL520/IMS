@@ -45,7 +45,7 @@
 }
 .goodstabels>table{
     width: 100%;
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
 }
 .goodstabels>table>thead>tr>td{
     /*border: inherit;*/
@@ -56,13 +56,18 @@
     /*border: inherit;*/
     font-size: 12px;
 }
+.goodstabels>table>tbody>tr>td:nth-child(2){
+    /*max-width: 120px !important;*/
+    width: 120px;
+}
 .goodstabels>table>tbody>tr>td>img{
+    display: inline-block;
     width: 80px;
     height: 80px;
     margin: 10px;
 }
 .goodstabels>table tr td{
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
 }
 
 .pages{

@@ -1,0 +1,40 @@
+.baseset{
+    width: 1050px;
+    height: 720px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.basesettit{
+    height: 28px;
+    margin: 0 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basesettit>p{
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+.basesettit>p>span{
+    color: #00FFFF;
+}
+.basesettit>a{
+    display: inline-block;
+    text-decoration: none;
+    width: 79px;
+    height: 24px;
+    border: solid 1px #00FFFF;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 12px;
+    color: #00FFFF;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.basesettit>a:hover{
+    text-decoration: none;
+    line-height: 24px;
+}

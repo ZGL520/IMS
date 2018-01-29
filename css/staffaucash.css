@@ -221,7 +221,7 @@
 .idverifylogo{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     width: 86px;
 }
@@ -232,8 +232,9 @@
     width: 144px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
+    margin-top: 15px;
 }
 .idcard>p{
     font-size: 20px;
@@ -245,8 +246,9 @@
 .idcardone{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 70px;
+    margin-top: 15px;
 }
 .idcardone>p{
     font-size: 15px;
@@ -255,7 +257,7 @@
 .idcardoneinfo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 270px;
 }
 .idcardoneinfo>img{
@@ -280,8 +282,9 @@
 .idcardtwo{
     width: 70px;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-direction: column;
+    margin-top: 15px;
 }
 .idcardtwo>p{
     font-size: 15px;
@@ -291,7 +294,7 @@
     width: 218px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 .idcardtwoinfo>img{
     width: 100px;
@@ -316,7 +319,7 @@
     width: 112px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 .idverifyconfirm>p{
     font-size: 15px;

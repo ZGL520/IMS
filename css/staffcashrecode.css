@@ -50,6 +50,10 @@
     padding: 10px;
     text-decoration: none;
 }
+.recordelist>tbody>tr>td>a:hover{
+    text-decoration: none;
+    color: #00FFFF !important;
+}
 
 .pages{
     margin: 0 20px;

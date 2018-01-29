@@ -153,8 +153,11 @@
     margin: 0 20px 0 20px;
 }
 .datadetaillist{
-    border: solid 1px #98C0FF;
+    border: solid 1px #629DFC;
     width: 100%;
+}
+.datadetaillist tr td {
+    border: solid 1px #629DFC;
 }
 .datadetaillist>thead>tr>td{
     font-size: 15px;
@@ -167,6 +170,11 @@
 .datadetaillist>tbody>tr>td>a{
     text-decoration: none;
     margin: 0 10px;
+}
+.datadetaillist>tbody>tr>td>a:hover{
+    text-decoration: none;
+    margin: 0 10px;
+    color: #00FFFF !important;
 }
 .pages{
     margin: 0 20px;

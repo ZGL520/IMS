@@ -69,9 +69,10 @@
 }
 .packagelist>table{
     width: 100%;
+    border: solid 1px #629DFC;
 }
 .packagelist>table tr td{
-    border: 1px solid #98C0FF;
+    border: solid 1px #629DFC;
     text-align: center;
 }
 .packagelist>table>thead>tr>td{

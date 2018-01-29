@@ -4,8 +4,38 @@
 <link rel="stylesheet" href="/IMS/css/rateset.css">
 
 
-<p class="whitecolor">利润比例设置</p>
+<div class="rateset bgchange">
+    <div class="ratesetitem">
+        <p class="whitecolor">
+            <span>店铺利润比率:</span>
+            <input disabled="disabled" type="text" placeholder="10%">
+        </p>
+        <a class="changerate" href="javascript:" status=0>修改比例</a>
+    </div>
+</div>
 
+<script>
+    $('.changerate').click(function () {
+        if (Number($('.changerate').attr('status')) === 0){
+            $('.ratesetitem').find('input').css({
+                background:'black'
+            }).removeAttr('disabled');
+            $('.changerate').attr('status',1).html('完成修改').css({
+                background:'#00FFFF',
+                color:'#052F2F'
+            });
+        }else {
+            $('.ratesetitem').find('input').css({
+                background:'none',
+            }).attr('disabled','disabled');
+
+            $('.changerate').attr({'status':0}).html('修改比例').css({
+                background:'transparent',
+                color:'#00FFFF'
+            });
+        }
+    })
+</script>
 <script>
     var down = '未完工';
 </script>
