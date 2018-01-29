@@ -171,6 +171,10 @@
     text-decoration: none;
     margin: 0 10px;
 }
+
+.datadetaillist>tbody>tr>td>a:hover{
+    color: #00FFFF !important;
+}
 .pages{
     margin: 0 20px;
     margin-top: 50px;

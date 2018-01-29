@@ -46,11 +46,13 @@
 .recordelist>tbody>tr>td>a{
     font-size: 12px;
     line-height: 17px;
-    color: #00FFFF;
+    /*color: #00FFFF;*/
     padding: 10px;
     text-decoration: none;
 }
-
+.recordelist>tbody>tr>td>a:hover{
+    color: #00FFFF !important;
+}
 .pages{
     margin: 0 20px;
     margin-top: 30px;
