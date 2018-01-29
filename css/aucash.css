@@ -234,6 +234,7 @@ margin-left: 155px;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    margin-top: 15px;
 }
 .idcard>p{
     font-size: 20px;
@@ -245,8 +246,9 @@ margin-left: 155px;
 .idcardone{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 70px;
+    margin-top: 15px;
 }
 .idcardone>p{
     font-size: 15px;
@@ -255,7 +257,7 @@ margin-left: 155px;
 .idcardoneinfo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 270px;
 }
 .idcardoneinfo>img{
@@ -281,7 +283,8 @@ margin-left: 155px;
     width: 70px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    margin-top: 15px;
 }
 .idcardtwo>p{
     font-size: 15px;
@@ -291,7 +294,7 @@ margin-left: 155px;
     width: 218px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 .idcardtwoinfo>img{
     width: 100px;

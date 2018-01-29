@@ -187,9 +187,11 @@
 }
 .datadetaillist{
     width: 100%;
-    border: solid 1px #98C0FF;
+    border: solid 1px #629DFC;
 }
-
+.datadetaillist tr td {
+    border: solid 1px #629DFC;
+}
 .datadetaillist>thead>tr>td{
     font-size: 15px;
     line-height: 37px;

@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/orderdetail.css" afterPath="$PROJECT_DIR$/css/orderdetail.css" />
-      <change beforePath="$PROJECT_DIR$/html/aucash.html" afterPath="$PROJECT_DIR$/html/aucash.html" />
+      <change beforePath="$PROJECT_DIR$/css/aucash.css" afterPath="$PROJECT_DIR$/css/aucash.css" />
+      <change beforePath="$PROJECT_DIR$/css/bosscash.css" afterPath="$PROJECT_DIR$/css/bosscash.css" />
+      <change beforePath="$PROJECT_DIR$/css/monetarytransactions.css" afterPath="$PROJECT_DIR$/css/monetarytransactions.css" />
       <change beforePath="$PROJECT_DIR$/html/head.html" afterPath="$PROJECT_DIR$/html/head.html" />
-      <change beforePath="$PROJECT_DIR$/html/managehome.html" afterPath="$PROJECT_DIR$/html/managehome.html" />
-      <change beforePath="$PROJECT_DIR$/html/orderdetail.html" afterPath="$PROJECT_DIR$/html/orderdetail.html" />
-      <change beforePath="$PROJECT_DIR$/html/rmbcash.html" afterPath="$PROJECT_DIR$/html/rmbcash.html" />
-      <change beforePath="$PROJECT_DIR$/html/staffaucash.html" afterPath="$PROJECT_DIR$/html/staffaucash.html" />
-      <change beforePath="$PROJECT_DIR$/html/staffrmbcash.html" afterPath="$PROJECT_DIR$/html/staffrmbcash.html" />
-      <change beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,66 +16,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8020113">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="rmbcash.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="784">
-                  <caret line="312" column="22" lean-forward="false" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="22" />
-                  <folding>
-                    <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="managehome.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/managehome.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="625">
-                  <caret line="258" column="21" lean-forward="false" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="aucash.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/aucash.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-247">
-                  <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="307" selection-end-column="6" />
+                <state relative-caret-position="145">
+                  <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="staffrmbcash.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/staffrmbcash.html">
+          <file leaf-file-name="bosscash.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/bosscash.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="277" column="4" lean-forward="true" selection-start-line="277" selection-start-column="4" selection-end-line="320" selection-end-column="6" />
+                <state relative-caret-position="484">
+                  <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="staffaucash.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/html/staffaucash.html">
+          <file leaf-file-name="cashrecode.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/cashrecode.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="307" selection-end-column="6" />
+                <state relative-caret-position="689">
+                  <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="zglglobal.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/zglglobal.js">
+          <file leaf-file-name="monetarytransactions.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/monetarytransactions.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2530">
-                  <caret line="110" column="2" lean-forward="false" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="monetarytransactions.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/monetarytransactions.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="549">
+                  <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -91,21 +73,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/index.css">
+          <file leaf-file-name="aucash.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/aucash.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="878">
-                  <caret line="482" column="0" lean-forward="false" selection-start-line="482" selection-start-column="0" selection-end-line="482" selection-end-column="0" />
+                <state relative-caret-position="409">
+                  <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rmbcash.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/rmbcash.css">
+          <file leaf-file-name="bosscash.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/bosscash.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="878">
-                  <caret line="527" column="0" lean-forward="true" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
+                <state relative-caret-position="488">
+                  <caret line="189" column="29" lean-forward="false" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -126,7 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>input</find>
       <find>完成</find>
       <find>closehere</find>
       <find>backtohome</find>
@@ -156,6 +137,7 @@
       <find>sailtic</find>
       <find>#98C0FF</find>
       <find>bosscashtit</find>
+      <find>idcardone</find>
     </findStrings>
     <replaceStrings>
       <replace>/IMS/</replace>
@@ -168,9 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/ordermanage.html" />
-        <option value="$PROJECT_DIR$/unpaysearch.php" />
-        <option value="$PROJECT_DIR$/paiedsearch.php" />
         <option value="$PROJECT_DIR$/searchresult.php" />
         <option value="$PROJECT_DIR$/orderdetail.php" />
         <option value="$PROJECT_DIR$/html/goodsmanege.html" />
@@ -198,7 +177,6 @@
         <option value="$PROJECT_DIR$/operatesys.php" />
         <option value="$PROJECT_DIR$/operatecash.php" />
         <option value="$PROJECT_DIR$/html/cashrecode.html" />
-        <option value="$PROJECT_DIR$/css/cashrecode.css" />
         <option value="$PROJECT_DIR$/html/staffcashrecode.html" />
         <option value="$PROJECT_DIR$/css/staffcashrecode.css" />
         <option value="$PROJECT_DIR$/css/rateset.css" />
@@ -207,7 +185,6 @@
         <option value="$PROJECT_DIR$/css/stafflist.css" />
         <option value="$PROJECT_DIR$/html/stafflist.html" />
         <option value="$PROJECT_DIR$/html/foot.html" />
-        <option value="$PROJECT_DIR$/html/head.html" />
         <option value="$PROJECT_DIR$/css/orderdetail.css" />
         <option value="$PROJECT_DIR$/html/orderdetail.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
@@ -219,6 +196,11 @@
         <option value="$PROJECT_DIR$/html/staffrmbcash.html" />
         <option value="$PROJECT_DIR$/html/staffaucash.html" />
         <option value="$PROJECT_DIR$/html/managehome.html" />
+        <option value="$PROJECT_DIR$/html/head.html" />
+        <option value="$PROJECT_DIR$/css/aucash.css" />
+        <option value="$PROJECT_DIR$/css/bosscash.css" />
+        <option value="$PROJECT_DIR$/css/cashrecode.css" />
+        <option value="$PROJECT_DIR$/css/monetarytransactions.css" />
       </list>
     </option>
   </component>
@@ -234,8 +216,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="520" />
-    <option name="y" value="79" />
+    <option name="x" value="687" />
+    <option name="y" value="45" />
     <option name="width" value="1822" />
     <option name="height" value="1152" />
   </component>
@@ -254,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,8 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,28 +335,29 @@
       <workItem from="1516845558319" duration="540000" />
       <workItem from="1516951323508" duration="7300000" />
       <workItem from="1517018461212" duration="9384000" />
+      <workItem from="1517199166323" duration="20000" />
+      <workItem from="1517199364599" duration="1155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145765000" />
+    <option name="totallyTimeSpent" value="146940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="79" width="1822" height="1152" extended-state="0" />
-    <editor active="true" />
+    <frame x="687" y="45" width="1822" height="1152" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12678376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12678376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -392,53 +375,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/zglglobal.js</url>
-          <line>98</line>
-          <properties lambdaOrdinal="-1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/monetarytransactions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/safeset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/modulmanage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/baseset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stafflist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modulmanage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -572,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cashrecode.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/cashrecode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -632,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,30 +615,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="139" column="29" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/rmbcash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12121">
+          <caret line="527" column="0" lean-forward="false" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/head.html">
+    <entry file="file://$PROJECT_DIR$/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="178" column="35" lean-forward="true" selection-start-line="178" selection-start-column="35" selection-end-line="178" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="402">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/managehome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="258" column="21" lean-forward="false" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="312" column="22" lean-forward="false" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/staffrmbcash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="277" column="4" lean-forward="false" selection-start-line="277" selection-start-column="4" selection-end-line="320" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/staffaucash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="307" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zglglobal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="110" column="2" lean-forward="false" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/rmbcash.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="527" column="0" lean-forward="true" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -722,60 +684,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="file://$PROJECT_DIR$/html/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="121">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/zglglobal.js">
+    <entry file="file://$PROJECT_DIR$/css/aucash.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="110" column="2" lean-forward="false" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
+        <state relative-caret-position="409">
+          <caret line="106" column="14" lean-forward="true" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/aucash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="307" selection-end-column="6" />
+        <state relative-caret-position="145">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/staffrmbcash.html">
+    <entry file="file://$PROJECT_DIR$/html/bosscash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="277" column="4" lean-forward="true" selection-start-line="277" selection-start-column="4" selection-end-line="320" selection-end-column="6" />
+        <state relative-caret-position="484">
+          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/staffaucash.html">
+    <entry file="file://$PROJECT_DIR$/css/cashrecode.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="264" column="4" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="307" selection-end-column="6" />
+        <state relative-caret-position="689">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
+    <entry file="file://$PROJECT_DIR$/html/monetarytransactions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="312" column="22" lean-forward="false" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/managehome.html">
+    <entry file="file://$PROJECT_DIR$/css/bosscash.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="258" column="21" lean-forward="false" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
+        <state relative-caret-position="488">
+          <caret line="189" column="29" lean-forward="false" selection-start-line="189" selection-start-column="22" selection-end-line="189" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/monetarytransactions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
           <folding />
         </state>
       </provider>
