@@ -357,6 +357,7 @@ a:hover{
 }
 .bossrichitem:hover{
     text-decoration: none;
+    color: #00FFFF !important;
 }
 .bossrich>p{
     font-size: 16px;

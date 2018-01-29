@@ -10,6 +10,9 @@
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <script src="/IMS/lib/echarts.common.min.js"></script>
     <script src="/IMS/js/zglglobal.js"></script>
+    <!--<script src="/IMS/js/bgcdealwith.js"></script>-->
+    <!--<script src="/IMS/js/js.js"></script>-->
+    <!--<script src="/IMS/js/echartsshow.js"></script>-->
     <style>
         .select_url{
             color: yellow !important;
@@ -27,7 +30,7 @@
             $.each(url_child,function(k,v){
                 if(url.indexOf($(v).attr('href'))>=0){
                     $(v).addClass('select_url');
-                    console.log($(v).attr('href'));
+                    // console.log($(v).attr('href'));
                     return false;
                 }
             });
@@ -202,7 +205,7 @@
                         <p>员工管理</p>
                         <ul>
                             <li><a class="whitecolor bossrichitem" href="/IMS/stafflist.php">员工列表</a></li>
-                            <li><a class="whitecolor bossrichitem" href="javascript:;">角色管理</a></li>
+                            <li><a class="whitecolor bossrichitem" href="/IMS/rulemanage.php">角色管理</a></li>
                         </ul>
                     </div>
                     <div class="storerich">

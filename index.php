@@ -7,5 +7,5 @@
  */
 
 
-
+$val = "home";
 include "html/managehome.html";
