@@ -151,9 +151,16 @@
     font-size: 20px;
     color: #FFFFFF;
 }
-.ruleset{
-    outline: none;
+.ruleset>select{
+    /*-moz-appearance:none;*/
+    /*-webkit-appearance:none;*/
     background: transparent;
+    outline: none;
+    /*background: transparent;*/
     border: none;
     font-size: 10px;
+    color: black;
+}
+.ruleset>select>option{
+    color: black !important;
 }

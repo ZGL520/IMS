@@ -50,24 +50,25 @@ bgc(initclass);
 const tits = function (tit) {
     const span = document.createElement('span');
     span.className = 'thisisspan';
-    const getnum = function(e) {
-        e = e || window.event;
+    var getnum = function(e) {
+        // e = window.event ? window.event : e;
+        var e = e || window.event;
         var x = e.clientX || (e.clientX +
             (document.documentElement.scrollLeft
                 || document.body.scrollLeft));
         var y= e.clientY || (e.clientY +
             (document.documentElement.scrollTop
                 || document.body.scrollTop));
-        return {'x':x,'y':y};
+        return {x,y};
     };
-
+    // console.log(getnum(e).x);
     $(span).css({
         display:'block',
         position:'fixed',
         top:getnum().y-30+'px',
         left:getnum().x+20+'px',
         backgroundColor:'white',
-        fontSize:'14px',
+        fontSize:'10px',
         color:'black',
         textAlign:'center',
         padding:'3px 5px'
@@ -76,7 +77,13 @@ const tits = function (tit) {
     $(body).append(span);
 };
 
-
+// class tabss {
+//     constructor(){
+//
+//     };
+//
+//
+// }
 
 
 

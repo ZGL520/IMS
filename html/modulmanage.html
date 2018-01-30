@@ -4,8 +4,64 @@
 <link rel="stylesheet" href="/IMS/css/modulmanage.css">
 
 
-<p class="whitecolor">模板管理</p>
+<div class="modulemanage bgchange">
+    <p class="moduletit whitecolor">模板管理</p>
+    <div class="modulepic">
+        <div class="def">
+            <a class="modulehere moduledef" href="javascript:"><img src="/IMS/image/53412.jpg" alt=""></a>
+            <p class="whitecolor">默认</p>
+        </div>
+        <div class="def">
+            <a  class="modulehere" href="javascript:"><img src="/IMS/image/53412.jpg" alt=""></a>
+            <p class="whitecolor">另一名字</p>
+        </div>
+    </div>
+    <div class="change">
+        <a status=0 class="whitecolor changebtn" href="javascript:">修改模板</a>
+    </div>
+</div>
 
+
+<script>
+    $('.modulehere').click(function () {
+        $('.modulehere').css({
+            boxShadow:'none'
+        });
+        $(this).css({
+            boxShadow:'0 0 20px #00FFFF'
+        });
+        $('.changebtn').css({
+            border:'1px solid #00FFFF',
+            color:'#052F2F',
+            backgroundColor:'#00FFFF'
+        }).html('完成修改').attr('status',1)
+    });
+
+    $('.changebtn').click(function () {
+        if (Number($('.changebtn').attr('status'))!== 0){
+
+            $('.modulehere').css({
+                boxShadow:'none'
+            });
+            $('.changebtn').css({
+                border:'1px solid #CBDFFF',
+                color:'#CBDFFF',
+                backgroundColor:'transparent'
+            }).html('修改模板').attr('status',0)
+
+
+        }else {
+            $('.moduledef').css({
+                boxShadow:'0 0 20px #00FFFF'
+            });
+            $('.changebtn').css({
+                border:'1px solid #00FFFF',
+                color:'#052F2F',
+                backgroundColor:'#00FFFF'
+            }).html('完成修改').attr('status',1)
+        }
+    })
+</script>
 <script>
     var down = '未完工';
 </script>

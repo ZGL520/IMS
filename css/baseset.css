@@ -3,11 +3,11 @@
     height: 720px;
     margin-top: 10px;
     border-radius: 5px;
-    padding-top: 20px;
+    padding-top: 32px;
 }
 .basesettit{
     height: 28px;
-    margin: 0 19px;
+    margin: 0 39px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,9 +17,9 @@
     font-size: 20px;
     line-height: 28px;
 }
-.basesettit>p>span{
-    color: #00FFFF;
-}
+/*.basesettit>p>span{*/
+    /*color: #00FFFF;*/
+/*}*/
 .basesettit>a{
     display: inline-block;
     text-decoration: none;
@@ -37,4 +37,166 @@
 .basesettit>a:hover{
     text-decoration: none;
     line-height: 24px;
+}
+.setitems{
+    display: flex;
+    margin: 27px 30px 0 59px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #629DFC;
+    padding-bottom: 15px;
+}
+/*.setitems p{*/
+    /*margin: 6px 0;*/
+    /*font-size: 15px;*/
+    /*display: flex;*/
+/*}*/
+.setiteminfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: center;*/
+    height: 134px;
+}
+.setiteminfo>p{
+    /*margin: 6px 0;*/
+    font-size: 15px;
+    display: flex;
+    /*margin-bottom: 0;*/
+}
+.setiteminfo>p>span{
+    display: inline-block;
+    width: 81px;
+}
+.setiteminfo>p>input{
+    /*display: inline-block;*/
+    background: black;
+    width: 198px;
+    outline: none;
+    border: none;
+    height: 25px;
+    font-size: 15px;
+    /*color: #CBDFFF !important;*/
+}
+.setiteminfo>p>input::placeholder{
+    /*display: inline-block;*/
+    /*color: #CBDFFF !important;*/
+    font-size: 15px;
+}
+.setitemlogo{
+    width: 542px;
+    margin-left: 20px;
+}
+
+.storelogo{
+    display: flex;
+}
+.storelogo>p>span:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 130px;
+}
+.storelogo>p>span:nth-child(2){
+    font-size: 10px;
+}
+.storelogo>img{
+    width: 130px;
+    height: 60px;
+    margin: 0 20px;
+}
+.storelogo>a{
+    display: block;
+    width: 60px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 18px;
+    border: 1px solid #00FFFF;
+    border-radius: 9px;
+    color: #00FFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 42px;
+}
+
+
+.storelogosort{
+    display: flex;
+    margin-top: 10px;
+}
+.storelogosort>p>span:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 130px;
+}
+.storelogosort>p>span:nth-child(2){
+    font-size: 10px;
+}
+.storelogosort>img{
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+}
+.storelogosort>a{
+    display: block;
+    width: 60px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 18px;
+    border: 1px solid #00FFFF;
+    border-radius: 9px;
+    color: #00FFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 42px;
+}
+
+.setitembre{
+    width: 280px;
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: flex-end;*/
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+
+.setitembre{
+    /*display: flex;*/
+    /*margin-top: 10px;*/
+}
+.setitembre>p>span:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 130px;
+}
+.setitembre>p>span:nth-child(2){
+    font-size: 10px;
+}
+.setitembre>img{
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+.setitembre>a{
+    display: block;
+    width: 60px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 18px;
+    border: 1px solid #00FFFF;
+    border-radius: 9px;
+    color: #00FFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 42px;
+}
+
+/*.setitembre{*/
+    /*width: 280px;*/
+/*}*/
+.contactus{
+    margin-top: 18px;
 }
