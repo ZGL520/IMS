@@ -241,12 +241,13 @@ p{
 .newsnum{
     display: block;
     text-decoration: none;
-    color: white;
+    /*color: white;*/
     margin-top: 23px;
     height: 17px;
     line-height: 17px;
 
 }
+
 .newsnum>i{
     font-size: 17.01px;
     position: relative;
@@ -270,9 +271,13 @@ p{
     font-size: 12px;
     margin-left: 14px;
 }
+/*.newsnum:hover{*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+/*}*/
 .newsnum:hover{
     text-decoration: none;
-    color: white;
+    color: #00FFFF !important;
 }
 .agentset{
     text-decoration: none;
