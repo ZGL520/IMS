@@ -10,31 +10,43 @@
         <div class="setitem">
             <div class="basesettit">
                 <p class="whitecolor">基本设置</p>
-                <a href="javascript:">修改资料</a>
+                <a status=0 class="changeinfo" href="javascript:">修改资料</a>
             </div>
             <div class="setitems">
                 <div class="setiteminfo">
-                    <p class="whitecolor"><span>商户名称:</span><input class="whitecolor" type="text" placeholder="爱的购"></p>
-                    <p class="whitecolor"><span>网站地址:</span><input class="whitecolor" type="text" placeholder="cddwarehouse.store"></p>
-                    <p class="whitecolor"><span>二级域名:</span><input class="whitecolor" type="text" placeholder="cdd.buyercamp.hk"></p>
+                    <p class="whitecolor"><span>商户名称:</span><input class="whitecolor edituserinfo" disabled type="text" placeholder="爱的购"></p>
+                    <p class="whitecolor"><span>网站地址:</span><input class="whitecolor edituserinfo" disabled type="text" placeholder="cddwarehouse.store"></p>
+                    <p class="whitecolor"><span>二级域名:</span><input class="whitecolor edituserinfo" disabled type="text" placeholder="cdd.buyercamp.hk"></p>
                 </div>
                 <div class="setitemlogo">
                     <div class="storelogo">
-                        <p class="whitecolor"><span><span>店铺Logo</span><i class="fa fa-question-circle-o whitecolor icontit"></i></span><span>(250x120 png 背景透明)</span></p>
+                        <p class="whitecolor">
+                            <span><span>店铺Logo</span><i class="fa fa-question-circle-o whitecolor icontit"></i></span>
+                            <span>(250x120 png 背景透明)</span>
+                        </p>
                         <img src="/IMS/image/logo.jpg" alt="">
-                        <a href="javascript:">上传文件</a>
+                        <a class="upfile" href="javascript:">上传文件</a>
                     </div>
                     <div class="storelogosort">
-                        <p class="whitecolor"><span><span>正方形Logo</span><i class="fa fa-question-circle-o whitecolor icontit"></i></span><span>(300x300 png 背景透明)</span></p>
+                        <p class="whitecolor">
+                            <span><span>正方形Logo</span><i class="fa fa-question-circle-o whitecolor icontit"></i></span>
+                            <span>(300x300 png 背景透明)</span>
+                        </p>
                         <img src="/IMS/image/logo.jpg" alt="">
-                        <a href="javascript:">上传文件</a>
+                        <a  class="upfile" href="javascript:">上传文件</a>
                     </div>
 
                 </div>
                 <div class="setitembre">
-                    <p class="whitecolor"><span><span>正方形Logo</span><i class="fa fa-question-circle-o whitecolor icontit"></i></span><span>(300x300png背景透明)</span></p>
+                    <p class="whitecolor">
+                        <span><span>正方形Logo</span><i class="fa fa-question-circle-o whitecolor icontit"></i></span>
+                        <span>(300x300png背景透明)</span>
+                    </p>
                     <img src="/IMS/image/logo.jpg" alt="">
-                    <a href="javascript:">上传文件</a>
+                    <div class="onekey">
+                        <a  class="upfile" href="javascript:">上传文件</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -44,34 +56,95 @@
             <div class="basesettit contactus">
                 <p class="whitecolor">联系我们</p>
             </div>
-            <div class="setitems">
-                <div class="setiteminfo">
-                    <p class="whitecolor"><span>联系人:</span><input class="whitecolor" type="text" placeholder="爱的购"></p>
-                    <p class="whitecolor"><span>联系电话:</span><input class="whitecolor" type="text" placeholder="cddwarehouse.store"></p>
+            <div class="contactuscontent">
+                <div class="contactname">
+                    <p class="whitecolor"><span>联系人:</span><input class="whitecolor edituserinfo" disabled type="text" placeholder="爱的购"></p>
+                    <p class="whitecolor"><span>联系电邮:</span><input class="whitecolor edituserinfo" disabled type="text" placeholder="cddwarehouse.store"></p>
                 </div>
-                <div class="setiteminfo">
-                    <p class="whitecolor"><span>联系人:</span><input class="whitecolor" type="text" placeholder="爱的购"></p>
+                <div class="contacttel">
+                    <p class="whitecolor"><span>联系电话:</span><input class="whitecolor edituserinfo" disabled type="text" placeholder="1300000000"></p>
                 </div>
-                <div class="setitembre">
+                <div class="contactcode">
                     <p class="whitecolor">微信客服二维码</p>
-                    <div>
+                    <div class="storecode">
                         <p class="whitecolor">默认店铺</p>
                         <img src="/IMS/image/logo.jpg" alt="">
                         <input type="radio">
-                        <a href="javascript:">一键生成</a>
                     </div>
-                    <div>
+                    <div class="onekey">
+                        <a  class="upfile" href="javascript:">一键生成</a>
+                    </div>
+
+                    <div class="storecode">
                         <p class="whitecolor">商家上传</p>
                         <img src="/IMS/image/logo.jpg" alt="">
                         <input type="radio">
-                        <a href="javascript:">一键生成</a>
                     </div>
+                    <div class="onekey">
+                        <a  class="upfile" href="javascript:">一键生成</a>
+                    </div>
+
                 </div>
             </div>
         </div>
+
+        <!--关于我们-->
+        <div class="setitem">
+            <div class="basesettit contactus">
+                <p class="whitecolor">关于我们</p>
+            </div>
+            <div class="aboutus">
+                <textarea disabled  id="text" class="aboutustext edituserinfo whitecolor " placeholder="一站式海外垂直商品移动社交电商平台——买手营（Buyercamp）主营包括澳大利亚"></textarea>
+            </div>
+            <div class="homecode">
+                <p class="whitecolor">店铺主页二维码</p>
+                <img src="/IMS/image/logo.jpg" alt="">
+                <div class="onekey">
+                    <a  class="upfile" href="javascript:">上传文件</a>
+                </div>
+
+
+            </div>
+        </div>
+
+
     </div>
 </div>
 
+
+<script>
+    $('.changeinfo').click(function () {
+        if( Number($('.changeinfo').attr('status')) === 0 ){
+            $('.edituserinfo').css({
+                background:'black'
+            }).removeAttr('disabled');
+
+            $('.upfile').css({
+                display:'block'
+            });
+
+            $(this).css({
+                background:'#00FFFF',
+                color:'#052F2F'
+            }).attr('status',1).html('完成修改')
+
+        }else {
+
+            $('.edituserinfo').css({
+                background:'transparent'
+            }).attr('disabled','disabled');
+
+            $('.upfile').css({
+                display:'none'
+            });
+
+            $(this).css({
+                background:'transparent',
+                color:'#00FFFF'
+            }).attr('status',0).html('修改资料')
+        }
+    })
+</script>
 <script>
     var down = '未完工';
 </script>
