@@ -1,0 +1,221 @@
+<?php
+    include 'head.html';
+?>
+<link rel="stylesheet" href="/IMS/css/stafflogin.css">
+
+<div class="showcontent">
+    <div class="managecontent">
+        <div class="managecontentitem itembgchange">
+            <div class="bossratetit">
+                <p class="whitecolor">店铺利润走势</p>
+            </div>
+            <div id="bossrateline" class="lineview" style="background-color: white;">
+
+            </div>
+        </div>
+        <!--<div class="managecontentitem itembgchange">-->
+            <!--<div class="bossrmb">-->
+                <!--<div class="bosssvg">-->
+                    <!--<embed src="/IMS/lib/svg/boss_icon_c.svg" type="image/svg+xml"/>-->
+                <!--</div>-->
+                <!--<div class="rmbinfo">-->
+                    <!--<p class="whitecolor">老板财富</p>-->
+                    <!--<p class="whitecolor">利润比率：<span>10%</span></p>-->
+                    <!--<p class="whitecolor">$965,98</p>-->
+
+                <!--</div>-->
+                <!--<div class="getrmb">-->
+                    <!--<a class="whitecolor" href="/IMS/rmbcash.php">-->
+                        <!--&lt;!&ndash;<embed src="/IMS/lib/font/svg/rm_button.svg" type="">&ndash;&gt;-->
+                        <!--<img src="/IMS/lib/svg/rm_button.svg" alt="">-->
+                    <!--</a>-->
+                    <!--<a class="whitecolor" href="/IMS/aucash.php">-->
+                        <!--&lt;!&ndash;<embed src="/IMS/lib/font/svg/au_button.svg" type="">&ndash;&gt;-->
+                        <!--<img src="/IMS/lib/svg/au_button.svg" alt="">-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="managecontentitem itembgchange">-->
+            <!--<div class="ordermanagetit">-->
+                <!--<p class="whitecolor">店铺利润走势</p>-->
+            <!--</div>-->
+            <!--<div id="storerateline" class="lineview">-->
+
+            <!--</div>-->
+        <!--</div>-->
+        <div class="managecontentitem itembgchange">
+
+            <div class="bossrmb">
+                <div class="storesvg">
+                    <embed src="/IMS/lib/svg/st_icon.svg" type="image/svg+xml"/>
+                </div>
+                <div class="rmbinfo rmbinfo1">
+                    <p class="whitecolor">店铺财富</p>
+                    <div class="storermb">
+                        <p class="whitecolor">
+                            利润比率：<span>10%</span>
+                        </p>
+                        <a class="setrate whitecolor" href="/IMS/rateset.php">设置</a>
+                    </div>
+                    <p class="whitecolor">$965,98</p>
+
+
+                </div>
+                <div class="getrmb">
+                    <a class="whitecolor" href="/IMS/staffrmbcash.php" >
+                        <!--<embed src="/IMS/lib/font/svg/rm_button.svg" type="">-->
+                        <img src="/IMS/lib/svg/rm_button.svg" alt="">
+                    </a>
+                    <a class="whitecolor" href="/IMS/staffaucash.php">
+                        <!--<embed src="/IMS/lib/font/svg/au_button.svg" type="">-->
+                        <img src="/IMS/lib/svg/au_button.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="managecontentitem managecontentitemheight itembgchange">
+            <div class="ordermanage">
+                <div class="ordermanagetit">
+                    <p class="whitecolor">订单管理</p>
+                    <!--<a href="/IMS/ordermanage.php">更多></a>-->
+                </div>
+                <div class="ordermanagesearch">
+                    <div class="orderssearch">
+                        <input class="whitecolor" type="text" placeholder="订单编号/关键词">
+                        <a class="search  icon iconfont icon-research" href="/IMS/ordermanage.php"><i></i></a>
+                        <a class="paiedcheck whitecolor" href="/IMS/paiedsearch.php">已付款查询</a>
+                        <a class="unpay whitecolor" href="/IMS/unpaysearch.php">未付款查询</a>
+                    </div>
+                </div>
+                <div class="latestgoods">
+                    <!--<p class="whitecolor">最近订单</p>-->
+                    <p class="whitecolor">最近商品</p>
+                    <div class="goodstable">
+                        <table class="goodslist" border="1" >
+                            <thead>
+                            <tr>
+                                <td class="whitecolor" align="center">id</td>
+                                <td class="whitecolor" align="center">收件人姓名</td>
+                                <td class="whitecolor" align="center">快递公司</td>
+                                <td class="whitecolor" align="center">付款时间</td>
+                                <td class="whitecolor" align="center">总额</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="whitecolor" align="center">957</td>
+                                <td class="whitecolor" align="center">LION</td>
+                                <td class="whitecolor" align="center">Lion in Digital</td>
+                                <td class="whitecolor" align="center">2017.12.21</td>
+                                <td class="whitecolor" align="center">￥146.63</td>
+                            </tr>
+                            <tr>
+                                <td class="whitecolor" align="center">957</td>
+                                <td class="whitecolor" align="center">LION</td>
+                                <td class="whitecolor" align="center">Lion in Digital</td>
+                                <td class="whitecolor" align="center">2017.12.21</td>
+                                <td class="whitecolor" align="center">￥146.63</td>
+                            </tr>
+                            <tr>
+                                <td class="whitecolor" align="center">957</td>
+                                <td class="whitecolor" align="center">LION</td>
+                                <td class="whitecolor" align="center">Lion in Digital</td>
+                                <td class="whitecolor" align="center">2017.12.21</td>
+                                <td class="whitecolor" align="center">￥146.63</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="managecontentitem managecontentitemheight itembgchange">
+            <div class="storeset">
+                <div class="storesettit">
+                    <p class="whitecolor">店铺设置</p>
+                </div>
+                <div class="storeinfo">
+                    <div class="storesetinfo">
+                        <div class="fkid">
+                            <p class="whitecolor"><span>店铺ID:</span><span>89</span></p>
+                            <p class="whitecolor"><span>用户名:</span><span>CDD</span></p>
+                            <p class="whitecolor"><span>商户名称:</span><span>爱的购</span></p>
+                            <p class="whitecolor"><span>联系人:</span><span>CDD</span></p>
+                            <p class="whitecolor"><span>电话:</span><span>13984982759</span></p>
+                            <p class="whitecolor"><span>邮箱:</span><span>cdd@gmail.com</span></p>
+                        </div>
+                        <div class="fkother">
+                            <a class="whitecolor bosscashtit"  href="javascript:">账单管理</a>
+                            <a class="whitecolor bosscashnum" href="javascript:">我的店铺</a>
+                        </div>
+
+                    </div>
+                    <div class="storesetview">
+                        <p class="whitecolor">店铺样式</p>
+                        <img src="/IMS/image/53412.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="managefoot">
+        <div class="managefootitem itembgchange">
+            <div class="goodsmanage">
+                <p class="whitecolor">商品管理</p>
+            </div>
+            <div class="ordersearch">
+                <input type="text" placeholder="商品号/关键词">
+                <a class=" icon iconfont icon-research" href="/IMS/goodsmanage.php"></a>
+            </div>
+        </div>
+        <div class="managefootitem itembgchange">
+            <div class="goodsmanage">
+                <p class="whitecolor">包裹跟踪</p>
+                <!--<a href="javascript:">更多></a>-->
+            </div>
+
+            <div class="ordersearch ordersearch1">
+                <input type="text" placeholder="包裹号/关键词">
+                <a class="icon iconfont icon-research" href="/IMS/packagemanage.php"></a>
+            </div>
+        </div>
+        <div class="managefootitem itembgchange">
+            <div class="goodsmanage">
+                <p class="whitecolor">会员管理</p>
+            </div>
+            <div class="workermanage workermanage1">
+                <a href="/IMS/accountmanage.php">
+                    <i class="icon iconfont icon-edit"></i>
+                    <span class="whitecolor">编辑人员</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var down = '已完工';
+</script>
+
+<script>
+
+    $('.bosscashtit').mouseover(function () {
+        tits('前往到我的账单')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    });
+    $('.bosscashnum').mouseover(function () {
+        tits('前往到我的店铺')
+    }).mouseout(function () {
+        $('.thisisspan').remove()
+    });
+</script>
+
+<!--<script src="/IMS/js/bgcdealwith.js"></script>-->
+<!--<script src="/IMS/js/echartsshow.js"></script>-->
+<?php
+    include 'foot.html';
+?>
