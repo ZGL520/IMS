@@ -10,11 +10,13 @@
 }
 .orderseek>p{
     margin: 0;
+    font-size: 20px;
+    line-height: 28px;
 }
 .searchmodul{
     display: flex;
     justify-content: space-between;
-    margin: 50px 30px 0 30px;
+    margin: 8px 30px 0 30px;
 }
 .searchleft{
     width: 310px;
@@ -25,7 +27,7 @@
 .searchleft>p{
     font-size: 12px;
     line-height: 20px;
-    margin: 0;
+    margin: 14px 0;
     /*margin-bottom: 20px;*/
 }
 .searchleft>p>input{
@@ -53,7 +55,7 @@
 .searchmid>p{
     font-size: 12px;
     line-height: 20px;
-    margin: 0;
+    margin: 14px 0;
     /*margin-bottom: 20px;*/
 }
 .searchmid>p>span{
@@ -76,13 +78,17 @@
 }
 
 .searchright{
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .searchright>a{
+    display: block;
+    height: 27px;
     width: 110px;
-    line-height: 35px;
+    line-height: 27px;
     border-radius: 5px;
     border: #CBDFFF solid 1px;
     background-color: transparent;
@@ -185,4 +191,22 @@
 .pages>p{
     font-size: 20px;
     color: #FFFFFF;
+}
+.ordersearchbtn{
+    display: block;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #00FFFF;
+    font-size: 12px;
+    color: #052F2F !important;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-left: 200px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.ordersearchbtn:hover{
+    text-decoration: none;
 }

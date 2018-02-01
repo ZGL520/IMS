@@ -1,0 +1,90 @@
+.packageinfo{
+    width: 1050px;
+    height: 720px;
+    margin-top: 20px;
+    padding-top: 22px;
+    border-radius: 5px;
+}
+.packagetit{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 19px;
+
+}
+.packagecontent{
+    margin: 21px 19px 0 19px;
+    display: flex;
+}
+.packagecontent p {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.packagecontent p>span:nth-child(1){
+    display: inline-block;
+    width: 103px;
+    text-align: left;
+}
+.packagetext{
+    /*border: 1px solid grey;*/
+    width: 657px;
+    /*height: 200px;*/
+}
+.packagepic{
+    /*border: 1px solid grey;*/
+    width: 321px;
+    /*height: 200px;*/
+}
+.packagedetail{
+    margin: 0 50px;
+    /*border-bottom: solid 1px grey;*/
+}
+.checkwuliu{
+    margin: 0 50px;
+    border-bottom: solid 1px #629DFC;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.checkwuliu>a{
+    text-decoration: none;
+    display: block;
+    width: 82px;
+    height: 18px;
+    background-color: #00FFFF;
+    color: #111822;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 9px;
+    margin: 20px 0;
+    margin-left: 126px;
+    font-size: 10px;
+}
+.arriveaddress{
+    margin: 0 50px;
+    margin-top: 23px;
+}
+.packageimg{
+    margin: 0 50px;
+    margin-top: 20px;
+}
+.packageimg>img{
+    width: 209px;
+    height: 141px;
+    margin-top: 23px;
+}
+
+.packagepic>p{
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 64px;
+    margin-bottom: 0;
+}
+
+.packagepic>img{
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 20px;
+    width: 321px;
+    height: 498px;
+}
