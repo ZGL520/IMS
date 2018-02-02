@@ -3,7 +3,13 @@
 ?>
 <link rel="stylesheet" href="/IMS/css/modulmanage.css">
 
-
+<div class="alertbox">
+    <div class="alertboxcontent">
+        <i class="icon iconfont icon-icon_appllyconfirme"></i>
+        <p class="whitecolor">新模版设置成功</p>
+        <a class="whitecolor bgchangesuccess" href="javascript:">X</a>
+    </div>
+</div>
 <div class="modulemanage bgchange">
     <p class="moduletit whitecolor">模板管理</p>
     <div class="modulepic">
@@ -17,7 +23,7 @@
         </div>
     </div>
     <div class="change">
-        <a status=0 class="whitecolor changebtn" href="javascript:">修改模板</a>
+        <a class="whitecolor changebtn" href="javascript:" status=0 >修改模板</a>
     </div>
 </div>
 
@@ -39,7 +45,6 @@
 
     $('.changebtn').click(function () {
         if (Number($('.changebtn').attr('status'))!== 0){
-
             $('.modulehere').css({
                 boxShadow:'none'
             });
@@ -47,9 +52,10 @@
                 border:'1px solid #CBDFFF',
                 color:'#CBDFFF',
                 backgroundColor:'transparent'
-            }).html('修改模板').attr('status',0)
-
-
+            }).html('修改模板').attr('status',0);
+            $('.alertbox').css({
+                display:'flex'
+            })
         }else {
             $('.moduledef').css({
                 boxShadow:'0 0 20px #00FFFF'
@@ -60,7 +66,19 @@
                 backgroundColor:'#00FFFF'
             }).html('完成修改').attr('status',1)
         }
-    })
+    });
+
+
+    $('.bgchangesuccess').click(function () {
+        if (Number($('.changebtn').attr('status'))=== 0){
+            $('.alertbox').css({
+                display:'none'
+            })
+        }
+
+    });
+
+
 </script>
 <script>
     var down = '未完工';

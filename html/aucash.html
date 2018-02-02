@@ -102,118 +102,13 @@
 </div>
 
 <script>
-    // $('.getcash').focus(function () {
-    //     $(this).css({backgroundColor:'black'})
-    // }).blur(function () {
-    //     $('.getcash').css({backgroundColor:'transparent'})
-    // })
 
-
-
-    const sub = function (callback,id) {
-        const shadow = document.createElement('div');
-        const pp = document.createElement('div');
-        const yes = document.createElement('a');
-        const no = document.createElement('a');
-        const tobeornottobe = document.createElement('p');
-
-        $(tobeornottobe).html('提交申请成功，我们将尽快审批核算');
-        $(tobeornottobe).css({
-            fontSize:30+'px',
-            marginBottom:20+'px',
-            color:'#ffffff'
-        });
-
-
-        shadow.className = 'shadow';
-        $(shadow).css({
-            position:'fixed',
-            top:0,
-            left:0,
-            width:100+'vw',
-            height:100+'vh',
-            backgroundColor:'rgba(0,0,0,0.3)',
-            // class:'bgchange',
-            'z-index':9999999999
-        });
-
-        pp.className = 'bgchange';
-        $(pp).css({
-            width:'50%',
-            height:'30%',
-            backgroundColor:'#32477E',
-            // backgroundColor:'rgba(0,0,0,0.3)',
-            margin:'100px auto',
-            borderRadius:15+'PX',
-            display:'flex',
-            flexDirection:'column',
-            justifyContent:'center',
-            alignItems:'center'
-        });
-
-        $(yes).html('确定');
-        yes.className = 'yes';
-        $(yes).attr('href','javascript:;');
-        $(yes).css({
-            display:'block',
-            textDecoration:'none',
-            backgroundColor:'green',
-            height:40+'px',
-            borderRadius:20+'px',
-            width:'80%',
-            textAlign:'center',
-            fontSize:24+'px',
-            lineHeight:40+"px",
-            color:'#ffffff',
-            marginBottom:20+'px'
-        });
-
-        // $(no).html('取消');
-        // no.className = 'no';
-        // $(no).attr('href','javascript:;');
-        // $(no).css({
-        //     display:'block',
-        //     textDecoration:'none',
-        //     backgroundColor:'red',
-        //     height:40+'px',
-        //     borderRadius:20+'px',
-        //     width:'80%',
-        //     textAlign:'center',
-        //     fontSize:24+'px',
-        //     lineHeight:40+"px",
-        //     color:'#ffffff',
-        // });
-        $('body').before(shadow);
-
-        shadow.append(pp);
-        pp.append(tobeornottobe,yes,no);
-
-        var flag;
-        $('.yes').click(function () {
-            $('.shadow').remove();
-            flag = true;
-            return callback(flag,id)
-        });
-        $(".no").click(function () {
-            $('.shadow').remove();
-            flag =  false;
-            return callback(flag,id)
-        });
-    };
 
     var subback = function (val) {
         console.log(val);
         return val
     };
-    // $('.sub').click(function () {
-        // if (sub(subback,null) === true) {
-        //
-        // };
-    //     $('.alertcomf').css({display:'flex'});
-    // });
-    // $('.backtohome').click(function () {
-    //     $('.alertcomf').css({display:'none'});
-    // });
+
 
     $('.sub').click(function () {
         $('.alertcomf').css({display:'flex'});
@@ -262,34 +157,7 @@
     });
 
 
-    // const tits = function (tit) {
-    //     const span = document.createElement('span');
-    //     span.className = 'thisisspan';
-    //     const getnum = function(e) {
-    //         e = e || window.event;
-    //         var x = e.clientX || (e.clientX +
-    //             (document.documentElement.scrollLeft
-    //                 || document.body.scrollLeft));
-    //         var y= e.clientY || (e.clientY +
-    //             (document.documentElement.scrollTop
-    //                 || document.body.scrollTop));
-    //         return {'x':x,'y':y};
-    //     };
-    //
-    //     $(span).css({
-    //         display:'block',
-    //         position:'fixed',
-    //         top:getnum().y-30+'px',
-    //         left:getnum().x+20+'px',
-    //         backgroundColor:'white',
-    //         fontSize:'14px',
-    //         color:'black',
-    //         textAlign:'center',
-    //         padding:'3px 5px'
-    //     });
-    //     $(span).html(tit);
-    //     $(body).append(span);
-    // };
+
 
     $('.bosscashtit').mouseover(function () {
         tits('可提现金额')

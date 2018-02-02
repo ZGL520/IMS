@@ -3,7 +3,13 @@
 ?>
 <link rel="stylesheet" href="/IMS/css/safeset.css">
 
-
+<div class="alertbox">
+    <div class="alertboxcontent">
+        <i class="icon iconfont icon-icon_appllyconfirme"></i>
+        <p class="whitecolor">密码更新完成</p>
+        <a class="whitecolor bgchangesuccess" href="javascript:">X</a>
+    </div>
+</div>
 <div class="safeset bgchange">
     <p class="logininfo whitecolor">登录信息</p>
     <div class="safesetcontent">
@@ -35,9 +41,21 @@
             $('.changebtn').attr('status',0).css({
                 background:'none',
                 color:'#00FFFF'
-            }).html('修改密码')
+            }).html('修改密码');
+            $('.alertbox').css({
+                display:'flex'
+            })
         }
     })
+
+    $('.bgchangesuccess').click(function () {
+        if (Number($('.changebtn').attr('status'))=== 0){
+            $('.alertbox').css({
+                display:'none'
+            })
+        }
+
+    });
 </script>
 
 <script>
