@@ -91,6 +91,21 @@
 .storelogo{
     display: flex;
 }
+.storelogo i{
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 22px;
+}
+.storelogosort i {
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 22px;
+}
+.setitembre i {
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 22px;
+}
 .storelogo>p>span:nth-child(1){
     display: flex;
     flex-direction: row;
