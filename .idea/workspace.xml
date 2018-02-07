@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be3d91e-0beb-4959-81a7-ac748e76ebcc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/image/package.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/goodssearch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/goodssearch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/goodssearch.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/svg/add_people.svg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/baseset.css" afterPath="$PROJECT_DIR$/css/baseset.css" />
+      <change beforePath="$PROJECT_DIR$/css/orderdetail.css" afterPath="$PROJECT_DIR$/css/orderdetail.css" />
+      <change beforePath="$PROJECT_DIR$/css/packageinfo.css" afterPath="$PROJECT_DIR$/css/packageinfo.css" />
+      <change beforePath="$PROJECT_DIR$/css/stafflist.css" afterPath="$PROJECT_DIR$/css/stafflist.css" />
+      <change beforePath="$PROJECT_DIR$/html/accountmanage.html" afterPath="$PROJECT_DIR$/html/accountmanage.html" />
       <change beforePath="$PROJECT_DIR$/html/baseset.html" afterPath="$PROJECT_DIR$/html/baseset.html" />
+      <change beforePath="$PROJECT_DIR$/html/goodsmanege.html" afterPath="$PROJECT_DIR$/html/goodsmanege.html" />
+      <change beforePath="$PROJECT_DIR$/html/managehome.html" afterPath="$PROJECT_DIR$/html/managehome.html" />
+      <change beforePath="$PROJECT_DIR$/html/modulmanage.html" afterPath="$PROJECT_DIR$/html/modulmanage.html" />
+      <change beforePath="$PROJECT_DIR$/html/orderdetail.html" afterPath="$PROJECT_DIR$/html/orderdetail.html" />
       <change beforePath="$PROJECT_DIR$/html/ordermanage.html" afterPath="$PROJECT_DIR$/html/ordermanage.html" />
       <change beforePath="$PROJECT_DIR$/html/packageinfo.html" afterPath="$PROJECT_DIR$/html/packageinfo.html" />
+      <change beforePath="$PROJECT_DIR$/html/packagemanage.html" afterPath="$PROJECT_DIR$/html/packagemanage.html" />
+      <change beforePath="$PROJECT_DIR$/html/paiedsearch.html" afterPath="$PROJECT_DIR$/html/paiedsearch.html" />
+      <change beforePath="$PROJECT_DIR$/html/rateset.html" afterPath="$PROJECT_DIR$/html/rateset.html" />
+      <change beforePath="$PROJECT_DIR$/html/rulemanege.html" afterPath="$PROJECT_DIR$/html/rulemanege.html" />
+      <change beforePath="$PROJECT_DIR$/html/safeset.html" afterPath="$PROJECT_DIR$/html/safeset.html" />
+      <change beforePath="$PROJECT_DIR$/html/searchresult.html" afterPath="$PROJECT_DIR$/html/searchresult.html" />
+      <change beforePath="$PROJECT_DIR$/html/staffaucash.html" afterPath="$PROJECT_DIR$/html/staffaucash.html" />
+      <change beforePath="$PROJECT_DIR$/html/staffcashrecode.html" afterPath="$PROJECT_DIR$/html/staffcashrecode.html" />
+      <change beforePath="$PROJECT_DIR$/html/stafflist.html" afterPath="$PROJECT_DIR$/html/stafflist.html" />
+      <change beforePath="$PROJECT_DIR$/html/staffmonetarytransactions.html" afterPath="$PROJECT_DIR$/html/staffmonetarytransactions.html" />
+      <change beforePath="$PROJECT_DIR$/html/staffratedetail.html" afterPath="$PROJECT_DIR$/html/staffratedetail.html" />
+      <change beforePath="$PROJECT_DIR$/html/staffrmbcash.html" afterPath="$PROJECT_DIR$/html/staffrmbcash.html" />
+      <change beforePath="$PROJECT_DIR$/html/storecash.html" afterPath="$PROJECT_DIR$/html/storecash.html" />
+      <change beforePath="$PROJECT_DIR$/html/unpaysearch.html" afterPath="$PROJECT_DIR$/html/unpaysearch.html" />
+      <change beforePath="$PROJECT_DIR$/lib/font/demo_fontclass.html" afterPath="$PROJECT_DIR$/lib/font/demo_fontclass.html" />
+      <change beforePath="$PROJECT_DIR$/lib/font/demo_symbol.html" afterPath="$PROJECT_DIR$/lib/font/demo_symbol.html" />
+      <change beforePath="$PROJECT_DIR$/lib/font/demo_unicode.html" afterPath="$PROJECT_DIR$/lib/font/demo_unicode.html" />
+      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.css" afterPath="$PROJECT_DIR$/lib/font/iconfont.css" />
+      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.eot" afterPath="$PROJECT_DIR$/lib/font/iconfont.eot" />
+      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.js" afterPath="$PROJECT_DIR$/lib/font/iconfont.js" />
+      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.svg" afterPath="$PROJECT_DIR$/lib/font/iconfont.svg" />
+      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.ttf" afterPath="$PROJECT_DIR$/lib/font/iconfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/lib/font/iconfont.woff" afterPath="$PROJECT_DIR$/lib/font/iconfont.woff" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,13 +64,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unpayorder</find>
-      <find>cashrecorde</find>
-      <find>cashrecordetit</find>
-      <find>packagesearch</find>
       <find>selectHeadline</find>
       <find>ttttt</find>
-      <find>overflow</find>
       <find>sailtic</find>
       <find>#98C0FF</find>
       <find>bosscashtit</find>
@@ -60,6 +89,11 @@
       <find>sub</find>
       <find>alertcomf</find>
       <find>storelogo</find>
+      <find>storecode</find>
+      <find>overflow</find>
+      <find>upfile</find>
+      <find>packagesearch</find>
+      <find>goodssearch</find>
     </findStrings>
     <replaceStrings>
       <replace>/IMS/</replace>
@@ -73,19 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rateset.php" />
-        <option value="$PROJECT_DIR$/css/rateset.css" />
-        <option value="$PROJECT_DIR$/html/rateset.html" />
-        <option value="$PROJECT_DIR$/html/unpaysearch.html" />
-        <option value="$PROJECT_DIR$/html/paiedsearch.html" />
-        <option value="$PROJECT_DIR$/html/searchresult.html" />
-        <option value="$PROJECT_DIR$/html/staffaucash.html" />
-        <option value="$PROJECT_DIR$/css/staffaucash.css" />
-        <option value="$PROJECT_DIR$/css/staffratedetail.css" />
-        <option value="$PROJECT_DIR$/css/staffcashrecode.css" />
-        <option value="$PROJECT_DIR$/html/staffcashrecode.html" />
-        <option value="$PROJECT_DIR$/html/storecash.html" />
-        <option value="$PROJECT_DIR$/css/storecash.css" />
         <option value="$PROJECT_DIR$/css/staffmonetarytransactions.css" />
         <option value="$PROJECT_DIR$/css/goodsmanage.css" />
         <option value="$PROJECT_DIR$/css/unpaysearch.css" />
@@ -93,37 +114,50 @@
         <option value="$PROJECT_DIR$/css/searchresult.css" />
         <option value="$PROJECT_DIR$/css/packagemanage.css" />
         <option value="$PROJECT_DIR$/html/bosscash.html" />
-        <option value="$PROJECT_DIR$/css/orderdetail.css" />
         <option value="$PROJECT_DIR$/html/rmbcash.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
-        <option value="$PROJECT_DIR$/html/goodsmanege.html" />
-        <option value="$PROJECT_DIR$/css/stafflist.css" />
         <option value="$PROJECT_DIR$/css/accountmanage.css" />
-        <option value="$PROJECT_DIR$/html/accountmanage.html" />
-        <option value="$PROJECT_DIR$/html/stafflist.html" />
-        <option value="$PROJECT_DIR$/html/orderdetail.html" />
         <option value="$PROJECT_DIR$/packageinfo.php" />
-        <option value="$PROJECT_DIR$/html/packagemanage.html" />
-        <option value="$PROJECT_DIR$/css/packageinfo.css" />
-        <option value="$PROJECT_DIR$/html/managehome.html" />
         <option value="$PROJECT_DIR$/css/ordermanage.css" />
         <option value="$PROJECT_DIR$/stafflogin.php" />
         <option value="$PROJECT_DIR$/html/login.html" />
         <option value="$PROJECT_DIR$/html/stafflogin.html" />
         <option value="$PROJECT_DIR$/css/stafflogin.css" />
-        <option value="$PROJECT_DIR$/html/rulemanege.html" />
         <option value="$PROJECT_DIR$/css/rulemanage.css" />
         <option value="$PROJECT_DIR$/html/head.html" />
         <option value="$PROJECT_DIR$/html/aucash.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/modulmanage.css" />
-        <option value="$PROJECT_DIR$/html/modulmanage.html" />
         <option value="$PROJECT_DIR$/css/safeset.css" />
-        <option value="$PROJECT_DIR$/html/safeset.html" />
-        <option value="$PROJECT_DIR$/html/ordermanage.html" />
+        <option value="$PROJECT_DIR$/css/orderdetail.css" />
+        <option value="$PROJECT_DIR$/css/packageinfo.css" />
         <option value="$PROJECT_DIR$/css/baseset.css" />
-        <option value="$PROJECT_DIR$/html/baseset.html" />
+        <option value="$PROJECT_DIR$/css/stafflist.css" />
+        <option value="$PROJECT_DIR$/goodssearch.php" />
+        <option value="$PROJECT_DIR$/html/goodsmanege.html" />
+        <option value="$PROJECT_DIR$/html/goodssearch.html" />
+        <option value="$PROJECT_DIR$/css/goodssearch.css" />
+        <option value="$PROJECT_DIR$/html/managehome.html" />
+        <option value="$PROJECT_DIR$/html/staffrmbcash.html" />
+        <option value="$PROJECT_DIR$/html/staffaucash.html" />
+        <option value="$PROJECT_DIR$/html/staffratedetail.html" />
+        <option value="$PROJECT_DIR$/html/staffmonetarytransactions.html" />
+        <option value="$PROJECT_DIR$/html/staffcashrecode.html" />
+        <option value="$PROJECT_DIR$/html/orderdetail.html" />
+        <option value="$PROJECT_DIR$/html/storecash.html" />
+        <option value="$PROJECT_DIR$/html/ordermanage.html" />
+        <option value="$PROJECT_DIR$/html/searchresult.html" />
+        <option value="$PROJECT_DIR$/html/paiedsearch.html" />
+        <option value="$PROJECT_DIR$/html/unpaysearch.html" />
+        <option value="$PROJECT_DIR$/html/packagemanage.html" />
         <option value="$PROJECT_DIR$/html/packageinfo.html" />
+        <option value="$PROJECT_DIR$/html/accountmanage.html" />
+        <option value="$PROJECT_DIR$/html/baseset.html" />
+        <option value="$PROJECT_DIR$/html/modulmanage.html" />
+        <option value="$PROJECT_DIR$/html/safeset.html" />
+        <option value="$PROJECT_DIR$/html/rateset.html" />
+        <option value="$PROJECT_DIR$/html/stafflist.html" />
+        <option value="$PROJECT_DIR$/html/rulemanege.html" />
       </list>
     </option>
   </component>
@@ -145,9 +179,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="141" />
-    <option name="y" value="56" />
-    <option name="width" value="2002" />
+    <option name="x" value="649" />
+    <option name="y" value="116" />
+    <option name="width" value="1811" />
     <option name="height" value="1152" />
   </component>
   <component name="ProjectView">
@@ -165,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,12 +210,22 @@
             <path>
               <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IMS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMS" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="IMS" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="IMS" type="b2602c69:ProjectViewProjectNode" />
@@ -195,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -208,15 +252,15 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/svg" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/svg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,17 +317,20 @@
       <workItem from="1517199364599" duration="20901000" />
       <workItem from="1517275686907" duration="561000" />
       <workItem from="1517447669145" duration="11704000" />
-      <workItem from="1517540769931" duration="9618000" />
+      <workItem from="1517540769931" duration="12550000" />
+      <workItem from="1517794501410" duration="3485000" />
+      <workItem from="1517879082692" duration="682000" />
+      <workItem from="1517969656849" duration="6077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31418000" />
+    <option name="totallyTimeSpent" value="44594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="141" y="56" width="2002" height="1152" extended-state="0" />
+    <frame x="649" y="116" width="1811" height="1152" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1579238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -317,155 +364,106 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/staffmonetarytransactions.html">
+    <entry file="file://$PROJECT_DIR$/html/stafflogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3749">
+          <caret line="163" column="26" lean-forward="false" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stafflogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="414" column="14" lean-forward="false" selection-start-line="414" selection-start-column="14" selection-end-line="414" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulmanage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/rulemanage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/aucash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1433">
+          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aucash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="480" column="28" lean-forward="false" selection-start-line="480" selection-start-column="21" selection-end-line="480" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bgcdealwith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/safeset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="131" column="1" lean-forward="false" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/modulmanage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/code.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orderdetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/goodsmanage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/staffmonetarytransactions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
-          <caret line="159" column="30" lean-forward="false" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/unpaysearch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/paiedsearch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/searchresult.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bosscash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/bosscash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="122" column="45" lean-forward="false" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/orderdetail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="147" column="22" lean-forward="true" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/phpstorm.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/rmbcash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="309" column="37" lean-forward="false" selection-start-line="309" selection-start-column="37" selection-end-line="309" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/packagemanage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/goodsmanege.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/accountmanage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="101" column="14" lean-forward="true" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/accountmanage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="189" column="17" lean-forward="false" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stafflist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="154" column="27" lean-forward="true" selection-start-line="154" selection-start-column="29" selection-end-line="155" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/stafflist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/53412.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packagemanage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="234">
+          <caret line="151" column="23" lean-forward="true" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -476,227 +474,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/packagemanage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="118" column="87" lean-forward="false" selection-start-line="118" selection-start-column="87" selection-end-line="118" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/packageinfo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="763">
+          <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
+    <entry file="file://$PROJECT_DIR$/infosys.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/managehome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="138">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/baseset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="359" column="20" lean-forward="true" selection-start-line="359" selection-start-column="20" selection-end-line="359" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aucash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stafflist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsmanage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ordermanage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="211" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/goodsmanage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goodsmanege.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodssearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/goodssearch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/goodssearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/managehome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="472">
+          <caret line="197" column="43" lean-forward="false" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stafflogin.php">
+    <entry file="file://$PROJECT_DIR$/html/staffrmbcash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/stafflogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3749">
-          <caret line="163" column="26" lean-forward="false" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stafflogin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="414" column="14" lean-forward="false" selection-start-line="414" selection-start-column="14" selection-end-line="414" selection-end-column="14" />
+        <state relative-caret-position="740">
+          <caret line="323" column="19" lean-forward="false" selection-start-line="323" selection-start-column="19" selection-end-line="323" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modulmanage.php">
+    <entry file="file://$PROJECT_DIR$/html/staffcashrecode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="786">
+          <caret line="181" column="19" lean-forward="false" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/rulemanege.html">
+    <entry file="file://$PROJECT_DIR$/html/staffmonetarytransactions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="763">
+          <caret line="190" column="19" lean-forward="false" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/rulemanage.css">
+    <entry file="file://$PROJECT_DIR$/html/staffratedetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state relative-caret-position="740">
+          <caret line="219" column="19" lean-forward="false" selection-start-line="219" selection-start-column="19" selection-end-line="219" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/head.html">
+    <entry file="file://$PROJECT_DIR$/html/staffaucash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/aucash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1433">
-          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="739">
+          <caret line="256" column="19" lean-forward="false" selection-start-line="256" selection-start-column="19" selection-end-line="256" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/aucash.css">
+    <entry file="file://$PROJECT_DIR$/html/orderdetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="694">
+          <caret line="241" column="19" lean-forward="false" selection-start-line="241" selection-start-column="19" selection-end-line="241" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/html/storecash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="480" column="28" lean-forward="false" selection-start-line="480" selection-start-column="21" selection-end-line="480" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bgcdealwith.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/safeset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/modulmanage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="57" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/safeset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="131" column="1" lean-forward="false" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/modulmanage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        <state relative-caret-position="379">
+          <caret line="65" column="75" lean-forward="true" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/ordermanage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="763">
+          <caret line="184" column="19" lean-forward="false" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/baseset.css">
+    <entry file="file://$PROJECT_DIR$/html/unpaysearch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="106" column="22" lean-forward="true" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+        <state relative-caret-position="717">
+          <caret line="221" column="19" lean-forward="false" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/baseset.html">
+    <entry file="file://$PROJECT_DIR$/html/paiedsearch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+        <state relative-caret-position="717">
+          <caret line="221" column="19" lean-forward="false" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/searchresult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="221" column="19" lean-forward="false" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/accountmanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="234" column="19" lean-forward="false" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/packageinfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="786">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/packagemanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="162" column="19" lean-forward="false" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/rulemanege.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="78" lean-forward="true" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/stafflist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="270" column="19" lean-forward="false" selection-start-line="270" selection-start-column="19" selection-end-line="270" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/rateset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/safeset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/modulmanage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/baseset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="148" column="19" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
           <folding />
         </state>
       </provider>

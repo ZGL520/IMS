@@ -22,9 +22,9 @@
             <p class="whitecolor">另一名字</p>
         </div>
     </div>
-    <div class="change">
-        <a class="whitecolor changebtn" href="javascript:" status=0 >修改模板</a>
-    </div>
+    <!--<div class="change">-->
+        <!--<a class="whitecolor changebtn" href="javascript:" status=0 >修改模板</a>-->
+    <!--</div>-->
 </div>
 
 
@@ -40,48 +40,51 @@
             border:'1px solid #00FFFF',
             color:'#052F2F',
             backgroundColor:'#00FFFF'
-        }).html('完成修改').attr('status',1)
+        }).html('完成修改').attr('status',1);
+                $('.alertbox').css({
+                    display:'flex'
+                })
     });
 
-    $('.changebtn').click(function () {
-        if (Number($('.changebtn').attr('status'))!== 0){
-            $('.modulehere').css({
-                boxShadow:'none'
-            });
-            $('.changebtn').css({
-                border:'1px solid #CBDFFF',
-                color:'#CBDFFF',
-                backgroundColor:'transparent'
-            }).html('修改模板').attr('status',0);
-            $('.alertbox').css({
-                display:'flex'
-            })
-        }else {
-            $('.moduledef').css({
-                boxShadow:'0 0 20px #00FFFF'
-            });
-            $('.changebtn').css({
-                border:'1px solid #00FFFF',
-                color:'#052F2F',
-                backgroundColor:'#00FFFF'
-            }).html('完成修改').attr('status',1)
-        }
-    });
+    // $('.changebtn').click(function () {
+    //     if (Number($('.changebtn').attr('status'))!== 0){
+    //         $('.modulehere').css({
+    //             boxShadow:'none'
+    //         });
+    //         $('.changebtn').css({
+    //             border:'1px solid #CBDFFF',
+    //             color:'#CBDFFF',
+    //             backgroundColor:'transparent'
+    //         }).html('修改模板').attr('status',0);
+    //         $('.alertbox').css({
+    //             display:'flex'
+    //         })
+    //     }else {
+    //         $('.moduledef').css({
+    //             boxShadow:'0 0 20px #00FFFF'
+    //         });
+    //         $('.changebtn').css({
+    //             border:'1px solid #00FFFF',
+    //             color:'#052F2F',
+    //             backgroundColor:'#00FFFF'
+    //         }).html('完成修改').attr('status',1)
+    //     }
+    // });
 
 
     $('.bgchangesuccess').click(function () {
-        if (Number($('.changebtn').attr('status'))=== 0){
+        // if (Number($('.changebtn').attr('status'))=== 0){
             $('.alertbox').css({
                 display:'none'
             })
-        }
+        // }
 
     });
 
 
 </script>
 <script>
-    var down = '未完工';
+    var down = '已完工';
 </script>
 
 <?php
