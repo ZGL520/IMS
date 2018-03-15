@@ -1,0 +1,54 @@
+.body{
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+.agentTitle{
+     font-size: 1rem;
+     text-align: center;
+     margin-top: 63px;
+     color: #000000;
+    }
+
+ .login{
+     display: flex;
+     width: 320px;
+     margin: 0 auto;
+     /*justify-content: center;*/
+     flex-direction: column;
+     /*align-items: center;*/
+     margin-top: 49px;
+ }
+ .login>p{
+     font-size: 14px;
+     line-height: 20px;
+ }
+ .logItem{
+     width: 320px;
+     height: 40px;
+     /*border: #707070 1px solid;*/
+     border: none;
+     margin: 10px 0;
+     box-sizing: border-box;
+     background-color: #B5B5B5;
+ }
+ .loginBtn{
+     display: block;
+     width: 320px;
+     height: 40px;
+     font-size: 15px;
+     text-align: center;
+     line-height: 40px;
+     text-decoration: none;
+     background:#B5B5B5;
+     color: #000000;
+     margin-top: 31px;
+ }
+.forgotPw{
+    display: block;
+    width: 47px;
+    font-size: 11px;
+    color: #777F91;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}

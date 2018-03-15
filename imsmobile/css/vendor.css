@@ -1,0 +1,7 @@
+a,p,span,textarea,text,h1, h2, h3, h4, h5, h6,div,body,ul,li,tr,td{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: "PingFang HK";
+}
